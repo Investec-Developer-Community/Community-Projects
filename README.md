@@ -5,6 +5,9 @@
 
 For this challenge we will be creating a "Programmable Banking Command Center" that each of you can use to do useful things with your programmable banking card transactions.
 <br>
+<br>
+<br>
+<br>
 
 ### Command Center Components
 
