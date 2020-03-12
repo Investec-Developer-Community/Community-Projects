@@ -30,9 +30,7 @@ Deplyoying your command centers abilities :)
 2. Create a realtime budget interface i.e. "You've spent X on luxury this month."
 
 ## Command Center Deployments
-TBD! Here are specific deployments of command centers built by community members.
-
-There will be surprise rewards for contributors :)
+TBD! Here are specific deployments of command centers built by community members.There will be surprise rewards for contributors :)
 
 | App Name      |Description    |Language|
 | ------------- |-------------| -----|
