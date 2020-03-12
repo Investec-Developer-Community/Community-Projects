@@ -23,7 +23,7 @@ Setting up your command center. We'd recommend doing a super basic MVP of this a
 3. Create a GitLab Tutorial for setting up your Command Center. See the [Starter Challenge example](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/programmable-card-starter-challenge).
 
 ### Stretch Goals
-Deplyoying your command centers abilities :)
+Deplyoying your Command Center's abilities :)
 
 1. Add ability to write to your DB from your Frontend e.g. categorising transactions necessary/luxury, mine/not mine...
 2. Create a realtime budget interface i.e. "You've spent X on luxury this month."
