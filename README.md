@@ -8,7 +8,7 @@ For this challenge we will be creating a "Programmable Banking Command Center" t
 
 ### Command Center Components
 
-We'll be building our Command Centers out from components that can be switched out or extended. This is a great approach for collaborating with and stealing open-source ideas from others in the community. Here is the current component layout: up for reconfiguration and debate!
+We'll be building our Command Centers out of components that can be replaced or extended. This is a great approach for collaborating with and stealing open-source ideas from others in the community. Here is the current component layout: up for reconfiguration and debate!
 
 <img src = " images/command_center_components.jpg">
 
