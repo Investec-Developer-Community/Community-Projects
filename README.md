@@ -45,7 +45,6 @@ Deplyoying your command centers abilities :)
 - [Crafting a Conversation](https://developers.google.com/actions/design/walkthrough#write_dialogs)
 - 
 ## Command Center Deployments
---
 Below you can find specific deployments of command centers built by community members.
 
 | App Name      |Description    |Language|
