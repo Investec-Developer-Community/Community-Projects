@@ -1,10 +1,13 @@
 # Programmable Banking Command Center
 
 ##  Welcome
+
 For this challenge we will be creating a "Programmable Banking Command Center" that each of you can use to do useful things with your programmable banking card transactions.
+
 <img src = "/images/starcraft_command_center.gif">
 
 ### Command Center Components
+
 We'll be building our Command Centers out of a components so that individual components can be switched out or extended. This is a great approach for collaborating with and stealing open-source ideas from others in the community. Here is the current component layout: up for reconfiguration and debate!
 
 <img src = " images/command_center_components.jpg">
@@ -12,6 +15,7 @@ We'll be building our Command Centers out of a components so that individual com
 ## Challenge
 
 ### Basic Goals
+
 Setting up your command center.
 
 1. Store your transactions in a DB of some kind
