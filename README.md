@@ -16,7 +16,7 @@ We'll be building our Command Centers out of components that can be replaced or 
 
 ### Basic Goals
 
-Setting up your command center. To build momentum, we recommend doing the least amount of effort to get through steps 1-3 and then iterate through them.
+Setting up your command center: to build momentum, we recommend doing the least amount of effort to get through steps 1-3 and then iterate through them.
 
 1. Store your transactions in a DB of some kind
 2. Create a view for your transactions i.e. app, chat or web-page
