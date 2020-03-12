@@ -20,7 +20,7 @@ Setting up your command center.
 
 1. Store your transactions in a DB of some kind
 2. Create a view for your transactions i.e. app, chat or web-page
-3. Document and share to setup *your* command center.
+3. Create a GitLab Tutorial for setting up your Command Center.
 
 ### Stretch Goals
 Deplyoying your command centers abilities :)
