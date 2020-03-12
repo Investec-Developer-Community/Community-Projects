@@ -29,6 +29,15 @@ Deplyoying your command centers abilities :)
 1. Add ability to write to your DB e.g. necessary/luxury, mine/not mine...
 2. Create a realtime budget interface i.e. "You've spent X on luxury this month."
 
+## Command Center Deployments
+TBD! Here are specific deployments of command centers built by community members.
+
+There will be surprise rewards for contributors :)
+
+| App Name      |Description    |Language|
+| ------------- |-------------| -----|
+| [App](link)| Description of the command center | *Language* |
+
 ## Some Useful Resources
 
 ### Web App
@@ -60,10 +69,3 @@ Deplyoying your command centers abilities :)
 ### NLP Solutions
 - [Wit.ai](https://wit.ai/) 
 - [Rasa](http://rasa.com/) 
-- 
-## Command Center Deployments
-Below you can find specific deployments of command centers built by community members.
-
-| App Name      |Description    |Language|
-| ------------- |-------------| -----|
-| [App](link)| Description of the command center | *Language* |
