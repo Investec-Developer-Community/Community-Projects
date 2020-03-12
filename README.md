@@ -24,6 +24,7 @@ Deplyoying your command centers abilities :)
 ## Some Useful Resources
 
 ### Web App
+- [Rails](https://rubyonrails.org/)
 
 ### Database / Storage
 
@@ -31,6 +32,7 @@ Deplyoying your command centers abilities :)
 - [InfluxDB](https://www.influxdata.com/)
 
 ### Front-end
+- [VueJS](https://vuejs.org/)
 
 ### Chat/Chatbots
 
