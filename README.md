@@ -2,13 +2,13 @@
 
 ##  Welcome
 
-For this challenge we will be creating a `Programmable Banking Command Center` that each of you can use to do useful things with your programmable banking card transactions.
+For this challenge we will be each be creating our own `Programmable Banking Command Center` to be able to do useful things with the card transaction data.
 
 <img src = "/images/starcraft_command_center.gif">
 
 ### Command Center Components
 
-We'll be building our Command Centers out of components that can be replaced or extended. This approach should promote borrowing open-source ideas from each other. Below is the current component layout: up for reconfiguration and debate!
+We'll build our Command Centers out of components that can be replaced or extended. This approach should promote borrowing open-source ideas from each other. Below is the current component layout: up for reconfiguration and debate!
 
 <img src = " images/command_center_components.jpg">
 
@@ -23,7 +23,7 @@ Setting up your command center: to build momentum, we recommend doing the least 
 3. Create a GitLab Tutorial for setting up your Command Center. See the [Starter Challenge example](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/programmable-card-starter-challenge).
 
 ### Stretch Goals
-Deplyoying your Command Center's abilities :)
+Once your basic setup is running nicely, you'll start deplyoying your Command Center's capabilities :)
 
 1. Add ability to write to your DB from your Frontend e.g. categorising transactions necessary/luxury, mine/not mine...
 2. Create a realtime budget interface i.e. "You've spent X on luxury this month."
