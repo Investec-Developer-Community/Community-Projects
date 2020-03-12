@@ -20,7 +20,7 @@ Setting up your command center. We'd recommend doing a super basic MVP of this a
 
 1. Store your transactions in a DB of some kind
 2. Create a view for your transactions i.e. app, chat or web-page
-3. Create a GitLab Tutorial for setting up your Command Center.
+3. Create a GitLab Tutorial for setting up your Command Center. See the [Starter Challenge example](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/programmable-card-starter-challenge).
 
 ### Stretch Goals
 Deplyoying your command centers abilities :)
