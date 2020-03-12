@@ -64,12 +64,14 @@ TBD Community suggestions please :)
 
 #### Dialogflow - NLP
 
+If you want to create chat logic so that you can interact with your chatbot via text, this is a great platform.
+
 - [Basic Tutorial](https://developers.google.com/actions/dialogflow/first-app) 
 - [Website](https://dialogflow.com/) 
 - [Sample Apps](https://dialogflow.com/docs/examples/) 
 - [Starter example with API integration](https://dialogflow.com/docs/getting-started/basic-fulfillment-conversation) 
 - [Crafting a Conversation](https://developers.google.com/actions/design/walkthrough#write_dialogs)
 
-### NLP Solutions
+#### Other NLP Solutions
 - [Wit.ai](https://wit.ai/) 
 - [Rasa](http://rasa.com/) 
