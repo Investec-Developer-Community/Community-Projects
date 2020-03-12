@@ -16,7 +16,7 @@ We'll be building our Command Centers out of a components so that individual com
 
 ### Basic Goals
 
-Setting up your command center.
+Setting up your command center. We'd recommend doing a super basic MVP of this and then loop through the process again as you go, just so we can start getting projects contributed and generate a sense of progress.
 
 1. Store your transactions in a DB of some kind
 2. Create a view for your transactions i.e. app, chat or web-page
