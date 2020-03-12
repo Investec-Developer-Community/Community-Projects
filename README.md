@@ -48,15 +48,18 @@ TBD Community suggestions please :)
 
 - [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine)
 - [InfluxDB](https://www.influxdata.com/)
+- [RethinkDB](https://rethinkdb.com/)
 
 ### Front-end
 - [VueJS](https://vuejs.org/)
+- [ReactJS](https://reactjs.org/)
 
 ### Chat/Chatbots
 
-#### Interfaces
+#### Chat Interfaces
 
-- [Chatfuel chatbots for Facebook Messenger](https://chatfuel.com/)
+- [Telegram Bots: An introduction for developers](https://core.telegram.org/bots)
+- [Facebook Messenger: Chatfuel](https://chatfuel.com/)
 - [Slack Bots API](https://api.slack.com/bot-users)
 
 #### Dialogflow - NLP
