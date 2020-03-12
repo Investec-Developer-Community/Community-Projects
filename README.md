@@ -4,7 +4,7 @@
 
 For this challenge we will be creating a "Programmable Banking Command Center" that each of you can use to do useful things with your programmable banking card transactions.
 
-<img src = "/images/starcraft_command_center.gif" align="right">
+<img src = "/images/starcraft_command_center.gif" align="left">
 
 ### Command Center Components
 
