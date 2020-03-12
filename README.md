@@ -44,13 +44,22 @@ Deplyoying your command centers abilities :)
 
 ### Chat/Chatbots
 
-#### Dialogflow
+#### Interfaces
+
+- [Chatfuel chatbots for Facebook Messenger](https://chatfuel.com/)
+- [Slack Bots API](https://api.slack.com/bot-users)
+
+#### Dialogflow - NLP
 
 - [Basic Tutorial](https://developers.google.com/actions/dialogflow/first-app) 
 - [Website](https://dialogflow.com/) 
 - [Sample Apps](https://dialogflow.com/docs/examples/) 
 - [Starter example with API integration](https://dialogflow.com/docs/getting-started/basic-fulfillment-conversation) 
 - [Crafting a Conversation](https://developers.google.com/actions/design/walkthrough#write_dialogs)
+
+### NLP Solutions
+- [Wit.ai](https://wit.ai/) 
+- [Rasa](http://rasa.com/) 
 - 
 ## Command Center Deployments
 Below you can find specific deployments of command centers built by community members.
