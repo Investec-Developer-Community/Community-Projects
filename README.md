@@ -25,7 +25,7 @@ Setting up your command center. We'd recommend doing a super basic MVP of this a
 ### Stretch Goals
 Deplyoying your command centers abilities :)
 
-1. Add ability to write to your DB e.g. necessary/luxury, mine/not mine...
+1. Add ability to write to your DB from your Frontend e.g. categorising transactions necessary/luxury, mine/not mine...
 2. Create a realtime budget interface i.e. "You've spent X on luxury this month."
 
 ## Command Center Deployments
