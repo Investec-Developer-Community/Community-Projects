@@ -29,11 +29,17 @@ Once your basic setup is running nicely, you'll start deplyoying your Command Ce
 2. Create a realtime budget interface i.e. "You've spent X on luxury this month."
 
 ## Command Center Deployments
-TBD! Here are specific deployments of command centers built by community members.There will be surprise rewards for contributors :)
+Below is a table of Command Centers deployed by Beta Community members
 
-| App Name      |Description    |Language|
-| ------------- |-------------| -----|
-| [App](link)| Description of the command center | *Language* |
+| App Name      |Description    |Language|Author|
+| ------------- |-------------| -----|-----|
+| [App](link)| Description of the command center | *Language* |*@author*|
+
+
+### Process for adding your Command Center to the table above
+*  Create a repo for your code under your personal GitLab profile
+*  Edit the table below to add your project and submit a merge request
+*  Ping the community team on OfferZen Community Slack to review your merge request :)
 
 ## Awards
 
