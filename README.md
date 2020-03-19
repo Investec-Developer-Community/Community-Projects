@@ -33,6 +33,7 @@ Below is a table of Command Centers deployed by Beta Community members
 
 | App Name      |Description    |Language|Author|
 | ------------- |-------------| -----|-----|
+| [PDB Investec Transaction Insights](https://gitlab.com/grimx13/pdb-investec-transaction-insights)| This project utilises AWS Serverless and managed infrastructure to deliver transaction data to a Google sheet where I can draw insights from in near real time | *NodeJS*, *Python* | *pieterdb(grimx13)* |
 | [App](link)| Description of the command center | *Language* |*@author*|
 
 
