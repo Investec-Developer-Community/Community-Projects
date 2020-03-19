@@ -34,7 +34,8 @@ Below is a table of Command Centers deployed by Beta Community members
 | App Name      |Description    |Language|Author|
 | ------------- |-------------| -----|-----|
 | [PDB Investec Transaction Insights](https://gitlab.com/grimx13/pdb-investec-transaction-insights)| This project utilises AWS Serverless and managed infrastructure to deliver transaction data to a Google sheet where I can draw insights from in near real time | *NodeJS*, *Python* | *[pieterdb](https://gitlab.com/grimx13)* |
-| [App](link)| Description of the command center | *Language* |*@author*|
+| [OfferZen's Spend Tracker](https://github.com/offerzen/programmable-banking-glow)| This repo contains source code for our first iteration of a team spending dashboard, as demonstrated in the community update on 19 March 2020. | *JavaScript* |*[@jethrof](https://gitlab.com/jethrof)* & [@jeriko1](https://gitlab.com/jeriko1)|
+| [Your Cool Build Here!](link)| Description of the command center | *Language* |*@author*|
 
 
 ### Process for adding your Command Center to the table above
