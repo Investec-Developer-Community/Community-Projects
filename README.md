@@ -46,7 +46,7 @@ Below is a table of Command Centers deployed by Beta Community members
 
 | Award|Winner|
 | -------------|-----|
-| First Command Center Deployment Ever| *[pieterdb](https://gitlab.com/grimx13)* |
+| 🥇 First Command Center Deployment Ever| *[pieterdb](https://gitlab.com/grimx13)* |
 
 ## Some Useful Resources
 
