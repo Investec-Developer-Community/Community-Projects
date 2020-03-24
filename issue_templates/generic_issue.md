@@ -1,34 +1,34 @@
-Code snippet (if possible)
+**Code snippet (if possible)**
 
 ```
 _paste_code_here_
 ```
 
-Type of transaction
+**Type of transaction**
 
 _transaction_type_
 
-Merchant code
+**Merchant code**
 
 _merchant_code_
 
-Merchant name
+**Merchant name**
 
 _merchant_name_
 
-Date of transaction
+**Date of transaction**
 
 _date_of_tx_
 
-Time of transaction
+**Time of transaction**
 
 _time_of_tx_
 
-Expected result
+**Expected result**
 
 _describe_expected_result_
 
-Actual result
+**Actual result**
 
 _describe_actual_result_
 
