@@ -51,6 +51,9 @@ Below is a table of Command Centers deployed by Beta Community members
 
 ## Some Useful Resources
 
+### Prototyping tools
+- [ngrok - secure introspectable tunnels to localhost](https://ngrok.com/)
+
 ### Web App
 - [Rails](https://rubyonrails.org/)
 
