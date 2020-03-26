@@ -55,7 +55,7 @@ Below is a table of Command Centers deployed by Beta Community members
 - [ngrok - secure introspectable tunnels to localhost](https://ngrok.com/)
 
 ### Web App
-- [Rails](https://rubyonrails.org/)
+- [Ruby on Rails | A web-application framework](https://rubyonrails.org/)
 
 ### Database / Storage
 
