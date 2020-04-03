@@ -29,6 +29,8 @@ Once your basic setup is running nicely, you'll start deplyoying your Command Ce
 2. Create a realtime budget interface i.e. "You've spent X on luxury this month."
 
 ## Command Center Deployments
+[Upcoming community demo roster](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/blob/master/community_demo_roster.md)
+
 Below is a table of Command Centers deployed by Beta Community members
 
 |App Repo|App Demo|Description|Language|Author|
