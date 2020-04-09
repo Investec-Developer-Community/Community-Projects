@@ -38,8 +38,8 @@ Below is a table of Command Centers deployed by Beta Community members
 | [PDB Investec Transaction Insights](https://gitlab.com/grimx13/pdb-investec-transaction-insights)|[Live Demo](https://youtu.be/gAiP--sk4U8)| This project utilises AWS Serverless and managed infrastructure to deliver transaction data to a Google sheet where I can draw insights from in near real time | *NodeJS*, *Python* | *[pieterdb](https://gitlab.com/grimx13)* |
 | [Repo: OfferZen's Spend Tracker](https://github.com/offerzen/programmable-banking-glow) |[Live Demo](https://youtu.be/1dGC5E8GGQM)| This repo contains source code for our first iteration of a team spending dashboard, as demonstrated in the community update on 19 March 2020. | *JavaScript* |*[@jethrof](https://gitlab.com/jethrof)* & [@jeriko1](https://gitlab.com/jeriko1)|
 | Singularity|[Live Demo](https://youtu.be/N6M4tE_KhIk)|Info management app, transaction logger, auto-create transaction with Investec Beta, charts to display spending. Third party lib: "QtWebApp HTTP Server in C++". | *C++* |*[@lcoetzer](https://gitlab.com/lcoetzer)*|
-| [Transappenate](link)|[Add Live Demo](https://youtu.be/)| Description of the command center | *Appenate* |*[@matthew.alport](https://gitlab.com/matthew.alport)*|
-| [Receipt Scanner](link)|[Add Live Demo](https://youtu.be/)| Description of the command center | *Go* |*[@brian.entersekt](https://gitlab.com/brian.entersekt)*|
+| [Transappenate](link)|[Live Demo](https://youtu.be/PAgcFV0wHjc)| Description of the command center | *Appenate* |*[@matthew.alport](https://gitlab.com/matthew.alport)*|
+| [Receipt Scanner](link)|[Add Live Demo](https://youtu.be/qiPe7NtbKeE)| Description of the command center | *Go* |*[@brian.entersekt](https://gitlab.com/brian.entersekt)*|
 | [Add Repo](link)|[Add Live Demo](https://youtu.be/)| Description of the command center | *Language* |*[@author](ADD_AUTHOR_DEV_PROFILE)*|
 
 ### Process for adding your Command Center to the table above
