@@ -1,3 +1,8 @@
+**Weekly Demo Guidelines**
+*  We would like to have 2 demos a week
+*  Demos can be super short and sweet, even just a line of code
+*  Please don't hesitate to volunteer - if you have an issue and can't make the date we can postpone
+
 |Upcoming Demos|Presenters|
 |-|-|
 |Thu 9 Apr|[John Clarke @jc1arke](https://gitlab.com/jc1arke), [Brian Machimbira @brian.entersekt](https://gitlab.com/brian.entersekt)|
