@@ -10,7 +10,7 @@
 |Thu 23 Apr|[Junior Walters @walterjc21](https://gitlab.com/@walterjc21), [Dave Saunders]()|
 |Thu 30 Apr|[Yashu Tanna](), [John Clarke @jc1arke](https://gitlab.com/jc1arke)|
 |Thu 07 May|[Jason Russell @jasrusable](https://gitlab.com/jasrusable), [Add Player](https://gitlab.com)|
-|Thu 14 May|[Christo Bezuidenhout @bezchristo](https://gitlab.com/bezchristo), |
+|Thu 14 May|[Christo Bezuidenhout @bezchristo](https://gitlab.com/bezchristo), [Jethro Flanagan @jethrof](https://gitlab.com/jethrof)|
 |Thu 21 May|Volunteers needed! :)|
 |Thu 28 May|Volunteers needed! :)|
 |Thu 04 Jun|Volunteers needed! :)|
