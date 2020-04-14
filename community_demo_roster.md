@@ -11,7 +11,7 @@
 |Thu 30 Apr|[Yashu Tanna](), [John Clarke @jc1arke](https://gitlab.com/jc1arke)|
 |Thu 07 May|[Jason Russell @jasrusable](https://gitlab.com/jasrusable), [Add Player](https://gitlab.com)|
 |Thu 14 May|[Christo Bezuidenhout @bezchristo](https://gitlab.com/bezchristo), [Jethro Flanagan @jethrof](https://gitlab.com/jethrof)|
-|Thu 21 May|Volunteers needed! :)|
+|Thu 21 May|[Jacques Coetsee @](https://gitlab.com/)|
 |Thu 28 May|Volunteers needed! :)|
 |Thu 04 Jun|Volunteers needed! :)|
 |Thu 11 Jun|Volunteers needed! :)|
