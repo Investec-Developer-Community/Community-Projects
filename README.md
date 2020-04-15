@@ -40,6 +40,7 @@ Below is a table of Command Centers deployed by Beta Community members
 | Singularity|[<img src = "/images/youtube_logo.png">](https://youtu.be/N6M4tE_KhIk)|Info management app, transaction logger, auto-create transaction with Investec Beta, charts to display spending. Third party lib: "QtWebApp HTTP Server in C++". | *C++* |*[@lcoetzer](https://gitlab.com/lcoetzer)*|
 | [Transappenate](link)|[<img src = "/images/youtube_logo.png">](https://youtu.be/PAgcFV0wHjc)| Description of the command center | *Appenate* |*[@matthew.alport](https://gitlab.com/matthew.alport)*|
 | [Receipt Scanner](link)|[<img src = "/images/youtube_logo.png">](https://youtu.be/qiPe7NtbKeE)| Description of the command center | *Go* |*[@brian.entersekt](https://gitlab.com/brian.entersekt)*|
+| [Investec Logs Functions](https://github.com/JeremyWalters/investec-logs-functions)|[<img src = "/images/youtube_logo.png">](https://youtu.be/)| System to log transactions to Google Firebase. | *Firebase* |*[@JeremyWalters](https://github.com/JeremyWalters)*|
 | [Add Repo](link)|[<img src = "/images/youtube_logo.png">](https://youtu.be/)| Description of the command center | *Language* |*[@author](ADD_AUTHOR_DEV_PROFILE)*|
 
 ### Process for adding your Command Center to the table above
