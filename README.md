@@ -42,6 +42,8 @@ Below is a table of Command Centers deployed by Beta Community members
 | [Receipt Scanner](link)|[<img src = "/images/youtube_logo.png">](https://youtu.be/qiPe7NtbKeE)| Description of the command center | *Go* |*[@brian.entersekt](https://gitlab.com/brian.entersekt)*|
 | [Investec Logs Functions](https://github.com/JeremyWalters/investec-logs-functions)|[<img src = "/images/youtube_logo.png">](https://youtu.be/)| System to log transactions to Google Firebase. | *Firebase* |*[@JeremyWalters](https://github.com/JeremyWalters)*|
 | [InvestecPOC](https://gitlab.com/wernerpereira/InvestecPOC)|[<img src = "/images/youtube_logo.png">](https://youtu.be/)| Mobile App to categorise expenses. | *C#*, *Swift* |*[@WernerPereira](https://gitlab.com/wernerpereira)*|
+| [Ur Command Center](https://gitlab.com/dale10/ur-command-center)|[<img src = "/images/youtube_logo.png">](https://youtu.be/addbahzP1ks)| Infrastructure to save transactions into S3. The idea is that S3 is the source of truth
+and this can be extended to trigger processing on object creation. That will come in a future iteration. | *C#*, *Swift* |*[Dale Tristram @dale10](https://gitlab.com/dale10)*|
 | [Add Repo](link)|[<img src = "/images/youtube_logo.png">](https://youtu.be/)| Description of the command center. | *Tech Stack and Tools* |*[@author](ADD_AUTHOR_DEV_PROFILE)*|
 
 ### Process for adding your Command Center to the table above
