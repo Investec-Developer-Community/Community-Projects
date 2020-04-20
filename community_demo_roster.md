@@ -12,8 +12,8 @@
 |Thu 07 May|[Jason Russell @jasrusable](https://gitlab.com/jasrusable), [Kamogelo Sebopelo @kamogelo.sebopelo](https://gitlab.com/kamogelo.sebopelo)|
 |Thu 14 May|[Christo Bezuidenhout @bezchristo](https://gitlab.com/bezchristo), [Jethro Flanagan @jethrof](https://gitlab.com/jethrof)|
 |Thu 21 May|[Jacques Coetsee @](https://gitlab.com/), [Lebo Morojele @lebo0](https://gitlab.com/lebo0)|
-|Thu 28 May|Volunteers needed! :)|
-|Thu 04 Jun|Volunteers needed! :)|
-|Thu 11 Jun|Volunteers needed! :)|
-|Thu 18 Jun|Volunteers needed! :)|
-|Thu 25 Jun|Volunteers needed! :)|
+|Thu 28 May|[@ADD_PLAYER](https://gitlab.com/), [@ADD_PLAYER](https://gitlab.com/)|
+|Thu 04 Jun|[Warren Foxley @WarrenFoxley](https://gitlab.com/WarrenFoxley), [@ADD_PLAYER](https://gitlab.com/)|
+|Thu 11 Jun|[@ADD_PLAYER](https://gitlab.com/), [@ADD_PLAYER](https://gitlab.com/)|
+|Thu 18 Jun|[@ADD_PLAYER](https://gitlab.com/), [@ADD_PLAYER](https://gitlab.com/)|
+|Thu 25 Jun|[@ADD_PLAYER](https://gitlab.com/), [@ADD_PLAYER](https://gitlab.com/)|
