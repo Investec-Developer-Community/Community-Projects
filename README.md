@@ -1,5 +1,7 @@
 # Programmable Banking Command Center Challenge
 
+## [Jump to Community Projects](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center#command-center-deployments)
+
 ##  Welcome
 
 For this challenge we will be each be creating our own `Programmable Banking Command Center` to be able to do useful things with the card transaction data.
