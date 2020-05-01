@@ -1,6 +1,6 @@
 # Programmable Banking Command Center Challenge
 
-## [Jump to Community Projects](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center#command-center-deployments)
+[👉 Jump to Community Project Demos](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center#command-center-deployments)
 
 ##  Welcome
 
