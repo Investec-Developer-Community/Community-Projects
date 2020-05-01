@@ -44,7 +44,7 @@ Projects built by the community and demo'd at the weekly Beta Community Founder 
 | [Ur Command Center](https://gitlab.com/dale10/ur-command-center)|[<img src = "/images/youtube_logo.png">](https://youtu.be/addbahzP1ks)| Infrastructure to save transactions into S3. The idea is that S3 is the source of truth and this can be extended to trigger processing on object creation. That will come in a future iteration. | *AWS*, *Terraform*, *Lambda*, *S3*, *Grafana* |*[Dale Tristram @dale10](https://gitlab.com/dale10)*|
 | [Investec Logs Functions - NodeJS/Firebase](https://github.com/JeremyWalters/investec-logs-functions) AND [Investec Logs Web - VueJS](https://github.com/JeremyWalters/investec-logs-web)|[<img src = "/images/youtube_logo.png">](https://youtu.be/Hkv8qeScXQ0)| System to log transactions to Google Firebase using NodeJS and a frontend view with VueJS. | *Firebase* |*[@JeremyWalters](https://github.com/JeremyWalters)*|
 | [Twatbot](repolink)|[<img src = "/images/youtube_logo.png">](https://youtu.be/E-JPH0R4UU0)| Description. | *WhatsApp, Twilio* |*[@Dave Saunders](ADD_AUTHOR_DEV_PROFILE)*|
-| [Payments Splitter](repolink)|[<img src = "/images/youtube_logo.png">](https://youtu.be/qkFFE3aIGZc)| Description. | *Node, AWS* |*[@Yashu Tanna](yashutanna @yashutanna)*|
+| [Payments Splitter](repolink)|[<img src = "/images/youtube_logo.png">](https://youtu.be/qkFFE3aIGZc)| An app that let's you split the bill for a transaction with a friend using their email address. | *Node, AWS* |*[@Yashu Tanna](yashutanna @yashutanna)*|
 | [Repo](repolink)|[<img src = "/images/youtube_logo.png">](youtubelink)| Description. | *Tech_Tools* |*[@author](ADD_AUTHOR_DEV_PROFILE)*|
 
 ### Process for adding your Command Center to the table above
