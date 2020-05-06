@@ -5,7 +5,7 @@
 
 |Upcoming Demos|Presenters|
 |-|-|
-|Thu 07 May|[@ADD_PLAYER](https://gitlab.com/)|, [Kamogelo Sebopelo @kamogelo.sebopelo](https://gitlab.com/kamogelo.sebopelo)|
+|Thu 07 May|[@ADD_PLAYER](https://gitlab.com/), [Kamogelo Sebopelo @kamogelo.sebopelo](https://gitlab.com/kamogelo.sebopelo)|
 |Thu 14 May|[Christo Bezuidenhout @bezchristo](https://gitlab.com/bezchristo), [Jethro Flanagan @jethrof](https://gitlab.com/jethrof)|
 |Thu 21 May|[Jacques Coetsee @](https://gitlab.com/), [Lebo Morojele @lebo0](https://gitlab.com/lebo0)|
 |Thu 28 May|[Thabang Kevin Khanye @tkkhanye](https://gitlab.com/tkkhanye), [Chris Muller @cwbmuller](https://gitlab.com/cwbmuller)|
