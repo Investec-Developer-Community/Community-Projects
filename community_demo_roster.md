@@ -6,12 +6,12 @@
 |Upcoming Demos|Presenters|
 |-|-|
 |Thu 14 May|[Christo Bezuidenhout @bezchristo](https://gitlab.com/bezchristo), |
-|Thu 21 May|[Jacques Coetsee @](https://gitlab.com/), [Grant Lewis @grant29](https://gitlab.com/grant29)|
+|Thu 21 May|[Grant Lewis @grant29](https://gitlab.com/grant29)|
 |Thu 28 May|[Thabang Kevin Khanye @tkkhanye](https://gitlab.com/tkkhanye), [Chris Muller @cwbmuller](https://gitlab.com/cwbmuller)|
 |Thu 04 Jun|[Warren Foxley @WarrenFoxley](https://gitlab.com/WarrenFoxley), [Hagashen Naidu @HagashenNaidu](https://gitlab.com/HagashenNaidu)|
 |Thu 11 Jun|[John Clarke @jc1arke](https://gitlab.com/jc1arke), [Jethro Flanagan @jethrof](https://gitlab.com/jethrof)|
 |Thu 18 Jun|[Lebo Morojele @lebo0](https://gitlab.com/lebo0), [@ADD_PLAYER](https://gitlab.com/)|
-|Thu 25 Jun|[@ADD_PLAYER](https://gitlab.com/), [@ADD_PLAYER](https://gitlab.com/)|
+|Thu 25 Jun|[Jacques Coetsee @jacousteau](https://gitlab.com/jacousteau), [@ADD_PLAYER](https://gitlab.com/)|
 
 |Past Demos|Presenters|
 |-|-|
