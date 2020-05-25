@@ -5,8 +5,6 @@
 
 |Upcoming Demos|Presenters|
 |-|-|
-|Thu 14 May|[Christo Bezuidenhout @bezchristo](https://gitlab.com/bezchristo), |
-|Thu 21 May|[Grant Lewis @grant29](https://gitlab.com/grant29)|
 |Thu 28 May|[Chris Muller @cwbmuller](https://gitlab.com/cwbmuller)|
 |Thu 04 Jun|[Warren Foxley @WarrenFoxley](https://gitlab.com/WarrenFoxley), [Hagashen Naidu @HagashenNaidu](https://gitlab.com/HagashenNaidu)|
 |Thu 11 Jun|[John Clarke @jc1arke](https://gitlab.com/jc1arke), [Jethro Flanagan @jethrof](https://gitlab.com/jethrof)|
@@ -20,3 +18,5 @@
 |Thu 23 Apr|[Junior Walters @walterjc21](https://gitlab.com/@walterjc21), [Dave Saunders]()|
 |Thu 30 Apr|[Yashu Tanna @yashutanna](https://gitlab.com/yashutanna), |
 |Thu 07 May|[@ADD_PLAYER](https://gitlab.com/), [Kamogelo Sebopelo @kamogelo.sebopelo](https://gitlab.com/kamogelo.sebopelo)|
+|Thu 14 May|[Christo Bezuidenhout @bezchristo](https://gitlab.com/bezchristo), |
+|Thu 21 May|[Grant Lewis @grant29](https://gitlab.com/grant29)|
