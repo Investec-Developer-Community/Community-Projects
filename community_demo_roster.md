@@ -13,8 +13,8 @@
 |Thu 16 Jul|[member](https://gitlab.com/member),|
 |Thu 23 Jul|[member](https://gitlab.com/member),|
 |Thu 30 Jul|[member](https://gitlab.com/member),|
-|Thu 06 Aug|[member](https://gitlab.com/member),|
-|Thu 13 Aug|[member](https://gitlab.com/member),|
+|Thu 06 Aug|[Lesiba Ramphele @lesibar](https://gitlab.com/lesibar),|
+|Thu 13 Aug|[Christo Steyn @steyncd](https://gitlab.com/steyncd),|
 |Thu 20 Aug|[Michael Wallace Louwrens @mikewl](https://gitlab.com/mikewl),|
 |Thu 27 Aug|[Ben Janecke @benjanecke](https://gitlab.com/benjanecke), [Rathin Devat-Oogorah @Rathin1](https://gitlab.com/Rathin1)|
 
