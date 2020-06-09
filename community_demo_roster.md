@@ -8,6 +8,14 @@
 |Thu 11 Jun|[John Clarke @jc1arke](https://gitlab.com/jc1arke), [Jethro Flanagan @jethrof](https://gitlab.com/jethrof)|
 |Thu 18 Jun|[Lebo Morojele @lebo0](https://gitlab.com/lebo0), [Ferdi Schmidt @ferdis](https://gitlab.comferdis)|
 |Thu 25 Jun|[Jacques Coetsee @jacousteau](https://gitlab.com/jacousteau), [Thabang Kevin Khanye @tkkhanye](https://gitlab.com/tkkhanye)|
+|Thu 25 Jun|[member](https://gitlab.com/member),|
+|Thu 25 Jun|[member](https://gitlab.com/member),|
+|Thu 25 Jun|[member](https://gitlab.com/member),|
+|Thu 25 Jun|[member](https://gitlab.com/member),|
+|Thu 25 Jun|[member](https://gitlab.com/member),|
+|Thu 25 Jun|[member](https://gitlab.com/member),|
+|Thu 25 Jun|[member](https://gitlab.com/member),|
+|Thu 27 Aug|[Ben Janecke @benjanecke](https://gitlab.com/benjanecke)|
 
 |Past Demos|Presenters|
 |-|-|
