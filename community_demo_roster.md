@@ -8,14 +8,15 @@
 |Thu 11 Jun|[John Clarke @jc1arke](https://gitlab.com/jc1arke), [Jethro Flanagan @jethrof](https://gitlab.com/jethrof)|
 |Thu 18 Jun|[Lebo Morojele @lebo0](https://gitlab.com/lebo0), [Ferdi Schmidt @ferdis](https://gitlab.comferdis)|
 |Thu 25 Jun|[Jacques Coetsee @jacousteau](https://gitlab.com/jacousteau), [Thabang Kevin Khanye @tkkhanye](https://gitlab.com/tkkhanye)|
-|Thu 25 Jun|[member](https://gitlab.com/member),|
-|Thu 25 Jun|[member](https://gitlab.com/member),|
-|Thu 25 Jun|[member](https://gitlab.com/member),|
-|Thu 25 Jun|[member](https://gitlab.com/member),|
-|Thu 25 Jun|[member](https://gitlab.com/member),|
-|Thu 25 Jun|[member](https://gitlab.com/member),|
-|Thu 25 Jun|[member](https://gitlab.com/member),|
-|Thu 27 Aug|[Ben Janecke @benjanecke](https://gitlab.com/benjanecke)|
+|Thu 02 Jul|[LioneL Chetty @dalion619](https://gitlab.com/dalion619),|
+|Thu 09 Jul|[member](https://gitlab.com/member),|
+|Thu 16 Jul|[member](https://gitlab.com/member),|
+|Thu 23 Jul|[member](https://gitlab.com/member),|
+|Thu 30 Jul|[member](https://gitlab.com/member),|
+|Thu 06 Aug|[member](https://gitlab.com/member),|
+|Thu 13 Aug|[member](https://gitlab.com/member),|
+|Thu 20 Aug|[Michael Wallace Louwrens @mikewl](https://gitlab.com/mikewl),|
+|Thu 27 Aug|[Ben Janecke @benjanecke](https://gitlab.com/benjanecke), [Rathin Devat-Oogorah @Rathin1](https://gitlab.com/Rathin1)|
 
 |Past Demos|Presenters|
 |-|-|
