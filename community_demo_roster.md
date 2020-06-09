@@ -15,7 +15,7 @@
 |Thu 30 Jul|[member](https://gitlab.com/member),|
 |Thu 06 Aug|[Lesiba Ramphele @lesibar](https://gitlab.com/lesibar),|
 |Thu 13 Aug|[Christo Steyn @steyncd](https://gitlab.com/steyncd),|
-|Thu 20 Aug|[Michael Wallace Louwrens @mikewl](https://gitlab.com/mikewl),[Loic @LoicAn21](https://gitlab.com/LoicAn21)|
+|Thu 20 Aug|[Michael Wallace Louwrens @mikewl](https://gitlab.com/mikewl), [Loic @LoicAn21](https://gitlab.com/LoicAn21)|
 |Thu 27 Aug|[Ben Janecke @benjanecke](https://gitlab.com/benjanecke), [Rathin Devat-Oogorah @Rathin1](https://gitlab.com/Rathin1)|
 
 |Past Demos|Presenters|
