@@ -12,7 +12,7 @@
 |Thu 09 Jul|[Donovan 💬 @donohutcheon](https://gitlab.com/donohutcheon),|
 |Thu 16 Jul|[Pivendren Naik @pivendren](https://gitlab.com/pivendren),|
 |Thu 23 Jul|[member](https://gitlab.com/member),|
-|Thu 30 Jul|[member](https://gitlab.com/member),|
+|Thu 30 Jul|[Adam Fisher @fisher.adam.online](https://gitlab.com/fisher.adam.online),|
 |Thu 06 Aug|[Lesiba Ramphele @lesibar](https://gitlab.com/lesibar),|
 |Thu 13 Aug|[Christo Steyn @steyncd](https://gitlab.com/steyncd),|
 |Thu 20 Aug|[Michael Wallace Louwrens @mikewl](https://gitlab.com/mikewl), [Loic @LoicAn21](https://gitlab.com/LoicAn21)|
