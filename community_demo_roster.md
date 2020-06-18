@@ -7,7 +7,7 @@
 |-|-|
 |Thu 18 Jun|[Lebo Morojele @lebo0](https://gitlab.com/lebo0), [Ferdi Schmidt @ferdis](https://gitlab.comferdis)|
 |Thu 25 Jun|[Jacques Coetsee @jacousteau](https://gitlab.com/jacousteau), [Thabang Kevin Khanye @tkkhanye](https://gitlab.com/tkkhanye)|
-|Thu 02 Jul|[LioneL Chetty @dalion619](https://gitlab.com/dalion619),|
+|Thu 02 Jul|[LioneL Chetty @dalion619](https://gitlab.com/dalion619), [Christo Bezuidenhout @bezchristo](https://gitlab.com/bezchristo)|
 |Thu 09 Jul|[Donovan 💬 @donohutcheon](https://gitlab.com/donohutcheon),|
 |Thu 16 Jul|[Pivendren Naik @pivendren](https://gitlab.com/pivendren),|
 |Thu 23 Jul|[Jethro Flanagan @jethrof](https://gitlab.com/jethrof)|
