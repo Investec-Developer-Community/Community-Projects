@@ -6,11 +6,11 @@
 |Upcoming Demos|Presenters|
 |-|-|
 |Thu 18 Jun|[Lebo Morojele @lebo0](https://gitlab.com/lebo0), [Ferdi Schmidt @ferdis](https://gitlab.comferdis)|
-|Thu 25 Jun|[Jacques Coetsee @jacousteau](https://gitlab.com/jacousteau), [Thabang Kevin Khanye @tkkhanye](https://gitlab.com/tkkhanye)|
+|Thu 25 Jun|[Jacques Coetsee @jacousteau](https://gitlab.com/jacousteau)|
 |Thu 02 Jul|[LioneL Chetty @dalion619](https://gitlab.com/dalion619), [Christo Bezuidenhout @bezchristo](https://gitlab.com/bezchristo)|
 |Thu 09 Jul|[Donovan 💬 @donohutcheon](https://gitlab.com/donohutcheon),|
 |Thu 16 Jul|[Pivendren Naik @pivendren](https://gitlab.com/pivendren),|
-|Thu 23 Jul|[Jethro Flanagan @jethrof](https://gitlab.com/jethrof)|
+|Thu 23 Jul|[Jethro Flanagan @jethrof](https://gitlab.com/jethrof), [Thabang Kevin Khanye @tkkhanye](https://gitlab.com/tkkhanye)|
 |Thu 30 Jul|[Adam Fisher @fisher.adam.online](https://gitlab.com/fisher.adam.online),|
 |Thu 06 Aug|[Lesiba Ramphele @lesibar](https://gitlab.com/lesibar), [Rendani Dau @rendani10](https://gitlab.com/rendani10)|
 |Thu 13 Aug|[Christo Steyn @steyncd](https://gitlab.com/steyncd),[Kamogelo Sebopelo @kamogelo.sebopelo](https://gitlab.com/kamogelo.sebopelo)|
