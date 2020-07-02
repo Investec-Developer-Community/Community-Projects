@@ -9,7 +9,7 @@
 |Thu 09 Jul|[Donovan 💬 @donohutcheon](https://gitlab.com/donohutcheon),|
 |Thu 16 Jul|[Pivendren Naik @pivendren](https://gitlab.com/pivendren),|
 |Thu 23 Jul|[Jethro Flanagan @jethrof](https://gitlab.com/jethrof), [Thabang Kevin Khanye @tkkhanye](https://gitlab.com/tkkhanye)|
-|Thu 30 Jul|[Adam Fisher @fisher.adam.online](https://gitlab.com/fisher.adam.online),|
+|Thu 30 Jul|[Adam Fisher @fisher.adam.online](https://gitlab.com/fisher.adam.online), Jacques|
 |Thu 06 Aug|[Lesiba Ramphele @lesibar](https://gitlab.com/lesibar), [Rendani Dau @rendani10](https://gitlab.com/rendani10)|
 |Thu 13 Aug|[Christo Steyn @steyncd](https://gitlab.com/steyncd),[Kamogelo Sebopelo @kamogelo.sebopelo](https://gitlab.com/kamogelo.sebopelo)|
 |Thu 20 Aug|[Michael Wallace Louwrens @mikewl](https://gitlab.com/mikewl), [Loic @LoicAn21](https://gitlab.com/LoicAn21)|
