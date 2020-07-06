@@ -1,6 +1,6 @@
 # Community Bounties
 
-We're offering bounties to the community for solving problems 👾  Claimed bounties are paid out in community credits and can be redeemed from The Bounty Shop.
+We're offering bounties to the community for solving problems 👾   Claimed bounties are paid out in community credits and can be redeemed from The Bounty Shop.
 
 To claim a bounty you must
 
