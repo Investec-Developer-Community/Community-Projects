@@ -1,10 +1,12 @@
 # Community Bounties
 
-We're offering bounties to the community for solving problems 👾   Claimed bounties are paid out in community credits and can be redeemed from The Bounty Shop.
+We're offering bounties to the community for solving problems 👾
 
-To claim a bounty you must
+Claimed bounties are paid out in community credits and can be redeemed from The Bounty Shop 🏆 🛒
 
-1. **Request for bounty:** Put in a request to pursue bounty by emailing [community-investec@offerzen.com](community-investec@offerzen.com)
+## How to win bounties:
+
+1. **Request for bounty:** Put in a request to pursue an [Open Bounty](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/edit/master/bounties.md#open-bounties) by emailing [community-investec@offerzen.com](community-investec@offerzen.com)
 2. **Solve problem:** Once you have approval, build a solution and make the code publicly available. You can use Gitlab or any other code repo.
 3. **Submit solution:** Let us know at [community-investec@offerzen.com](community-investec@offerzen.com) to get your project reviewed.
 4. **Book community demo:** Once your project has been reviewed and published, book a spot at one of the weekly meetups and demo your solution :)
