@@ -16,9 +16,10 @@ Claimed bounties are paid out in community credits and can be redeemed from The 
 
 | Bounty | Payout |
 |-|-|
+|Build a [federated learning](https://federated.withgoogle.com/) model that can be used by the rest of the community to train an AI on transaction data, while keeping the clients anonymous.| 300 credits|
 |.NET Wrapper for the Open API|200 credits|
 |Code for a [magic mirror](https://youtu.be/BR_yko0gr-Y) that displays your spending habits and gives you advice based on those habits.|300 credits|
-|Build a library that merges times from card transactions with transactions from the Open API to give exact (where possible) and estimate timestamps to transactions.| 50 credits|
+|Create a library that merges times from card transactions with transactions from the Open API to give exact (where possible) and estimate timestamps to transactions.| 50 credits|
 |Build a notification system with a webhook that checks an account via the API to find new transactions every minute and sends a push when a new transaction is found.|50 credits|
 |Visual Basic Investec Open API collection that can be imoported for testing the API.|100 credits|
 
