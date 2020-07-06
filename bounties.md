@@ -16,11 +16,12 @@ To claim a bounty you must
 |Build the code for a [magic mirror](https://youtu.be/BR_yko0gr-Y) that displays your spending habits and gives you advice based on those habits.|300 credits|
 |Build a library that merges times from card transactions with transactions from the Open API to give exact (where possible) and estimate timestamps to transactions.| 50 credits|
 |Build a notification system with a webhook that checks an account via the API to find new transactions every minute and sends a push when a new transaction is found.|50 credits|
+|Visual Basic Investec Open API collection that can be imoported for testing.|25 credits|
 
 ## The Bounty Shop
 
-|Bounty|Credits Required|
-|-|-|
-|![](https://media.rs-online.com/t_large/F1764210-01.jpg)|300|
-|![](https://www.pishop.co.za/store/image/thumbnails/19/48/Pi48_jpg-103566-380x380.jpg)|150|
-|![](https://i.imgur.com/WeHlXv1.jpg)|300|
+| Bounty | Description | Credits Required |
+| ------ | ------ | ------ |
+|![](/images/bounties/sphero.jpg)|[Sphero SPRK+ Programmer Robot](https://www.youtube.com/watch?v=Yg8LmEkI_0c)|300 credits|
+|![](/images/bounties/pi4.jpg)|[Raspberry Pi 4 Model B 8GB](https://www.youtube.com/watch?v=npzRf5wuIB0)|150 credits|
+|![](/images/bounties/dell27.jpeg)|[Dell 27-inch Monitor SE2719H](https://youtu.be/S8QshNypEHw)|300 credits|
