@@ -1,8 +1,6 @@
 # Community Bounties
 
-We're offering bounties to the community for solving problems 👾
-
-Claimed bounties are paid out in community credits and can be redeemed from The Bounty Shop 🏆 🛒
+Win cool prizes for completing community challenges 👾 🏆 🛒
 
 ## How to win bounties:
 
