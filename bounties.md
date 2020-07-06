@@ -6,11 +6,10 @@ Create open source software by completing community challenges 👾 🏆 🛒
 
 ## How to win bounties:
 
-1. **Request for bounty:** Put in a request to pursue an [Open Bounty](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/edit/master/bounties.md#open-bounties) by emailing [community-investec@offerzen.com](community-investec@offerzen.com)
-2. **Solve problem:** Once you have approval, build a solution and make the code publicly available. You can use Gitlab or any other code repo.
-3. **Submit solution:** Let us know at [community-investec@offerzen.com](community-investec@offerzen.com) to get your project reviewed.
-4. **Book community demo:** Once your project has been reviewed and published, book a spot at one of the weekly meetups and demo your solution :)
-5. **Claim your bounty!** Once you have booked your spot claim your reward from The Bounty Box!
+1. **Pick a bounty:** Email us at [community-investec@offerzen.com](community-investec@offerzen.com) to let us know which bounty you're picking.
+2. **Buildand publish code:** Build solution and submit your code repo.
+3. **Demo your solution:** Book a demo time at the weekly meetup to showcase your awesome tech to the community.
+4. **Claim a reward:** We will reward you with one of the prizes from The Bounty Box.
 
 ## Open Bounties
 
@@ -29,5 +28,5 @@ Create open source software by completing community challenges 👾 🏆 🛒
 | ------ | ------ |
 |![](/images/bounties/djitello.jpg)|[DJI Tello Programmable Drone](https://www.youtube.com/watch?v=_v_RknPrebI)|
 |![](/images/bounties/sphero.jpg)|[Sphero SPRK+ Programmer Robot](https://www.youtube.com/watch?v=Yg8LmEkI_0c)|
-|![](/images/bounties/dell27.jpeg)|[Dell 27-inch Monitor SE2719H]![](/images/bounties/pi4.jpg)|[Magic Mirror Kit: Raspberry Pi 4 Model B 8GB and Dell 27" monitor](https://www.youtube.com/watch?v=npzRf5wuIB0)|
+|![](/images/bounties/dell27.jpeg)![](/images/bounties/pi4.jpg)|[Magic Mirror Kit: Raspberry Pi 4 Model B 8GB and Dell 27" monitor](https://www.youtube.com/watch?v=npzRf5wuIB0)|
 |![](/images/bounties/offerzenswapgpack.png)|OfferZen Swag Pack|
