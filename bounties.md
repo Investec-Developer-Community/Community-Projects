@@ -1,6 +1,6 @@
 # Community Bounties
 
-Create open source software by completing community challenges, get featured on our Gitlab and Youtube and win cool prizes 👾 🏆
+Create open source software by completing community challenges, get featured on our Gitlab and Youtube and win cool prizes 👾 🏆 If you want to submit an Open Bounty just create a PR!
 
 ## 
 
