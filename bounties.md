@@ -1,6 +1,8 @@
 # Community Bounties
 
-Win cool prizes for completing community challenges 👾 🏆 🛒
+Create open source software by completing community challenges 👾 🏆 🛒
+
+## 
 
 ## How to win bounties:
 
