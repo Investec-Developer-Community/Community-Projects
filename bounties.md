@@ -29,6 +29,5 @@ Create open source software by completing community challenges 👾 🏆 🛒
 | ------ | ------ |
 |![](/images/bounties/djitello.jpg)|[DJI Tello Programmable Drone](https://www.youtube.com/watch?v=_v_RknPrebI)|
 |![](/images/bounties/sphero.jpg)|[Sphero SPRK+ Programmer Robot](https://www.youtube.com/watch?v=Yg8LmEkI_0c)|
-|![](/images/bounties/pi4.jpg)|[Raspberry Pi 4 Model B 8GB](https://www.youtube.com/watch?v=npzRf5wuIB0)|
-|![](/images/bounties/dell27.jpeg)|[Dell 27-inch Monitor SE2719H](https://youtu.be/S8QshNypEHw)|
+|![](/images/bounties/dell27.jpeg)|[Dell 27-inch Monitor SE2719H]![](/images/bounties/pi4.jpg)|[Magic Mirror Kit: Raspberry Pi 4 Model B 8GB and Dell 27" monitor](https://www.youtube.com/watch?v=npzRf5wuIB0)|
 |![](/images/bounties/offerzenswapgpack.png)|OfferZen Swag Pack|
