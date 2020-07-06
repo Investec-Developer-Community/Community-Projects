@@ -4,11 +4,11 @@ We're offering bounties to the community for solving problems 👾   Claimed bou
 
 To claim a bounty you must
 
-1. Put in a request to pursue bounty by emailing [community-investec@offerzen.com](community-investec@offerzen.com)
-2. Once you have approval, build a solution and make the code publicly available. You can use Gitlab or any other code repo.
-3. Let us know at [community-investec@offerzen.com](community-investec@offerzen.com) to get your project reviewed.
-4. Once your project has been reviewed and published, book a spot at one of the weekly meetups and demo your solution :)
-5. Once you have booked your spot your bounty will be paid out and you can buy awesome stuff from The Bounty Shop!
+1. **Request for bounty:** Put in a request to pursue bounty by emailing [community-investec@offerzen.com](community-investec@offerzen.com)
+2. **Solve problem:** Once you have approval, build a solution and make the code publicly available. You can use Gitlab or any other code repo.
+3. **Submit solution:** Let us know at [community-investec@offerzen.com](community-investec@offerzen.com) to get your project reviewed.
+4. **Book community demo:** Once your project has been reviewed and published, book a spot at one of the weekly meetups and demo your solution :)
+5. **Claim your bounty!** Once you have booked your spot your bounty will be paid out and you can buy awesome stuff from The Bounty Shop!
 
 ## Open Bounties
 
