@@ -8,7 +8,7 @@ Create open source software by completing community challenges 👾 🏆 🛒
 
 1. **Pick a bounty:** Email us at [community-investec@offerzen.com](community-investec@offerzen.com) to let us know which bounty you're picking.
 2. **Buildand publish code:** Build solution and submit your code repo.
-3. **Demo your solution:** Book a demo time at the weekly meetup to showcase your awesome tech to the community.
+3. **Demo your solution:** Book a demo at the weekly meetup and get featured on the community Gitlab and Youtube.
 4. **Claim a reward:** We will reward you with one of the prizes from The Bounty Box.
 
 ## Open Bounties
