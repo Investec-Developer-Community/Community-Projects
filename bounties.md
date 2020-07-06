@@ -8,7 +8,7 @@ Win cool prizes for completing community challenges 👾 🏆 🛒
 2. **Solve problem:** Once you have approval, build a solution and make the code publicly available. You can use Gitlab or any other code repo.
 3. **Submit solution:** Let us know at [community-investec@offerzen.com](community-investec@offerzen.com) to get your project reviewed.
 4. **Book community demo:** Once your project has been reviewed and published, book a spot at one of the weekly meetups and demo your solution :)
-5. **Claim your bounty!** Once you have booked your spot claim your reward from The Bounty Shop!
+5. **Claim your bounty!** Once you have booked your spot claim your reward from The Bounty Box!
 
 ## Open Bounties
 
@@ -21,7 +21,7 @@ Win cool prizes for completing community challenges 👾 🏆 🛒
 |Build a notification system with a webhook that checks an account via the API to find new transactions every minute and sends a push when a new transaction is found.|
 |Visual Basic Investec Open API collection that can be imported for testing the API.|
 
-## The Bounty Shop
+## The Bounty Box
 
 | Bounty | Description |
 | ------ | ------ |
