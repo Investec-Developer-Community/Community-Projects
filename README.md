@@ -1,39 +1,11 @@
-# Programmable Banking Command Center Challenge
+# Investec Programmable Banking Community Projects
+We'd love it if you build awesome libraries, utilities and apps with the rest of the Programmable Banking Community. We get together every Thursday at 6:30pm to demo what we've built. There is no minimum requirement for what you build at the moment - we love seeing both simple 5 minute demos and elaborate 30min+ demos, they're inspire us to get started or dive deep in their own ways :)
 
-[👉 Jump to Community Project Demos](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center#command-center-deployments)
-
-##  Welcome
-
-For this challenge we will be each be creating our own `Programmable Banking Command Center` to be able to do useful things with the card transaction data.
-
-<img src = "/images/starcraft_command_center.gif">
-
-### Command Center Components
-
-We'll build our Command Centers out of components that can be replaced or extended. This approach should promote borrowing open-source ideas from each other. Below is the current component layout: up for reconfiguration and debate!
-
-<img src = " images/command_center_components.jpg">
-
-## Challenge
-
-### Basic Goals
-
-Setting up your command center: to build momentum, we recommend doing the least amount of effort to get through steps 1-3 and then iterate through them.
-
-1. Store your transactions in a DB of some kind
-2. Create a view for your transactions i.e. app, chat or web-page
-3. Create a GitLab Tutorial for setting up your Command Center. See the [Starter Challenge example](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/programmable-card-starter-challenge).
-
-### Stretch Goals
-Once your basic setup is running nicely, you'll start deplyoying your Command Center's capabilities :)
-
-1. Add ability to write to your DB from your Frontend e.g. categorising transactions necessary/luxury, mine/not mine...
-2. Create a realtime budget interface i.e. "You've spent X on luxury this month."
-
-## Command Center Deployments
-Projects built by the community and demo'd at the weekly Beta Community Founder Get Together.
+To book a time to demo what you are working on please cotact Ben via [community-investec@offerzen.com](community-investec@offerzen.com).
 
 [Upcoming community demo roster](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/blob/master/community_demo_roster.md)
+
+Here's all the apps and demos that have already been built and shared by the community.
 
 |App Repo|App Demo|Description|Tech Stack|Author|
 |-|-|-|-|-|
@@ -57,12 +29,6 @@ Projects built by the community and demo'd at the weekly Beta Community Founder 
 | [Paper Budget](https://docs.google.com/presentation/d/11mcO96L9E6iWscG9ycO_Gy4wc90PY6E5N7SPrOjMhL8/edit#slide=id.g7757fe7c3f_0_105)|[<img src = "/images/youtube_logo.png">](https://youtu.be/DKV-4M4a6CE?t=1)| What it does: Sync transactions to YNAB budget and categorize them. Why create it? Keep budget up to date without manual intervention. | *Starlette, React and SQLite* |*[@ferdis](https://gitlab.com/ferdis)*|
 | Transacational Insights, [power-bi-template](https://github.com/dalion619/programmable-banking-power-bi-template), [investec-openbanking-dotnet](https://github.com/dalion619/investec-openbanking-dotnet), [cf-worker](https://github.com/dalion619/programmable-banking-cf-worker)|[<img src = "/images/youtube_logo.png">](youtubelink)| Data mining bank account transactions for meaningful insight. Low code approach that non-devs can use. | *PowerBI, Cloudflare, Azure Functions, Investec Open API* |*[@dalion619](https://gitlab.com/https://github.com/dalion619/)*|
 | [Repo](repolink)|[<img src = "/images/youtube_logo.png">](youtubelink)| Description. | *Tech_Tools* |*[@author](https://gitlab.com/author)*|
-
-### Process for adding your Command Center to the table above
-*  Create a repo for your code under your personal GitLab profile
-*  Edit the table below to add your project and submit a merge request
-*  Ping the community team on OfferZen Community Slack to review your merge request :)
-
 
 ## Some Useful Resources
 
