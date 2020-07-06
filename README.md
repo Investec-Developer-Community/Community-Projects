@@ -1,5 +1,7 @@
 # Investec Programmable Banking Community Projects
-We'd love it if you build awesome libraries, utilities and apps and share them with us. It's a great way to learn, share, connect and get feedback! We get together every Thursday at 6:30pm to demo what we've built. There is no minimum requirement for what you build at the moment - we love seeing both simple 5 minute demos and elaborate 30min+ demos, they're inspire us to get started or dive deep in their own ways :)
+We'd love it if you build awesome libraries, utilities and apps and share them with us. It's a great way to learn, share, connect and get feedback! We get together (virtually, via Zoom) every Thursday at 6:30pm to demo what we've built. 
+
+There is no minimum requirement for what you build at the moment - we love seeing both simple 5 minute demos and elaborate 30min+ demos, they're inspire us to get started or dive deep in their own ways :)
 
 To book a time to demo what you are working on please cotact Ben via [community-investec@offerzen.com](community-investec@offerzen.com).
 
