@@ -13,7 +13,7 @@ To claim a bounty you must
 
 |Problem|Credits Payout|
 |-|-|
-|Build the code for a [magic mirror](https://magicmirror.builders/) that displays your spending habits and gives you advice based on those habits.|300 credits|
+|Build the code for a [magic mirror](https://youtu.be/BR_yko0gr-Y) that displays your spending habits and gives you advice based on those habits.|300 credits|
 |Build a library that merges times from card transactions with transactions from the Open API to give exact (where possible) and estimate timestamps to transactions.| 50 credits|
 |Build a notification system with a webhook that checks an account via the API to find new transactions every minute and sends a push when a new transaction is found.|50 credits|
 
@@ -21,5 +21,6 @@ To claim a bounty you must
 
 |Bounty|Credits Required|
 |-|-|
+|![](https://media.rs-online.com/t_large/F1764210-01.jpg)|300|
 |![](https://www.pishop.co.za/store/image/thumbnails/19/48/Pi48_jpg-103566-380x380.jpg)|150|
 |![](https://i.imgur.com/WeHlXv1.jpg)|300|
