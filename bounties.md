@@ -31,4 +31,4 @@ Claimed bounties are paid out in community credits and can be redeemed from The 
 |![](/images/bounties/sphero.jpg)|[Sphero SPRK+ Programmer Robot](https://www.youtube.com/watch?v=Yg8LmEkI_0c)|300 credits|
 |![](/images/bounties/pi4.jpg)|[Raspberry Pi 4 Model B 8GB](https://www.youtube.com/watch?v=npzRf5wuIB0)|150 credits|
 |![](/images/bounties/dell27.jpeg)|[Dell 27-inch Monitor SE2719H](https://youtu.be/S8QshNypEHw)|300 credits|
-|![](/images/bounties/offerzenswapgpack.png)|OfferZen Swag Pack|50 credits|
+|![](/images/bounties/offerzenswapgpack.png)|OfferZen Swag Pack|75 credits|
