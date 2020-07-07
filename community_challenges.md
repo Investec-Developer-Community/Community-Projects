@@ -21,7 +21,7 @@ These are challenges that are open to challenge acceptors i.e. **you!** Grab 'em
 | Challenge |
 |-|
 |`Epic challenge` Build a [federated learning](https://federated.withgoogle.com/) app that can be used by the rest of the community to train an AI on transaction data, while keeping a client anonymous.|
-|Code for a [magic mirror](https://youtu.be/BR_yko0gr-Y) that displays your spending habits and gives you advice based on those habits.|
+|`Special challenge` Code for a [magic mirror](https://youtu.be/BR_yko0gr-Y) that displays your spending habits and gives you advice based on those habits.|
 |Create a library that merges times from card transactions with transactions from the Open API to give exact (where possible) and estimate timestamps to transactions.|
 |Build a notification system with a webhook that checks an account via the API to find new transactions every minute and sends a push when a new transaction is found.|
 |Visual Basic Investec Open API collection that can be imported for testing the API.|
@@ -50,7 +50,10 @@ These are challenges that are open to challenge acceptors i.e. **you!** Grab 'em
 
 ## FAQs
 **What is an epic challenge?**
-An epic challenge is harder and therefore earns you the option to earn epic challenge prizes.
+An `epic challenge` is harder and therefore earns you the option to earn epic challenge prizes.
+A special challenge unlocks specific/special prizes.
+
+See prize descriptions for epic and special prizes.
 
 **May I work in a team on a challenge?**
 Yes, challenge acceptors may work in teams. You will need to share prizes.
