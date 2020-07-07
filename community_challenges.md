@@ -30,7 +30,7 @@ These are challenges that are open to challenge acceptors i.e. **you!** Grab 'em
 
 | Challenge Accepted | Challenge Acceptor | Due |
 |-|-|-|
-| .NET Wrapper for the Open API | @HagashenNaidu | 21 July 2020 |
+|||
 
 
 ## The Bounty Box 🏆
