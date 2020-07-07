@@ -16,6 +16,8 @@ Create open source software by completing community challenges, get featured on 
 
 ## Open community challenges 👾
 
+These are challenges that are open to challenge acceptors - grab 'em while they're hot!
+
 | Challenge |
 |-|
 |Build a [federated learning](https://federated.withgoogle.com/) model that can be used by the rest of the community to train an AI on transaction data, while keeping the clients anonymous.|
