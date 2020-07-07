@@ -1,13 +1,13 @@
 # Community Challenges
 
-Create open source software by completing community challenges, get featured on our Gitlab and Youtube and win cool prizes 👾 🏆 If you want to submit an Open Bounty just create a PR!
+Create open source software by completing community challenges, get featured on our Gitlab and Youtube and win cool prizes 👾 🏆 
 
-📨 Submit a community challenge
+[📨 Submit a community challenge](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/issues/new)
 
 
-## How to win bounties:
+## How to accept a challenge:
 
-1. **Check-out a community challenge:** Email us at [community-investec@offerzen.com](community-investec@offerzen.com) to request to check-out a challenge.
+1. **Accept a community challenge:** Email us at [community-investec@offerzen.com](community-investec@offerzen.com) to request to accept a challenge.
 2. **Build and publish code:** Build solution and submit your code repo and get featured on the community Gitlab.
 3. **Demo your solution:** Book a demo at the weekly meetup and get featured on the community Youtube channel.
 4. **Claim a reward:** We will reward you with one of the prizes from The Bounty Box.
@@ -22,7 +22,7 @@ Create open source software by completing community challenges, get featured on 
 |Build a notification system with a webhook that checks an account via the API to find new transactions every minute and sends a push when a new transaction is found.|
 |Visual Basic Investec Open API collection that can be imported for testing the API.|
 
-## Checked-out community challenges
+## Accepted community challenges
 
 | Challenge Accepted | Challenge Acceptor | Due |
 |-|-|-|
