@@ -16,7 +16,7 @@ Create open source software by completing community challenges, get featured on 
 
 ## Open community challenges 👾
 
-These are challenges that are open to challenge acceptors - grab 'em while they're hot!
+These are challenges that are open to challenge acceptors i.e. **you!** Grab 'em while they're hot ;)
 
 | Challenge |
 |-|
