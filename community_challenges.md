@@ -20,7 +20,7 @@ These are challenges that are open to challenge acceptors i.e. **you!** Grab 'em
 
 | Challenge |
 |-|
-|Build a [federated learning](https://federated.withgoogle.com/) model that can be used by the rest of the community to train an AI on transaction data, while keeping the clients anonymous.|
+|`Epic challenge` Build a [federated learning](https://federated.withgoogle.com/) app that can be used by the rest of the community to train an AI on transaction data, while keeping a client anonymous.|
 |Code for a [magic mirror](https://youtu.be/BR_yko0gr-Y) that displays your spending habits and gives you advice based on those habits.|
 |Create a library that merges times from card transactions with transactions from the Open API to give exact (where possible) and estimate timestamps to transactions.|
 |Build a notification system with a webhook that checks an account via the API to find new transactions every minute and sends a push when a new transaction is found.|
@@ -43,12 +43,15 @@ These are challenges that are open to challenge acceptors i.e. **you!** Grab 'em
 
 | Bounty | Description |
 | ------ | ------ |
-|![](/images/bounties/djitello.jpg)|[DJI Tello Programmable Drone](https://www.youtube.com/watch?v=_v_RknPrebI)|
-|![](/images/bounties/sphero.jpg)|[Sphero SPRK+ Programmer Robot](https://www.youtube.com/watch?v=Yg8LmEkI_0c)|
-|![](/images/bounties/dell27.jpeg)![](/images/bounties/pi4.jpg)|[Magic Mirror Kit: Raspberry Pi 4 Model B 8GB and Dell 27" monitor](https://www.youtube.com/watch?v=npzRf5wuIB0)|
+|![](/images/bounties/djitello.jpg)|[DJI Tello Programmable Drone](https://www.youtube.com/watch?v=_v_RknPrebI). This prize is for epic challenges only.|
+|![](/images/bounties/sphero.jpg)|[Sphero SPRK+ Programmer Robot](https://www.youtube.com/watch?v=Yg8LmEkI_0c). This prize is for epic challenges only.|
+|![](/images/bounties/dell27.jpeg)![](/images/bounties/pi4.jpg)|[Magic Mirror Kit: Raspberry Pi 4 Model B 8GB and Dell 27" monitor](https://www.youtube.com/watch?v=npzRf5wuIB0). This prize is for the Magic Mirror challenge only.|
 |![](/images/bounties/offerzenswapgpack.png)|OfferZen Swag Pack|
 
 ## FAQs
+**What is an epic challenge?**
+An epic challenge is harder and therefore earns you the option to earn epic challenge prizes.
+
 **May I work in a team on a challenge?**
 Yes, challenge acceptors may work in teams. You will need to share prizes.
 
