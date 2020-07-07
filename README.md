@@ -2,7 +2,7 @@
 
 Our mission is to make Open Banking a reality in SA by building on top of Open Banking APIs and infrastructure. Important sections are:
 
-- [Open community challenges:]() where you can submit and accept community challenges, get featured on our Gitlab and Youtube channels and win prizes.
+- [Open community challenges:](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/blob/master/community_challenges.md) where you can submit and accept community challenges, get featured on our Gitlab and Youtube channels and win prizes.
 - [Upcoming community demo roster:](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/blob/master/community_demo_roster.md) where you can see who will be demo'iong and book a spot to demo your fintech to the community
 - Community Apps and Demos, below 👇
 
