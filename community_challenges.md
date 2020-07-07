@@ -4,6 +4,13 @@ Create open source software by completing community challenges, get featured on 
 
 [📨 Submit a community challenge here](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/issues/new)
 
+- [How to accept a challenge](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/edit/master/community_challenges.md#how-to-accept-a-challenge)
+- [Open community challenges 👾](url)
+- [Accepted community challenges 💪](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/edit/master/community_challenges.md#accepted-community-challenges-)
+- [Completed community challenges 🚀](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/edit/master/community_challenges.md#completed-community-challenges-)
+- [The Bounty Box 🏆](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/edit/master/community_challenges.md#the-bounty-box-)
+- [FAQs](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/edit/master/community_challenges.md#faqs)
+
 
 ## How to accept a challenge:
 
@@ -33,7 +40,7 @@ These are challenges that are open to challenge acceptors i.e. **you!** Grab 'em
 |||
 
 
-## Completed community challenges 💪
+## Completed community challenges 🚀
 
 | Challenge Completed | Challenge Completor |
 |-|-|
