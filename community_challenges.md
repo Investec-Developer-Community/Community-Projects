@@ -33,6 +33,12 @@ These are challenges that are open to challenge acceptors i.e. **you!** Grab 'em
 |||
 
 
+## Completed community challenges 💪
+
+| Challenge Accepted | Challenge Acceptor | Due |
+|-|-|-|
+|[.NET Standard 2.1 REST client for Investec's Open Banking aligned APIs](https://github.com/dalion619/investec-openbanking-dotnet)|[dalion619](https://github.com/dalion619/)|
+
 ## The Bounty Box 🏆
 
 | Bounty | Description |
