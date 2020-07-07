@@ -1,13 +1,12 @@
 # Investec Programmable Banking Community Projects
-We'd love it if you build awesome libraries, utilities and apps and share them with us. It's a great way to learn, share, connect and get feedback! We get together (virtually, via Zoom) every Thursday at 6:30pm to demo what we've built. 
 
-There is no minimum requirement for what you build at the moment - we love seeing both simple 5 minute demos and elaborate 30min+ demos, they can inspire us to get started or dive deep in their own ways :)
+Our mission is to make Open Banking a reality in SA by building on top of Open Banking APIs and infrastructure. Important sections are:
 
-To book a time to demo what you are working on please cotact Ben via [community-investec@offerzen.com](community-investec@offerzen.com).
+- [Open community challenges:]() where you can submit and accept community challenges, get featured on our Gitlab and Youtube channels and win prizes.
+- [Upcoming community demo roster:](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/blob/master/community_demo_roster.md) where you can see who will be demo'iong and book a spot to demo your fintech to the community
+- Community Apps and Demos, below 👇
 
-[Upcoming community demo roster](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/blob/master/community_demo_roster.md)
-
-Here's all the apps and demos that have already been built and shared by the community.
+## Community Apps and Demos
 
 |App Repo|App Demo|Description|Tech Stack|Author|
 |-|-|-|-|-|
