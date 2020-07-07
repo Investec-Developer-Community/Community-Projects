@@ -14,8 +14,8 @@ Create open source software by completing community challenges, get featured on 
 
 ## How to accept a challenge:
 
-1. **Accept a community challenge:** Email us at [community-investec@offerzen.com](community-investec@offerzen.com) to request to accept a challenge.
-2. **Build and publish code:** Build solution, submit your code repo and get featured on the community Gitlab.
+1. **Accept a community challenge:** Email us at [community-investec@offerzen.com](community-investec@offerzen.com) to request or accept a challenge.
+2. **Build and publish code:** Build a solution, submit your code repo and get featured on the community Gitlab.
 3. **Demo your solution:** Book a demo at the weekly meetup and get featured on the community Youtube channel.
 4. **Claim a reward:** We will reward you with one of the prizes from The Bounty Box.
 
@@ -55,7 +55,7 @@ These are challenges that are open to challenge acceptors i.e. **you!** Grab 'em
 
 ## FAQs
 **What is an epic challenge?**
-An `epic challenge` is harder and therefore earns you the option to earn epic challenge prizes. A `special challenge` unlocks specific/special prizes. See prize descriptions for epic and special prizes.
+An `epic challenge` is harder and therefore earns you the option to win epic challenge prizes. A `special challenge` unlocks specific/special prizes. See prize descriptions for epic and special prizes.
 
 **May I work in a team on a challenge?**
 Yes, challenge acceptors may work in teams. You will need to share prizes.
