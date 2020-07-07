@@ -8,11 +8,11 @@ Create open source software by completing community challenges, get featured on 
 ## How to accept a challenge:
 
 1. **Accept a community challenge:** Email us at [community-investec@offerzen.com](community-investec@offerzen.com) to request to accept a challenge.
-2. **Build and publish code:** Build solution and submit your code repo and get featured on the community Gitlab.
+2. **Build and publish code:** Build solution, submit your code repo and get featured on the community Gitlab.
 3. **Demo your solution:** Book a demo at the weekly meetup and get featured on the community Youtube channel.
 4. **Claim a reward:** We will reward you with one of the prizes from The Bounty Box.
 
-Challenge acceptors may work in teams and have 14 days to complete the challenge.
+
 
 ## Open community challenges 👾
 
@@ -39,3 +39,13 @@ Challenge acceptors may work in teams and have 14 days to complete the challenge
 |![](/images/bounties/sphero.jpg)|[Sphero SPRK+ Programmer Robot](https://www.youtube.com/watch?v=Yg8LmEkI_0c)|
 |![](/images/bounties/dell27.jpeg)![](/images/bounties/pi4.jpg)|[Magic Mirror Kit: Raspberry Pi 4 Model B 8GB and Dell 27" monitor](https://www.youtube.com/watch?v=npzRf5wuIB0)|
 |![](/images/bounties/offerzenswapgpack.png)|OfferZen Swag Pack|
+
+## FAQs
+**May I work in a team on a challenge?**
+Yes, challenge acceptors may work in teams. You will need to share prizes.
+
+**How long do I have to complete a challenge?**
+Your team has 14 days to complete the challenge.
+
+**How is the quality of the code evaluated?**
+At a minimum your code must run and be reusable by another member of the community. You must submit simple steps to set up your code. We'll be improving the evaluation criteria over time.
