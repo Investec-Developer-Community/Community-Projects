@@ -12,6 +12,8 @@ Create open source software by completing community challenges, get featured on 
 3. **Demo your solution:** Book a demo at the weekly meetup and get featured on the community Youtube channel.
 4. **Claim a reward:** We will reward you with one of the prizes from The Bounty Box.
 
+Challenge acceptors may work in teams and have 14 days to complete the challenge.
+
 ## Open community challenges 👾
 
 | Challenge |
