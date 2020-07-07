@@ -50,10 +50,7 @@ These are challenges that are open to challenge acceptors i.e. **you!** Grab 'em
 
 ## FAQs
 **What is an epic challenge?**
-An `epic challenge` is harder and therefore earns you the option to earn epic challenge prizes.
-A special challenge unlocks specific/special prizes.
-
-See prize descriptions for epic and special prizes.
+An `epic challenge` is harder and therefore earns you the option to earn epic challenge prizes. A `special challenge` unlocks specific/special prizes. See prize descriptions for epic and special prizes.
 
 **May I work in a team on a challenge?**
 Yes, challenge acceptors may work in teams. You will need to share prizes.
