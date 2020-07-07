@@ -1,26 +1,33 @@
-# Community Bounties
+# Community Challenges
 
 Create open source software by completing community challenges, get featured on our Gitlab and Youtube and win cool prizes 👾 🏆 If you want to submit an Open Bounty just create a PR!
 
-## 
+📨 Submit a community challenge
+
 
 ## How to win bounties:
 
-1. **Pick a bounty:** Email us at [community-investec@offerzen.com](community-investec@offerzen.com) to let us know which bounty you're picking.
-2. **Buildand publish code:** Build solution and submit your code repo.
-3. **Demo your solution:** Book a demo at the weekly meetup and get featured on the community Gitlab and Youtube.
+1. **Check-out a community challenge:** Email us at [community-investec@offerzen.com](community-investec@offerzen.com) to request to check-out a challenge.
+2. **Build and publish code:** Build solution and submit your code repo and get featured on the community Gitlab.
+3. **Demo your solution:** Book a demo at the weekly meetup and get featured on the community Youtube channel.
 4. **Claim a reward:** We will reward you with one of the prizes from The Bounty Box.
 
-## Open Bounties
+## Open community challenges
 
 | Challenge |
 |-|
 |Build a [federated learning](https://federated.withgoogle.com/) model that can be used by the rest of the community to train an AI on transaction data, while keeping the clients anonymous.|
-|.NET Wrapper for the Open API|
 |Code for a [magic mirror](https://youtu.be/BR_yko0gr-Y) that displays your spending habits and gives you advice based on those habits.|
 |Create a library that merges times from card transactions with transactions from the Open API to give exact (where possible) and estimate timestamps to transactions.|
 |Build a notification system with a webhook that checks an account via the API to find new transactions every minute and sends a push when a new transaction is found.|
 |Visual Basic Investec Open API collection that can be imported for testing the API.|
+
+## Checked-out community challenges
+
+| Challenge Accepted | Challenge Acceptor | Due |
+|-|-|-|
+| .NET Wrapper for the Open API | @HagashenNaidu | 21 July 2020 |
+
 
 ## The Bounty Box
 
