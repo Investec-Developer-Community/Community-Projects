@@ -1,14 +1,12 @@
 # Community Challenges
 
-Create open source software by completing community challenges, get featured on our Gitlab and Youtube and win cool prizes 👾 💪🏆 
-
-*Contact Ben on [email](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/issues/new) or [Slack](https://app.slack.com/client/T8CRG18UC/D8D0JTUBE) if you have questions.*
+- Create open source software by completing community challenges, get featured on our Gitlab and Youtube and win cool prizes 👾 💪🏆 
+- *Contact Ben on [email](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/issues/new) or [Slack](https://app.slack.com/client/T8CRG18UC/D8D0JTUBE) if you have questions.*
 
 ## Submit a challenge
 
-To submit a new challenge, add the challenge, by [editing `this` page](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/edit/master/community_challenges.md), into the "Open challenges" table, and submit a merge request.
-
-Challenges should produce software that uses the [Investec Programmable Banking tools](https://developer.investec.com/programmable-banking/) and be reusable by other members of the community.
+- To submit a new challenge, add the challenge, by [editing `this` page](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/edit/master/community_challenges.md), into the "Open challenges" table, and submit a merge request.
+- Challenges should produce software that uses the [Investec Programmable Banking tools](https://developer.investec.com/programmable-banking/) and be reusable by other members of the community.
 
 ## Accept a challenge
 
