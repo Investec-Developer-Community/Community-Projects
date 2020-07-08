@@ -2,7 +2,7 @@
 
 `Let's make Open Banking a reality by building, sharing and connecting!`
 
-👉 If you're looking for something to build, or want to challenge the community to build something, see [community challenges](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/blob/master/community_challenges.md).
+👉 [community challenges:](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/blob/master/community_challenges.md) If you're looking for something to build, or want to challenge the community to build something.
 
 ## Community demos
 
