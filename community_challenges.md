@@ -54,6 +54,9 @@ These are challenges that are open to challenge acceptors i.e. **you!** Grab 'em
 
 
 ## FAQs
+**Can multiple people/teams work on the same challenge?**
+Generally a challenge will be awarded to one person or team at a time, but that doesn't stop teams from combining forces. We will try keep it to one solution per challenge though.
+
 **What is an epic challenge?**
 An `epic challenge` is harder and therefore earns you the option to win epic challenge prizes. A `special challenge` unlocks specific/special prizes. See prize descriptions for epic and special prizes.
 
