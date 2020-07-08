@@ -21,6 +21,7 @@ These are challenges that are open to challenge acceptors i.e. **you!** Grab 'em
 
 | Challenge |
 |-|
+|Create a JavaScript snippet that community members can add to their card, that anonymises and posts their transaction data to a central DB.|
 |`Epic challenge` Build a [federated learning](https://federated.withgoogle.com/) app that can be used by the rest of the community to train an AI on transaction data, while keeping a client anonymous.|
 |`Special challenge` Code for a [magic mirror](https://youtu.be/BR_yko0gr-Y) that displays your spending habits and gives you advice based on those habits.|
 |Create a library that merges times from card transactions with transactions from the Open API to give exact (where possible) and estimate timestamps to transactions.|
