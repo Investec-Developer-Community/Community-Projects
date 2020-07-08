@@ -5,12 +5,12 @@
 
 ## Submit a challenge
 
-- **To submit a new challenge**: add the challenge to the Open challenges table by [editing `this` page](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/edit/master/community_challenges.md).
+- **To submit a new challenge**: add the challenge to the Open challenges table by [editing `this` page](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/edit/master/community_challenges.md), and submit a merge request.
 - *Challenges should drive acceptors to create code that is reusable by the rest of the community.*
 
 ## Accept a challenge
 
-1. **Accepting a challenge:** Move the challenge, by [editing `this` page](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/edit/master/community_challenges.md), into the "Accepted community challenges 💪" table, and submit a merge request.
+1. **Accepting a challenge:** Move the challenge into the "Accepted community challenges 💪" table, by [editing `this` page](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/edit/master/community_challenges.md), and submit a merge request.
 2. **Build and publish code:** Build a solution, submit your code repo and get featured on the community Gitlab.
 3. **Demo your solution:** Book a demo at the weekly meetup and get featured on the community Youtube channel.
 4. **Claim a reward:** We will reward you with one of the prizes from The Bounty Box.
