@@ -5,7 +5,7 @@
 
 ## Submit a challenge
 
-- To submit a new challenge, add the challenge, by [editing `this` page](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/edit/master/community_challenges.md), into the "Open challenges" table, and submit a merge request.
+- **To submit a new challenge**: add the challenge, by [editing `this` page](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/edit/master/community_challenges.md), into the "Open challenges" table, and submit a merge request.
 - Challenges should produce software that uses the [Investec Programmable Banking tools](https://developer.investec.com/programmable-banking/) and be reusable by other members of the community.
 
 ## Accept a challenge
