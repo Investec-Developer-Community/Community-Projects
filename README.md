@@ -6,7 +6,7 @@ If you're looking for something to build, or want to challenge the community to 
 
 ## Community demos
 
-We meet every Thursday at 6:30pm over Zoom to see demo's from community members. Come support us :)!
+We meet every Thursday at 6:30pm over Zoom to see demos from community members. Come support us :)!
 
 | <img src = "/images/youtube_logo.png"> Demo | Open Source Repo | Description | Tech Stack | Author |
 | ------ | ------ | ------ | ------ | ------ |
