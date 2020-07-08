@@ -1,6 +1,8 @@
 # Investec Programmable Banking Community Projects
 
-Let's make Open Banking a reality by building, sharing and connecting! If you're looking for something to build, or want to challenge the community to build something, see [community challenges](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/blob/master/community_challenges.md).
+Let's make Open Banking a reality by building, sharing and connecting! 
+
+If you're looking for something to build, or want to challenge the community to build something, see [community challenges](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/blob/master/community_challenges.md).
 
 ## Community demos
 
@@ -25,6 +27,7 @@ We meet every Thursday at 6:30pm over Zoom to see demo's from community members.
 |[Programmable Banking Rule (PBR)](https://youtu.be/aqZotFl9fQw?t=1859)|| What it does: Allows the creation of rules that can be used at present for accepting/declining a transaction. Why create it?  Most banking apps only allow hard limits to be set on spend. The idea with this is to put the account holder in charge of the rules of the card.. | *.Net Core, Blazor WebAssembly, Warewolf, Sql DB* |*[@HagashenNaidu](https://gitlab.com/HagashenNaidu)*|
 |[Investec Query Bot](https://youtu.be/DKV-4M4a6CE?t=559) || What it does: It takes a user’s input, defines their intent, extracts queryable information, and generates a query to the DB. Eg. Show me all my transactions in Cape Town above 400 during June. Why create it? I was unsure of what to do with the card data, so figured why not let the user decide what they want to do with it. | *Swift UI (iOS), Ngrok, RASA NLP/U, SQLAlchemy, Python* |*[@lebo0](https://gitlab.com/lebo0)*|
 |[Paper Budget](https://youtu.be/DKV-4M4a6CE?t=1)|| What it does: Sync transactions to YNAB budget and categorize them. Why create it? Keep budget up to date without manual intervention. | *Starlette, React and SQLite* |*[@ferdis](https://gitlab.com/ferdis)*|
+|[Toshigotchi](https://www.youtube.com/watch?v=KEVJDwFvO_s)||What it is: Create an emotional connection to your spending habits. Money is a very emotionally charged topic and there we should be ways to make it more personable & relatable so we can react better to various financial circumstances.||@jacousteau|
 |[Transacational Insights](youtubelink)|[programmable-banking-power-bi-template](https://github.com/dalion619/programmable-banking-power-bi-template) AND [investec-openbanking-dotnet](https://github.com/dalion619/investec-openbanking-dotnet) AND [programmable-banking-cf-worker](https://github.com/dalion619/programmable-banking-cf-worker)| Data mining bank account transactions for meaningful insight. Low code approach that non-devs can use. | *PowerBI, Cloudflare, Azure Functions, Investec Open API* |*[@dalion619](https://gitlab.com/https://github.com/dalion619/)*|
 |[demo](youtubelink)| description. || *Tech_Tools* |*[@author](https://gitlab.com/author)*|
 
