@@ -2,8 +2,6 @@
 
 Create open source software by completing community challenges, get featured on our Gitlab and Youtube and win cool prizes 👾 💪🏆 
 
-*To submit new challenges, contact Ben on [email](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/issues/new) or [Slack](https://app.slack.com/client/T8CRG18UC/D8D0JTUBE)*
-
 - [How to accept a challenge](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/edit/master/community_challenges.md#how-to-accept-a-challenge)
 - [Open community challenges 👾](url)
 - [Accepted community challenges 💪](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/edit/master/community_challenges.md#accepted-community-challenges-)
@@ -11,15 +9,22 @@ Create open source software by completing community challenges, get featured on 
 - [The Bounty Box 🏆](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/edit/master/community_challenges.md#the-bounty-box-)
 - [FAQs](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/edit/master/community_challenges.md#faqs)
 
+*Contact Ben on [email](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/issues/new) or [Slack](https://app.slack.com/client/T8CRG18UC/D8D0JTUBE) if you have questions.*
 
-## How to accept a challenge:
+## Submit a challenge
+
+To submit a new challenge, add the challenge, by [editing `this` page](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/edit/master/community_challenges.md), into the "Open challenges" table, and submit a merge request.
+
+Challenges should produce software that uses the [Investec Programmable Banking tools](https://developer.investec.com/programmable-banking/) and be reusable by other members of the community.
+
+## Accept a challenge
 
 1. **Accepting a challenge:** Move the challenge, by [editing `this` page](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/edit/master/community_challenges.md), into the "Accepted community challenges 💪" table, and submit a merge request.
 2. **Build and publish code:** Build a solution, submit your code repo and get featured on the community Gitlab.
 3. **Demo your solution:** Book a demo at the weekly meetup and get featured on the community Youtube channel.
 4. **Claim a reward:** We will reward you with one of the prizes from The Bounty Box.
 
-## Open community challenges 👾
+## Open challenges
 
 These are challenges that are open to challenge acceptors i.e. **you!** Grab 'em while they're hot ;)
 
@@ -30,14 +35,14 @@ These are challenges that are open to challenge acceptors i.e. **you!** Grab 'em
 |Create a library that merges times from card transactions with transactions from the Open API to give exact (where possible) and estimate timestamps to transactions.|
 |Build a notification system with a webhook that checks an account via the API to find new transactions every minute and sends a push when a new transaction is found.|
 
-## Accepted community challenges 💪
+## Accepted challenges
 
 | Challenge Accepted | Challenge Acceptor | Due |
 |-|-|-|
 |||
 
 
-## Completed community challenges 🚀
+## Completed challenges 🚀
 
 | Challenge Completed | Challenge Completor |
 |-|-|
