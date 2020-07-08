@@ -14,7 +14,7 @@ Create open source software by completing community challenges, get featured on 
 
 ## How to accept a challenge:
 
-1. **Accept a community challenge:** Email us at [community-investec@offerzen.com](community-investec@offerzen.com) to request or accept a challenge.
+1. **Accepting a challenge:** Move the challenge, by [editing `this` page](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/edit/master/community_challenges.md), into the "Accepted community challenges 💪" table, and submit a merge request.
 2. **Build and publish code:** Build a solution, submit your code repo and get featured on the community Gitlab.
 3. **Demo your solution:** Book a demo at the weekly meetup and get featured on the community Youtube channel.
 4. **Claim a reward:** We will reward you with one of the prizes from The Bounty Box.
