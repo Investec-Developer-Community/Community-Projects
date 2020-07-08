@@ -4,7 +4,7 @@
 
 👉 [community challenges:](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/blob/master/community_challenges.md) If you're looking for something to build, or want to challenge the community to build something.
 
-## Community demos
+## Shared community projects: demos and repos
 
 We meet every Thursday at 6:30pm over Zoom to see demos from community members. Come support us :)!
 
