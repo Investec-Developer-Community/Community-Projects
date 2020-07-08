@@ -47,10 +47,11 @@ These are challenges that are open to challenge acceptors i.e. **you!** Grab 'em
 
 | Bounty | Description |
 | ------ | ------ |
+|![](/images/bounties/offerzenswapgpack.png)|OfferZen Swag Pack|
 |![](/images/bounties/djitello.jpg)|[DJI Tello Programmable Drone](https://www.youtube.com/watch?v=_v_RknPrebI). This prize is for epic challenges only.|
 |![](/images/bounties/sphero.jpg)|[Sphero SPRK+ Programmer Robot](https://www.youtube.com/watch?v=Yg8LmEkI_0c). This prize is for epic challenges only.|
 |![](/images/bounties/dell27.jpeg)![](/images/bounties/pi4.jpg)|[Magic Mirror Kit: Raspberry Pi 4 Model B 8GB and Dell 27" monitor](https://www.youtube.com/watch?v=npzRf5wuIB0). This prize is for the Magic Mirror challenge only.|
-|![](/images/bounties/offerzenswapgpack.png)|OfferZen Swag Pack|
+
 
 ## FAQs
 **What is an epic challenge?**
