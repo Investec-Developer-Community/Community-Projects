@@ -29,6 +29,13 @@ These are challenges that are open to challenge acceptors i.e. **you!** Grab 'em
 |`Special challenge` Code for a [magic mirror](https://youtu.be/BR_yko0gr-Y) that displays your spending habits and gives you advice based on those habits.|
 |Create a library that merges times from card transactions with transactions from the Open API to give exact (where possible) and estimate timestamps to transactions.|
 |Build a notification system with a webhook that checks an account via the API to find new transactions every minute and sends a push when a new transaction is found.|
+|Open API Ruby Wrapper|
+|Open API Python Wrapper|
+|Open API Java Wrapper|
+|Telegram chatbot that sends transactions as well as tooling to manage a conversation with the user.|
+|WhatsApp chatbot that sends transactions as well as tooling to manage a conversation with the user.|
+|TODO: Augmented Reality|
+
 
 ## Accepted challenges
 
