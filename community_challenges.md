@@ -41,7 +41,7 @@ These are challenges that are open to challenge acceptors i.e. **you!** Grab 'em
 
 | Challenge Accepted | Challenge Acceptor | Due |
 |-|-|-|
-|||
+|Open API Elixir Wrapper|[Theo](https://gitlab.com/theodowling)|24 July 2020|
 
 
 ## Completed challenges 🚀
