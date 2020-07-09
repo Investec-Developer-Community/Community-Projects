@@ -1,6 +1,6 @@
 # Community Challenges
 
-Our intention and plan is to create reusable libraries, utilities and code snippets that reduce the barriers for others in the community to build useful products for themselves, their communities and their companies/employers.
+The intention with community challenges is to incentivise the creation of "building blocks" in the form of reusable libraries, utilities and code snippets. This should accelerate future personal and business projects within the programmable banking community.
 
 Challenge acceptors create open source software by completing community challenges, get featured on our Gitlab and Youtube and win cool prizes 👾 💪🏆 
 
