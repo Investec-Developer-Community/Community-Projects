@@ -22,7 +22,7 @@ Challenge acceptors create open source software by completing community challeng
 
 These are challenges that are open to challenge acceptors i.e. **you!** Grab 'em while they're hot ;)
 
-| Problem | hallenge | Use Cases |
+| Problem | Challenge | Use Cases |
 | - | - | - |
 | As a user, I am hesitant to share my transaction data with app developers. | Create a JavaScript function that anonymises transaction data and sends the data to a centralised DB.| I can use the code script in my Programmable Banking IDE to share my data while keeping anonymity. |
 | As a user, I am sensitive about sharing my data for machine learning purposes. | `Epic challenge` Build a [federated learning](https://federated.withgoogle.com/) app that can be used by the rest of the community to train an AI on transaction data, while keeping a client anonymous. | I can download an app that shares the learning data from my transactions while keeping my actual data and identity abstracted and anonymous, respectively. |
@@ -40,9 +40,9 @@ These are challenges that are open to challenge acceptors i.e. **you!** Grab 'em
 
 ## Accepted challenges
 
-| Challenge Accepted | Challenge Acceptor | Due |
-|-|-|-|
-|Open API Elixir Wrapper|[Theo](https://gitlab.com/theodowling)|24 July 2020|
+| Problem | Challenge | Use Cases | Challenge Acceptor | Due |
+|-|-|-|-|-|
+| As an Elixir dev, I am hesitant to build an app due to the setup costs. | Build an Open API Elixir Wrapper | I'm much less hesitant to build awesome apps because there's a great Elixir wrapper for the API! Open API Elixir Wrapper|[Theo](https://gitlab.com/theodowling)|24 July 2020|
 
 
 ## Completed challenges 🚀
