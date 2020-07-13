@@ -42,7 +42,7 @@ These are challenges that are open to challenge acceptors i.e. **you!** Grab 'em
 
 | Problem | Challenge | Use Cases | Challenge Acceptor | Due |
 |-|-|-|-|-|
-| As an Elixir dev, I am hesitant to build an app due to the setup costs. | Build an Open API Elixir Wrapper | I'm much less hesitant to build awesome apps because there's a great Elixir wrapper for the API! Open API Elixir Wrapper|[Theo](https://gitlab.com/theodowling)|24 July 2020|
+| As an Elixir dev, I am hesitant to build an app due to the setup costs. | Build an Open API Elixir Wrapper | I'm much less hesitant to build awesome apps because there's a great Elixir wrapper for the API!|[Theo](https://gitlab.com/theodowling)|24 July 2020|
 
 
 ## Completed challenges 🚀
