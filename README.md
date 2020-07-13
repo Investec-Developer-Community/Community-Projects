@@ -4,20 +4,30 @@
 
 👉 [community challenges:](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/blob/master/community_challenges.md) If you're looking for something to build, or want to challenge the community to build something.
 
-## Shared community projects: demos and repos
+## Open source repos
+
+| Open Source Repo | Description | Tech Stack | Author |
+| - | - | - | - |
+| [Transactional Insights](https://gitlab.com/grimx13/pdb-investec-transaction-insights) | Store programmable card transactions in Google Sheet | *AWS Serverless, Google Sheets* | @grimx13 |
+| [OfferZen Spend Tracker](https://github.com/offerzen/programmable-banking-glow) | First iteration of a team spending dashboard. | *JS, Google Script* | @jethrof @jeriko1 |
+| [InvestecPOC](https://gitlab.com/wernerpereira/InvestecPOC) | Store programmable card transactions in S3. Can be extended to trigger processing on object creation. | *C#*, *Swift* | @WernerPereira |
+| [investec-logs-functions](https://github.com/JeremyWalters/investec-logs-functions) | Store programmable card transactions in Firebase. | *JS, Firebase* | @JeremyWalters |
+| [investec-logs-web](https://github.com/JeremyWalters/investec-logs-web) | A Vue frontend for Firebase (builds on [investec-logs-functions](https://github.com/JeremyWalters/investec-logs-functions)  | *Vue* | @JeremyWalters |
+
+## Demos
 
 We meet every Thursday at 6:30pm over Zoom to see demos from community members. Come support us :)!
 
 | <img src = "/images/youtube_logo.png"> Demo | Open Source Repo | Description | Tech Stack | Author |
 | ------ | ------ | ------ | ------ | ------ |
-|[PDB Investec Transaction Insights](https://youtu.be/gAiP--sk4U8)|[<img src = "https://gitlab.com/grimx13/pdb-investec-transaction-insights/-/raw/master/images/investec_logger.png" width="200">](https://gitlab.com/grimx13/pdb-investec-transaction-insights)| This project utilises AWS Serverless and managed infrastructure to deliver transaction data to a Google sheet where I can draw insights from in near real time | *NodeJS*, *Python* | *[pieterdb](https://gitlab.com/grimx13)* |
-|[OfferZen's Spend Tracker](https://youtu.be/1dGC5E8GGQM)|[JS and Google Script Repo](https://github.com/offerzen/programmable-banking-glow)| This repo contains source code for our first iteration of a team spending dashboard, as demonstrated in the community update on 19 March 2020. | *JavaScript* |*[@jethrof](https://gitlab.com/jethrof)* & [@jeriko1](https://gitlab.com/jeriko1)|
+|[PDB Investec Transaction Insights](https://youtu.be/gAiP--sk4U8)|[<img src = "https://gitlab.com/grimx13/pdb-investec-transaction-insights/-/raw/master/images/investec_logger.png" width="200">](https://gitlab.com/grimx13/pdb-investec-transaction-insights)| This project utilises AWS Serverless and managed infrastructure to deliver transaction data to a Google sheet where I can draw insights from in near real time | *NodeJS*, *Python* | @grimx13 |
+|[OfferZen's Spend Tracker](https://youtu.be/1dGC5E8GGQM)|[JS and Google Script Repo](https://github.com/offerzen/programmable-banking-glow)| This repo contains source code for our first iteration of a team spending dashboard, as demonstrated in the community update on 19 March 2020. | *JavaScript* |@jethrof @jeriko1|
 |[Singularity](https://youtu.be/N6M4tE_KhIk)||Info management app, transaction logger, auto-create transaction with Investec Beta, charts to display spending. Third party lib: "QtWebApp HTTP Server in C++". | *C++* |*[@lcoetzer](https://gitlab.com/lcoetzer)*|
 |[Transappenate](https://youtu.be/PAgcFV0wHjc)|| A mobile app for storing and cateogrising transactions. | *Appenate* |*[@matthew.alport](https://gitlab.com/matthew.alport)*|
 |[Receipt Scanner](https://youtu.be/0yVRTSd19Ac)|| Simple app to fire off messages from Go through Firebase Cloud Messenger. | *Go, Firebase Cloud Messaging* |*[@brian.entersekt](https://gitlab.com/brian.entersekt)*|
-|[InvestecPOC](https://youtu.be/3HDNL5CVwDs)|[<img src = "https://gitlab.com/wernerpereira/InvestecPOC/-/raw/master/main_architechture.png" width="200">](https://gitlab.com/wernerpereira/InvestecPOC)| Mobile App to categorise expenses. | *C#*, *Swift* |*[@WernerPereira](https://gitlab.com/wernerpereira)*|
+|[InvestecPOC](https://youtu.be/3HDNL5CVwDs)|[<img src = "https://gitlab.com/wernerpereira/InvestecPOC/-/raw/master/main_architechture.png" width="200">](https://gitlab.com/wernerpereira/InvestecPOC)| Mobile App to categorise expenses. | *C#*, *Swift* |@WernerPereira|
 |[Ur Command Center](https://youtu.be/addbahzP1ks)|[<img src = "https://gitlab.com/dale10/ur-command-center/-/raw/master/assets/CCArchitecture.png" width="200">](https://gitlab.com/dale10/ur-command-center)| Infrastructure to save transactions into S3. The idea is that S3 is the source of truth and this can be extended to trigger processing on object creation. That will come in a future iteration. | *AWS*, *Terraform*, *Lambda*, *S3*, *Grafana* |*[Dale Tristram @dale10](https://gitlab.com/dale10)*|
-|[Investec Logs](https://youtu.be/Hkv8qeScXQ0)|[investec-logs-functions](https://github.com/JeremyWalters/investec-logs-functions) AND [investec-logs-web](https://github.com/JeremyWalters/investec-logs-web)| System to log transactions to Google Firebase using NodeJS and a frontend view with VueJS. | *Firebase* |*[@JeremyWalters](https://github.com/JeremyWalters)*|
+|[Investec Logs](https://youtu.be/Hkv8qeScXQ0)|[investec-logs-functions](https://github.com/JeremyWalters/investec-logs-functions) AND [investec-logs-web](https://github.com/JeremyWalters/investec-logs-web)| System to log transactions to Google Firebase using NodeJS and a frontend view with VueJS. | *Firebase* |@JeremyWalters|
 |[Payments Splitter](https://youtu.be/qkFFE3aIGZc)|| An app that let's you split the bill for a transaction with a friend using their email address. | *Node, AWS* |*[@Yashu Tanna](yashutanna @yashutanna)*|
 |[Purple Pigger](https://youtu.be/5xiRrJbblc8?t=2841)|| Linked to the beforeTransaction function, PP checks all transactions (for now) and approves or declines them, to help you control budgets in certain periods. Keeping those wild nights, not too wild. I keep a mental count of my daily spending and how it affects my budget. Now I can get a machine to do it. Basically I'm lazy!. | *Firebase, Svelte* |*[@kamogelo.sebopelo](https://gitlab.com/kamogelo.sebopelo)*|
 |[Investec Oracle](https://youtu.be/tnpsjOFbkco?t=295)|[<img src = "https://gitlab.com/bezchristo/investec-command-center/-/raw/master/Investec.jpg" width="200">](https://gitlab.com/bezchristo/investec-command-center)| What it does: Routes data through cloud functions to Google pub/sub, to which I can add multiple subscriptions for different applications. Why create it? To serve as a base for all transactions to flow through and to which different applications can connect to to receive transaction data. I also wanted to have the ability to replay transactions, which Google pub/sub provides and make it easy for other users to be able to spin up their own command center with a few clicks.  | *Google Cloud Platform (Cloud functions, pub/sub, Firestore), Twillio, React, Zapper* |*[@bezchristo](https://gitlab.com/bezchristo)*|
@@ -31,7 +41,6 @@ We meet every Thursday at 6:30pm over Zoom to see demos from community members. 
 |[Transacational Insights](https://www.youtube.com/watch?v=R0i_UntwiIE)|[programmable-banking-power-bi-template](https://github.com/dalion619/programmable-banking-power-bi-template) AND [investec-openbanking-dotnet](https://github.com/dalion619/investec-openbanking-dotnet) AND [programmable-banking-cf-worker](https://github.com/dalion619/programmable-banking-cf-worker)| [Slide deck](https://docs.google.com/presentation/d/1XBhGZWm9jbvhSrpZJhqLMb6cuycb8UOYG8UFxtlUN88/edit) Data mining bank account transactions for meaningful insight. Low code approach that non-devs can use. | *PowerBI, Cloudflare, Azure Functions, Investec Open API* |*[@dalion619](https://gitlab.com/https://github.com/dalion619/)*|
 |[Vanilla Transaction Dashboard]()|[Go Backend](https://github.com/donohutcheon/gowebserver) AND [React Frontend](https://github.com/donohutcheon/reactwebclient)| [Slide deck](https://docs.google.com/presentation/d/1kBH-G9Zv5yPxfdevV6IXQ3Ithiss2aVihVOcM-cfdIc/edit#slide=id.g7757fe7c3f_0_105) - Why create it? Learn stuff: Primarily Go. But also React, Heroku. Build a dashboard to record my spending habits. Create a platform upon to build something cooler.  | *React, Go, Heroku* |@donohutcheon|
 |[demo](youtubelink)| description. |[<img src = "/imagelink.png" width="200">](repolink)| *Tech_Tools* |*[@author](https://gitlab.com/author)*|
-
 
 ## Some Useful Resources
 
