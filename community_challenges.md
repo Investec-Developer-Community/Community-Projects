@@ -50,7 +50,7 @@ These are challenges that are open to challenge acceptors i.e. **you!** Grab 'em
 | Challenge Completed | Challenge Completor |
 |-|-|
 |[.NET Standard 2.1 REST client for Investec's Open Banking aligned APIs](https://github.com/dalion619/investec-openbanking-dotnet)|[dalion619](https://github.com/dalion619/)|
-
+|[Java Wrapper for Investec Programmable Banking Open API](https://gitlab.com/vchegwidden/investec-openbanking-java)|@vchegwidden|
 ## The Bounty Box 🏆
 
 | Bounty | Description |
