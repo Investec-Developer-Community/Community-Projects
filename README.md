@@ -4,6 +4,13 @@
 
 👉 [community challenges:](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/blob/master/community_challenges.md) If you're looking for something to build, or want to challenge the community to build something.
 
+## Open source repos: Open API
+
+| Open Source Repo | Description | Tech Stack | Author |
+| - | - | - | - |
+| [investec-openbanking-dotnet](https://github.com/dalion619/investec-openbanking-dotnet) | C# Open API wrapper.  | *C#* | @dalion619 |
+| [Java Wrapper for Investec Programmable Banking Open API](https://gitlab.com/vchegwidden/investec-openbanking-java) | Java Open API wrapper.  | *Java* | @vchegwidden |
+
 ## Open source repos: programmable card
 
 | Open Source Repo | Description | Tech Stack | Author |
@@ -21,13 +28,6 @@
 | [programmable-banking-cf-worker](https://github.com/dalion619/programmable-banking-cf-worker) | Cloudflare worker.  | *Cloudflare* | @dalion619 |
 |[Go Backend](https://github.com/donohutcheon/gowebserver)|Go backend for programmable card transactions management.|*Go*|@donohutcheon|
 |[React Frontend](https://github.com/donohutcheon/reactwebclient)|React frontend for programmable card transactions management.|*React*|@donohutcheon|
-
-## Open source repos: Open API
-
-| Open Source Repo | Description | Tech Stack | Author |
-| - | - | - | - |
-| [investec-openbanking-dotnet](https://github.com/dalion619/investec-openbanking-dotnet) | C# Open API wrapper.  | *C#* | @dalion619 |
-| [Java Wrapper for Investec Programmable Banking Open API](https://gitlab.com/vchegwidden/investec-openbanking-java) | Java Open API wrapper.  | *Java* | @vchegwidden |
 
 
 ## Demos
