@@ -29,7 +29,6 @@ These are challenges that are open to challenge acceptors i.e. **you!** Grab 'em
 | As a user, it's hard to keep track of my daily allowance. | `Special challenge` Create code for a [magic mirror](https://youtu.be/BR_yko0gr-Y) that displays your spending habits and gives you advice based on those habits. | I can setup a magic mirror in my house so that I can easily be reminded of my current spending allowance. |
 | As a dev, I can't get timestamps from the Open API. | Create a library that merges times from card transactions with transactions from the Open API to give exact (where possible) and estimate timestamps to transactions. | I can use the library to enrich transaction data that comes back from the API. |
 | As a dev, I can't get a notification when a transaction happens on my account. | Build a notification system that checks an account via the API to find new transactions every minute. Also, create a webhook mechanism to push new transactions to another service.  | I can now set up actions to take place whenever a transaction occurs on my accounts. |
-| As a Ruby dev, I am hesitant to build an app due to the setup costs. | Build an Open API Ruby Wrapper | I'm much less hesitant to build awesome apps because there's a great Ruby wrapper for the API! |
 | As a Python dev, I am hesitant to build an app due to the setup costs. | Build an Open API Python Wrapper | I'm much less hesitant to build awesome apps because there's a great Python wrapper for the API! |
 | As a Go dev, I am hesitant to build an app due to the setup costs. | Build an Open API Go Wrapper | I'm much less hesitant to build awesome apps because there's a great Go wrapper for the API! |
 | As a user, I think Facebook is evil, so I'd like to be able to "chat" with my bank account via Telegram to find out information about my spending habits // As a dev, I'd like to easily be able to enable "conversations" between users and their accounts.  | Telegram chatbot that sends transactions as well as tooling to manage a conversation with the user. | I can now chat with my bank account using Telegram to find out information about my spending, woohoo! / I can easily create programmable banking Telegram chat apps, woohoo! |
@@ -43,7 +42,7 @@ These are challenges that are open to challenge acceptors i.e. **you!** Grab 'em
 | Problem | Challenge | Use Cases | Challenge Acceptor | Due |
 |-|-|-|-|-|
 | As an Elixir dev, I am hesitant to build an app due to the setup costs. | Build an Open API Elixir Wrapper | I'm much less hesitant to build awesome apps because there's a great Elixir wrapper for the API!|[Theo](https://gitlab.com/theodowling)|24 July 2020|
-
+| As a Ruby dev, I am hesitant to build an app due to the setup costs. | Build an Open API Ruby Wrapper | I'm much less hesitant to build awesome apps because there's a great Ruby wrapper for the API! |[jeriko1](https://gitlab.com/jeriko1)|24 July 2020|
 
 ## Completed challenges 🚀
 
