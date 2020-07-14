@@ -5,14 +5,14 @@
 
 |Upcoming Demos|Presenters|
 |-|-|
-|Thu 09 Jul|[Donovan 💬 @donohutcheon](https://gitlab.com/donohutcheon),|
-|Thu 16 Jul|[Pivendren Naik @pivendren](https://gitlab.com/pivendren), Ross Purdon|
-|Thu 23 Jul|[Jethro Flanagan @jethrof](https://gitlab.com/jethrof)|
-|Thu 30 Jul|[Adam Fisher @fisher.adam.online](https://gitlab.com/fisher.adam.online), Jacques|
-|Thu 06 Aug|[Lesiba Ramphele @lesibar](https://gitlab.com/lesibar), [Rendani Dau @rendani10](https://gitlab.com/rendani10)|
-|Thu 13 Aug|[Christo Steyn @steyncd](https://gitlab.com/steyncd),[Kamogelo Sebopelo @kamogelo.sebopelo](https://gitlab.com/kamogelo.sebopelo)|
-|Thu 20 Aug|[Michael Wallace Louwrens @mikewl](https://gitlab.com/mikewl), [Loic @LoicAn21](https://gitlab.com/LoicAn21)|
-|Thu 27 Aug|[Ben Janecke @benjanecke](https://gitlab.com/benjanecke), [Rathin Devat-Oogorah @Rathin1](https://gitlab.com/Rathin1)|
+|Thu 16 Jul|@pivendren, Ross Purdon|
+|Thu 23 Jul|@jethrof|
+|Thu 30 Jul|@fisher.adam.online, @jacousteau|
+|Thu 06 Aug|@lesibar,@rendani10|
+|Thu 13 Aug|@steyncd,@kamogelo.sebopelo|
+|Thu 20 Aug|@mikewl, @LoicAn21|
+|Thu 27 Aug|@benjanecke, @Rathin1|
+|Thu 03 Sep|@imraanp|
 
 |Past Demos|Presenters|
 |-|-|
@@ -28,4 +28,6 @@
 |Thu 11 Jun|[Daniel Davey @jeriko1](https://gitlab.com/jeriko1)|
 |Thu 18 Jun|[Lebo Morojele @lebo0](https://gitlab.com/lebo0), [Ferdi Schmidt @ferdis](https://gitlab.comferdis)|
 |Thu 25 Jun|[Jacques Coetsee @jacousteau](https://gitlab.com/jacousteau)|
+|Thu 02 Jul|@dalion619|
+|Thu 09 Jul|[Donovan 💬 @donohutcheon](https://gitlab.com/donohutcheon)|
 |Thu 02 Jul|[LioneL Chetty @dalion619](https://gitlab.com/dalion619)|
