@@ -11,8 +11,8 @@
 | [Transactional Insights](https://gitlab.com/grimx13/pdb-investec-transaction-insights) | Store programmable card transactions in Google Sheet | *AWS Serverless, Google Sheets* | @grimx13 |
 | [OfferZen Spend Tracker](https://github.com/offerzen/programmable-banking-glow) | First iteration of a team spending dashboard. | *JS, Google Script* | @jethrof @jeriko1 |
 | [InvestecPOC](https://gitlab.com/wernerpereira/InvestecPOC) | Store programmable card transactions in S3. Can be extended to trigger processing on object creation. | *C#*, *Swift* | @WernerPereira |
-| [investec-logs-functions](https://github.com/JeremyWalters/investec-logs-functions) | Store programmable card transactions in Firebase. | *JS, Firebase* | @JeremyWalters |
-| [investec-logs-web](https://github.com/JeremyWalters/investec-logs-web) | A Vue frontend for Firebase (builds on [investec-logs-functions](https://github.com/JeremyWalters/investec-logs-functions)  | *Vue* | @JeremyWalters |
+| [investec-logs-functions](https://github.com/JeremyWalters/investec-logs-functions) | Store programmable card transactions in Firebase. | *JS, Firebase* | [@JeremyWalters](https://github.com/JeremyWalters/) |
+| [investec-logs-web](https://github.com/JeremyWalters/investec-logs-web) | A Vue frontend for Firebase (builds on [investec-logs-functions](https://github.com/JeremyWalters/investec-logs-functions)  | *Vue* | [@JeremyWalters](https://github.com/JeremyWalters/) |
 
 ## Demos
 
