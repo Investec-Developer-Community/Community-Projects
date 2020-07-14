@@ -27,6 +27,8 @@
 | Open Source Repo | Description | Tech Stack | Author |
 | - | - | - | - |
 | [investec-openbanking-dotnet](https://github.com/dalion619/investec-openbanking-dotnet) | C# Open API wrapper.  | *C#* | @dalion619 |
+| [Java Wrapper for Investec Programmable Banking Open API](https://gitlab.com/vchegwidden/investec-openbanking-java) | Java Open API wrapper.  | *Java* | @vchegwidden |
+
 
 ## Demos
 
