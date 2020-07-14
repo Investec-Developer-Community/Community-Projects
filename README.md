@@ -8,11 +8,20 @@
 
 | Open Source Repo | Description | Tech Stack | Author |
 | - | - | - | - |
-| [Transactional Insights](https://gitlab.com/grimx13/pdb-investec-transaction-insights) | Store programmable card transactions in Google Sheet | *AWS Serverless, Google Sheets* | @grimx13 |
-| [OfferZen Spend Tracker](https://github.com/offerzen/programmable-banking-glow) | First iteration of a team spending dashboard. | *JS, Google Script* | @jethrof @jeriko1 |
+| [pdb-investec-transaction-insights](https://gitlab.com/grimx13/pdb-investec-transaction-insights) | Store programmable card transactions in Google Sheet | *AWS Serverless, Google Sheets* | @grimx13 |
+| [programmable-banking-glow](https://github.com/offerzen/programmable-banking-glow) | First iteration of a team spending dashboard. | *JS, Google Script* | @jethrof @jeriko1 |
 | [InvestecPOC](https://gitlab.com/wernerpereira/InvestecPOC) | Store programmable card transactions in S3. Can be extended to trigger processing on object creation. | *C#*, *Swift* | @WernerPereira |
+| [ur-command-center](https://gitlab.com/dale10/ur-command-center) | Infrastructure to save programmable card transactions into S3. | *C#*, *Swift* | @dale10 |
 | [investec-logs-functions](https://github.com/JeremyWalters/investec-logs-functions) | Store programmable card transactions in Firebase. | *JS, Firebase* | [@JeremyWalters](https://github.com/JeremyWalters/) |
 | [investec-logs-web](https://github.com/JeremyWalters/investec-logs-web) | A Vue frontend for Firebase (builds on [investec-logs-functions](https://github.com/JeremyWalters/investec-logs-functions)  | *Vue* | [@JeremyWalters](https://github.com/JeremyWalters/) |
+| [investec-command-center](https://gitlab.com/bezchristo/investec-command-center) | Process investec programmable card transactions via GCP services  | *GCP, JS* | @bezchristo |
+| [programmable-banking-rules](https://gitlab.com/HagashenNaidu/programmable-banking-rules) | A Blazor WebAssembly app that uses a Warewolf back-end to allow the customization of rules for accepting/declining transactions using Investec's Programmable Banking platform.  | *Blazor WebAssembly, Warewolf.* | @HagashenNaidu |
+| [ynab-sync](https://github.com/ferdis/ynab-sync) | Sync programmable banking card transactions with YNAB.  | *YNAB, Python.* | [@ferdis](https://github.com/ferdis) |
+| [programmable-banking-power-bi-template](https://github.com/dalion619/programmable-banking-power-bi-template) | Sync programmable banking card transactions with PowerBI.  | *PowerBI* | @dalion619 |
+| [investec-openbanking-dotnet](https://github.com/dalion619/investec-openbanking-dotnet) | C# Open API wrapper.  | *C#* | @dalion619 |
+| [programmable-banking-cf-worker](https://github.com/dalion619/programmable-banking-cf-worker) | Cloudflare worker.  | *Cloudflare* | @dalion619 |
+|[Go Backend](https://github.com/donohutcheon/gowebserver)|Go backend for programmable card transactions management.|*Go*|@donohutcheon|
+|[React Frontend](https://github.com/donohutcheon/reactwebclient)|React frontend for programmable card transactions management.|*React*|@donohutcheon|
 
 ## Demos
 
