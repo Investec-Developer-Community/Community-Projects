@@ -4,7 +4,7 @@
 
 👉 [community challenges:](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/blob/master/community_challenges.md) If you're looking for something to build, or want to challenge the community to build something.
 
-## Open source repos
+## Open source repos: programmable card
 
 | Open Source Repo | Description | Tech Stack | Author |
 | - | - | - | - |
@@ -18,10 +18,15 @@
 | [programmable-banking-rules](https://gitlab.com/HagashenNaidu/programmable-banking-rules) | A Blazor WebAssembly app that uses a Warewolf back-end to allow the customization of rules for accepting/declining transactions using Investec's Programmable Banking platform.  | *Blazor WebAssembly, Warewolf* | @HagashenNaidu |
 | [ynab-sync](https://github.com/ferdis/ynab-sync) | Sync programmable banking card transactions with YNAB.  | *YNAB, Python.* | [@ferdis](https://github.com/ferdis) |
 | [programmable-banking-power-bi-template](https://github.com/dalion619/programmable-banking-power-bi-template) | Sync programmable banking card transactions with PowerBI.  | *PowerBI* | @dalion619 |
-| [investec-openbanking-dotnet](https://github.com/dalion619/investec-openbanking-dotnet) | C# Open API wrapper.  | *C#* | @dalion619 |
 | [programmable-banking-cf-worker](https://github.com/dalion619/programmable-banking-cf-worker) | Cloudflare worker.  | *Cloudflare* | @dalion619 |
 |[Go Backend](https://github.com/donohutcheon/gowebserver)|Go backend for programmable card transactions management.|*Go*|@donohutcheon|
 |[React Frontend](https://github.com/donohutcheon/reactwebclient)|React frontend for programmable card transactions management.|*React*|@donohutcheon|
+
+## Open source repos: Open API
+
+| Open Source Repo | Description | Tech Stack | Author |
+| - | - | - | - |
+| [investec-openbanking-dotnet](https://github.com/dalion619/investec-openbanking-dotnet) | C# Open API wrapper.  | *C#* | @dalion619 |
 
 ## Demos
 
