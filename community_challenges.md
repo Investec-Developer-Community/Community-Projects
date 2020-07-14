@@ -47,10 +47,8 @@ These are challenges that are open to challenge acceptors i.e. **you!** Grab 'em
 
 ## Completed challenges 🚀
 
-| Challenge Completed | Challenge Completor |
-|-|-|
-|[.NET Standard 2.1 REST client for Investec's Open Banking aligned APIs](https://github.com/dalion619/investec-openbanking-dotnet)|[dalion619](https://github.com/dalion619/)|
-|[Java Wrapper for Investec Programmable Banking Open API](https://gitlab.com/vchegwidden/investec-openbanking-java)|@vchegwidden|
+[See community projects.](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/blob/master/README.md)
+
 ## The Bounty Box 🏆
 
 | Bounty | Description |
