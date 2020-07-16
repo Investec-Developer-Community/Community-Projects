@@ -5,7 +5,6 @@
 
 |Upcoming Demos|Presenters|
 |-|-|
-
 |Thu 23 Jul|@jethrof, Ross Purdon|
 |Thu 30 Jul|@fisher.adam.online, @jacousteau|
 |Thu 06 Aug|@lesibar, @rendani10|
