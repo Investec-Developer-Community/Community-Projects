@@ -5,10 +5,10 @@
 
 |Upcoming Demos|Presenters|
 |-|-|
-|Thu 16 Jul|@pivendren, Ross Purdon|
-|Thu 23 Jul|@jethrof|
+
+|Thu 23 Jul|@jethrof, Ross Purdon|
 |Thu 30 Jul|@fisher.adam.online, @jacousteau|
-|Thu 06 Aug|@lesibar,@rendani10|
+|Thu 06 Aug|@lesibar, @rendani10|
 |Thu 13 Aug|@steyncd,@kamogelo.sebopelo|
 |Thu 20 Aug|@mikewl, @LoicAn21|
 |Thu 27 Aug|@benjanecke, @Rathin1|
@@ -29,5 +29,5 @@
 |Thu 18 Jun|[Lebo Morojele @lebo0](https://gitlab.com/lebo0), [Ferdi Schmidt @ferdis](https://gitlab.comferdis)|
 |Thu 25 Jun|[Jacques Coetsee @jacousteau](https://gitlab.com/jacousteau)|
 |Thu 02 Jul|@dalion619|
-|Thu 09 Jul|[Donovan 💬 @donohutcheon](https://gitlab.com/donohutcheon)|
-|Thu 02 Jul|[LioneL Chetty @dalion619](https://gitlab.com/dalion619)|
+|Thu 09 Jul|@donohutcheon|
+|Thu 16 Jul|@pivendren|
