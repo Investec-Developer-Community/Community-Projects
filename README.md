@@ -11,6 +11,7 @@
 | [investec-openbanking-dotnet](https://github.com/dalion619/investec-openbanking-dotnet) | C# Open API wrapper.  | *C#* | @dalion619 |
 | [Java Wrapper for Investec Programmable Banking Open API](https://gitlab.com/vchegwidden/investec-openbanking-java) | Java Open API wrapper.  | *Java* | @vchegwidden |
 | [investec-openbanking-python](https://gitlab.com/vchegwidden/investec-openbanking-python) | Python Open API Wrapper. | *Python* | @vchegwidden |
+| [investec-openapi](https://github.com/barrymichaeldoyle/investec-openapi) | JavaScript Open API Wrapper. | *JavaScript/TypeScript* | @barrymichaeldoyle |
 
 
 ## Open source repos: programmable card
