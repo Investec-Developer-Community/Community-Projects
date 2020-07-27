@@ -7,11 +7,11 @@
 |-|-|
 |Thu 23 Jul|@jethrof, Ross Purdon|
 |Thu 30 Jul|@fisher.adam.online, @jacousteau|
-|Thu 06 Aug|@lesibar, @rendani10|
+|Thu 06 Aug|, @rendani10|
 |Thu 13 Aug|@steyncd,@kamogelo.sebopelo|
 |Thu 20 Aug|@mikewl, @LoicAn21|
 |Thu 27 Aug|@benjanecke, @Rathin1|
-|Thu 03 Sep|@imraanp|
+|Thu 03 Sep|@imraanp, @lesibar|
 
 |Past Demos|Presenters|
 |-|-|
