@@ -12,6 +12,7 @@
 | [Java Wrapper for Investec Programmable Banking Open API](https://gitlab.com/vchegwidden/investec-openbanking-java) | Java Open API wrapper.  | *Java* | @vchegwidden |
 | [investec-openbanking-python](https://gitlab.com/vchegwidden/investec-openbanking-python) | Python Open API Wrapper. | *Python* | @vchegwidden |
 | [investec-openapi](https://github.com/barrymichaeldoyle/investec-openapi) | JavaScript Open API Wrapper. | *JavaScript/TypeScript* | @barrymichaeldoyle |
+| [openbanking-investec-dashboard](https://github.com/pivendren/openbanking-investec-dashboard) | Component based dashboard configurable by user. ([slides](https://docs.google.com/presentation/d/1yP8lLos60CFcL3dhWuKQf_u6_FRtzdoGEA5iS1Xv3Qo/edit#slide=id.g7757fe7c3f_0_105)), ([demo](https://www.youtube.com/watch?v=F7qDvejZs9o&amp;t=1)) | *Blazor WebAssembly, Entity Framework, .NET Core, ML.NET, SQL DB, Azure Functions* | [@pivendren](https://github.com/pivendren) |
 
 
 ## Open source repos: programmable card
@@ -59,7 +60,8 @@ We meet every Thursday at 6:30pm over Zoom to see demos from community members. 
 |[Toshigotchi](https://www.youtube.com/watch?v=KEVJDwFvO_s)||[Slide deck](https://docs.google.com/presentation/d/1TmDkEkm6mM5yEW_A91EzmFRzayzupH9th3WGVQBLnIE/edit) - What it is: Create an emotional connection to your spending habits. Money is a very emotionally charged topic and there we should be ways to make it more personable & relatable so we can react better to various financial circumstances.||@jacousteau|
 |[Transacational Insights](https://www.youtube.com/watch?v=R0i_UntwiIE)|[programmable-banking-power-bi-template](https://github.com/dalion619/programmable-banking-power-bi-template) AND [investec-openbanking-dotnet](https://github.com/dalion619/investec-openbanking-dotnet) AND [programmable-banking-cf-worker](https://github.com/dalion619/programmable-banking-cf-worker)| [Slide deck](https://docs.google.com/presentation/d/1XBhGZWm9jbvhSrpZJhqLMb6cuycb8UOYG8UFxtlUN88/edit) Data mining bank account transactions for meaningful insight. Low code approach that non-devs can use. | *PowerBI, Cloudflare, Azure Functions, Investec Open API* |*[@dalion619](https://gitlab.com/https://github.com/dalion619/)*|
 |[Vanilla Transaction Dashboard]()|[Go Backend](https://github.com/donohutcheon/gowebserver) AND [React Frontend](https://github.com/donohutcheon/reactwebclient)| [Slide deck](https://docs.google.com/presentation/d/1kBH-G9Zv5yPxfdevV6IXQ3Ithiss2aVihVOcM-cfdIc/edit#slide=id.g7757fe7c3f_0_105) - Why create it? Learn stuff: Primarily Go. But also React, Heroku. Build a dashboard to record my spending habits. Create a platform upon to build something cooler.  | *React, Go, Heroku* |@donohutcheon|
-|[demo](youtubelink)| description. |[<img src = "/imagelink.png" width="200">](repolink)| *Tech_Tools* |*[@author](https://gitlab.com/author)*|
+|[Money Report Dashboard Mirror](https://youtu.be/F7qDvejZs9o)| [<img src = "/images/projectSystemDiagrams/pivendrenDashboard.png" width="200">](https://github.com/pivendren/openbanking-investec-dashboard) |[Slide deck](https://docs.google.com/presentation/d/1yP8lLos60CFcL3dhWuKQf_u6_FRtzdoGEA5iS1Xv3Qo/edit#slide=id.g7757fe7c3f_0_105) Component based dashboard configurable by user.| *Blazor WebAssembly, Entity Framework, .NET Core, ML.NET, SQL DB, Azure Functions* |*[@pivendren](https://github.com/pivendren)*|
+|[demo](youtubelink)| [<img src = "/imagelink.png" width="200">](repolink) |[Slide deck](slidesURL) - description.| *Tech_Tools* |*[@author](https://gitlab.com/author)*|
 
 ## Some Useful Resources
 
