@@ -11,7 +11,7 @@
 |Thu 20 Aug|@mikewl, @LoicAn21|
 |Thu 27 Aug|@benjanecke, @Rathin1|
 |Thu 03 Sep|@imraanp, @lesibar|
-|Thu 03 Sep|@naartjie, |
+|Thu 10 Sep|@naartjie, |
 
 |Past Demos|Presenters|
 |-|-|
