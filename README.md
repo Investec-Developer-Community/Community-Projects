@@ -33,7 +33,6 @@
 | [programmable-banking-cf-worker](https://github.com/dalion619/programmable-banking-cf-worker) | Cloudflare worker.  | *Cloudflare* | @dalion619 |
 |[Go Backend](https://github.com/donohutcheon/gowebserver)|Go backend for programmable card transactions management.|*Go*|@donohutcheon|
 |[React Frontend](https://github.com/donohutcheon/reactwebclient)|React frontend for programmable card transactions management.|*React*|@donohutcheon|
-|[Command Center Bridge](https://gitlab.com/fisher.adam.online/command-center-bridge)|A bridge solution for other programmable banking solutions that enables a single point of contact for approval determination and secure transaction forwarding to other APIs.|*TypeScript, JavaScript*|@fisher.adam.online|
 
 
 ## Demos
