@@ -19,6 +19,7 @@
 
 | Open Source Repo | Description | Tech Stack | Author |
 | - | - | - | - |
+| [command-center-bridge](https://gitlab.com/fisher.adam.online/command-center-bridge) | A bridge solution for other programmable banking solutions that enables a single point of contact for approval determination and secure transaction forwarding to other APIs. Constructed in conjunction with [aws-cdk-js-dev-guide](https://github.com/therightstuff/aws-cdk-js-dev-guide).  | *Tools: CDK (a mix of TypeScript and Javascript) Components: AWS: api-gateway, lambda, sqs, dynamodb* | [@fisher.adam.online](https://gitlab.com/fisher.adam.online) |
 | [pdb-investec-transaction-insights](https://gitlab.com/grimx13/pdb-investec-transaction-insights) | Store programmable card transactions in Google Sheet | *AWS Serverless, Google Sheets* | @grimx13 |
 | [programmable-banking-glow](https://github.com/offerzen/programmable-banking-glow) | First iteration of a team spending dashboard. | *JS, Google Script* | @jethrof @jeriko1 |
 | [InvestecPOC](https://gitlab.com/wernerpereira/InvestecPOC) | Store programmable card transactions in S3. Can be extended to trigger processing on object creation. | *C#*, *Swift* | @WernerPereira |
