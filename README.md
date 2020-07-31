@@ -33,6 +33,7 @@
 | [programmable-banking-cf-worker](https://github.com/dalion619/programmable-banking-cf-worker) | Cloudflare worker.  | *Cloudflare* | @dalion619 |
 |[Go Backend](https://github.com/donohutcheon/gowebserver)|Go backend for programmable card transactions management.|*Go*|@donohutcheon|
 |[React Frontend](https://github.com/donohutcheon/reactwebclient)|React frontend for programmable card transactions management.|*React*|@donohutcheon|
+|[Command Center Bridge](https://gitlab.com/fisher.adam.online/command-center-bridge)|A bridge solution for other programmable banking solutions that enables a single point of contact for approval determination and secure transaction forwarding to other APIs.|*TypeScript, JavaScript*|@fisher.adam.online|
 
 
 ## Demos
@@ -72,6 +73,10 @@ We meet every Thursday at 6:30pm over Zoom to see demos from community members. 
 
 - [Cloudflare Auth0](https://developers.cloudflare.com/workers/tutorials/user-auth-with-auth0)
 - [auth0.com](auth0.com)
+
+### AWS CDK
+
+- [aws-cdk-js-dev-guide](https://github.com/therightstuff/aws-cdk-js-dev-guide)
 
 ### CI/CD
 
