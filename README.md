@@ -13,6 +13,7 @@
 | [investec-openbanking-python](https://gitlab.com/vchegwidden/investec-openbanking-python) | Python Open API Wrapper. | *Python* | @vchegwidden |
 | [investec-openapi](https://github.com/barrymichaeldoyle/investec-openapi) | JavaScript Open API Wrapper. | *JavaScript/TypeScript* | @barrymichaeldoyle |
 | [openbanking-investec-dashboard](https://github.com/pivendren/openbanking-investec-dashboard) | Component based dashboard configurable by user. ([slides](https://docs.google.com/presentation/d/1yP8lLos60CFcL3dhWuKQf_u6_FRtzdoGEA5iS1Xv3Qo/edit#slide=id.g7757fe7c3f_0_105)), ([demo](https://www.youtube.com/watch?v=F7qDvejZs9o&amp;t=1)) | *Blazor WebAssembly, Entity Framework, .NET Core, ML.NET, SQL DB, Azure Functions* | [@pivendren](https://github.com/pivendren) |
+| [Investec Open Banking CLI](https://github.com/adrianhopebailie/investec) | An interactive CLI application for communicating with the Investec Open Banking APIs. Built with [Deno](https://deno.land/). | *Deno, TS* | [@adrianhopebailie](https://github.com/adrianhopebailie) |
 
 
 ## Open source repos: programmable card
