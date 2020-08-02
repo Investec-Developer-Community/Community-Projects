@@ -16,7 +16,7 @@
 | [Investec Open Banking CLI](https://github.com/adrianhopebailie/investec) | An interactive CLI application for communicating with the Investec Open Banking APIs. Built with [Deno](https://deno.land/). | *Deno, TS* | [@adrianhopebailie](https://github.com/adrianhopebailie) |
 | Ruby [Gem](https://rubygems.org/gems/investec_open_api) and [Wrapper](https://github.com/Offerzen/investec_open_api) | Ruby Gem and Wrapper for the Investec Open API. | *Ruby* | [@OfferZen](https://github.com/Offerzen) |
 | [investec-openapi](https://github.com/barrymichaeldoyle/investec-openapi) | JavaScript Open API Wrapper. | *JavaScript/TypeScript* | @barrymichaeldoyle |
-
+| [Elixir Package](https://hex.pm/packages/investec_open_api) | Elixir Package for the Investec Open API. It can also be used as a [Wrapper](https://gitlab.com/theodowling/elixir-investec-open-api) for the API. | *Elixir* | [@theodowling](https://gitlab.com/theodowling) |
 
 ## Open source repos: programmable card
 
