@@ -1,10 +1,15 @@
-# Investec Programmable Banking Community Projects
+# Open Source Projects
 
 `Let's make Open Banking a reality by building, sharing and connecting!`
 
 👉 [Community challenges:](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/blob/master/community_challenges.md) If you're looking for something to build, or want to challenge the community to build something. The intention with community challenges is to incentivise the creation of "building blocks" in the form of reusable libraries, utilities and code snippets. This should reduce the effort required for others in the community to build personal and business projects.
 
-## Open source repos: Open API
+## Built with Investec Business Banking
+| Open Source Repo | Description | Tech Stack | Author |
+| - | - | - | - |
+| [Team Spend Tracker](https://github.com/Offerzen/roz) | Financial recon for teams using who use Investec Business Banking and the Open API.  | *Ruby on Rails, PostgreSQL, Heroku* | *[@OfferZen](https://github.com/Offerzen/investec_open_api)* |
+
+## Built with Investec Open API
 
 | Open Source Repo | Description | Tech Stack | Author |
 | - | - | - | - |
@@ -17,7 +22,7 @@
 | Ruby [Gem](https://rubygems.org/gems/investec_open_api) and [Wrapper](https://github.com/Offerzen/investec_open_api) | Ruby Gem and Wrapper for the Investec Open API. | *Ruby* | [@OfferZen](https://github.com/Offerzen) |
 | [Elixir Package](https://hex.pm/packages/investec_open_api) | Elixir Package for the Investec Open API. It can also be used as a [Wrapper](https://gitlab.com/theodowling/elixir-investec-open-api) for the API. | *Elixir* | [@theodowling](https://gitlab.com/theodowling) |
 
-## Open source repos: programmable card
+## Built with Investec Programmable Card
 
 | Open Source Repo | Description | Tech Stack | Author |
 | - | - | - | - |
