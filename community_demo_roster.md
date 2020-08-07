@@ -5,8 +5,6 @@
 
 |Upcoming Demos|Presenters|
 |-|-|
-|Thu 30 Jul|@fisher.adam.online, |
-|Thu 06 Aug|OfferZen Team, @rendani10|
 |Thu 13 Aug|@steyncd,@kamogelo.sebopelo|
 |Thu 20 Aug|@mikewl, @LoicAn21|
 |Thu 27 Aug|@benjanecke, @Rathin1|
@@ -31,3 +29,5 @@
 |Thu 09 Jul|@donohutcheon|
 |Thu 16 Jul|@pivendren|
 |Thu 23 Jul|@jethrof, Ross Purdon|
+|Thu 30 Jul|@fisher.adam.online, |
+|Thu 06 Aug|OfferZen Team, @rendani10|
