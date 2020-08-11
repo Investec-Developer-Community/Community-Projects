@@ -5,9 +5,9 @@
 
 |Upcoming Demos|Presenters|
 |-|-|
-|Thu 13 Aug|@steyncd,@kamogelo.sebopelo|
+|Thu 13 Aug|@kamogelo.sebopelo|
 |Thu 20 Aug|@mikewl, @LoicAn21|
-|Thu 27 Aug|@benjanecke, @Rathin1|
+|Thu 27 Aug||
 |Thu 03 Sep|@imraanp, @lesibar|
 |Thu 10 Sep|@naartjie, |
 
