@@ -37,7 +37,6 @@ These are challenges that are open to challenge acceptors i.e. **you!** Grab 'em
 | - | - | - |
 | As a dev, I can't get timestamps from the Open API. | Create a library that merges times from card transactions with transactions from the Open API to give exact (where possible) and estimate timestamps to transactions. | I can use the library to enrich transaction data that comes back from the API. |
 | As a Go dev, I am hesitant to build an app due to the setup costs. | Build an Open API Go Wrapper | I'm much less hesitant to build awesome apps because there's a great Go wrapper for the API! |
-| As an Elixir dev, I am hesitant to build an app due to the setup costs. | Build an Open API Elixir Wrapper | I'm much less hesitant to build awesome apps because there's a great Elixir wrapper for the API! Open API Elixir Wrapper|@theodowling|24 July 2020|
 
 ### PoCs
 
@@ -57,6 +56,7 @@ These are challenges that are open to challenge acceptors i.e. **you!** Grab 'em
 | `R10k challenge 🤑` As a business, it's a pain for us to import our transactions into Sage's Business Accounting software. | Build an integration using the [Sage Business API](https://www.sage.com/en-za/sage-business-cloud/accounting/developer-api/) that enables a financial manager to click a button to sync transactions in Sage with Investec transactions. You will need to reformat the transaction data to match Sage's format. Make a clear guide on how to set this up for a user. | As a user, if I have Programmable Banking, I can easily setup an integration with Sage Business to automatically import my transactions. |@imraanp|30 July|
 | As a user, it's hard to keep track of my daily allowance. // As a dev, I'd like to help a user have better visibility into their spending. | `Special challenge` Create code/software for a [magic mirror](https://youtu.be/BR_yko0gr-Y) that displays your spending habits and gives you advice based on those habits. The code/software needs to be well documented and make it really simple for other devs to build and configure their own magic mirror dashboards. | I can setup a magic mirror in my house so that I can easily be reminded of my current spending allowance. |@theodowling|26 July 2020|
 | As a dev, I can't listen for the event when a transaction is recorded on my bank account. | Build a system that checks an account via the API to find new transactions every minute. Also, create a webhook mechanism to push new transactions to another service.  | I can now set up actions to take place whenever a transaction occurs on my accounts. |@renenw |30 July 2020|
+| As a Go dev, I am hesitant to build an app due to the setup costs. | Build an Open API Go Wrapper | I'm much less hesitant to build awesome apps because there's a great Go wrapper for the API! |@nickcorin |28 Aug 2020|
 
 ## Completed challenges 🚀
 
