@@ -36,7 +36,7 @@ These are challenges that are open to challenge acceptors i.e. **you!** Grab 'em
 | Problem | Challenge | Use Cases |
 | - | - | - |
 | As a dev, I can't get timestamps from the Open API. | Create a library that merges times from card transactions with transactions from the Open API to give exact (where possible) and estimate timestamps to transactions. | I can use the library to enrich transaction data that comes back from the API. |
-| As a Go dev, I am hesitant to build an app due to the setup costs. | Build an Open API Go Wrapper | I'm much less hesitant to build awesome apps because there's a great Go wrapper for the API! |
+| As a Rust dev, I am hesitant to build an app due to the setup costs. | Build an Open API Rust Wrapper | I'm much less hesitant to build awesome apps because there's a great Rust wrapper for the API! |
 
 ### PoCs
 
