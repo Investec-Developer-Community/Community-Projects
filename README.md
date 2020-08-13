@@ -40,6 +40,7 @@
 | [programmable-banking-cf-worker](https://github.com/dalion619/programmable-banking-cf-worker) | Cloudflare worker.  | *Cloudflare* | @dalion619 |
 |[Go Backend](https://github.com/donohutcheon/gowebserver)|Go backend for programmable card transactions management.|*Go*|@donohutcheon|
 |[React Frontend](https://github.com/donohutcheon/reactwebclient)|React frontend for programmable card transactions management.|*React*|@donohutcheon|
+|[Investec Query Bot](https://github.com/lebomorojele/investecbot)|A NLP service for interpreting transaction data from Investec Programmable Card API 🤖|*Python, Flask, SQLAlchemy, Rasa*|@lebo0|
 
 
 ## Demos
