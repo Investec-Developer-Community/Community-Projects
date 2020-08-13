@@ -27,6 +27,7 @@
 | Open Source Repo | Description | Tech Stack | Author |
 | - | - | - | - |
 | [Command center bridge](https://gitlab.com/fisher.adam.online/command-center-bridge) | A bridge solution for other programmable banking solutions that enables a single point of contact for approval determination and secure transaction forwarding to other APIs. Constructed in conjunction with [aws-cdk-js-dev-guide](https://github.com/therightstuff/aws-cdk-js-dev-guide).  | *Tools: CDK (a mix of TypeScript and Javascript) Components: AWS: api-gateway, lambda, sqs, dynamodb* | [@fisher.adam.online](https://gitlab.com/fisher.adam.online) |
+|[Investec Query Bot](https://github.com/lebomorojele/investecbot)|A NLP service for interpreting transaction data from Investec Programmable Card API 🤖|*Python, Flask, SQLAlchemy, Rasa*|@lebo0|
 | [pdb-investec-transaction-insights](https://gitlab.com/grimx13/pdb-investec-transaction-insights) | Store programmable card transactions in Google Sheet | *AWS Serverless, Google Sheets* | @grimx13 |
 | [programmable-banking-glow](https://github.com/offerzen/programmable-banking-glow) | First iteration of a team spending dashboard. | *JS, Google Script* | @jethrof @jeriko1 |
 | [InvestecPOC](https://gitlab.com/wernerpereira/InvestecPOC) | Store programmable card transactions in S3. Can be extended to trigger processing on object creation. | *C#*, *Swift* | @WernerPereira |
@@ -40,7 +41,6 @@
 | [programmable-banking-cf-worker](https://github.com/dalion619/programmable-banking-cf-worker) | Cloudflare worker.  | *Cloudflare* | @dalion619 |
 |[Go Backend](https://github.com/donohutcheon/gowebserver)|Go backend for programmable card transactions management.|*Go*|@donohutcheon|
 |[React Frontend](https://github.com/donohutcheon/reactwebclient)|React frontend for programmable card transactions management.|*React*|@donohutcheon|
-|[Investec Query Bot](https://github.com/lebomorojele/investecbot)|A NLP service for interpreting transaction data from Investec Programmable Card API 🤖|*Python, Flask, SQLAlchemy, Rasa*|@lebo0|
 
 
 ## Demos
