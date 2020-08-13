@@ -6,8 +6,8 @@
 |Upcoming Demos|Presenters|
 |-|-|
 |Thu 13 Aug|@imraanp, @adrianhopebailie|
-|Thu 20 Aug|@mikewl, @LoicAn21|
-|Thu 27 Aug|@kamogelo.sebopelo|
+|Thu 20 Aug|@mikewl,@kamogelo.sebopelo|
+|Thu 27 Aug|@LoicAn21|
 |Thu 03 Sep|@imraanp, @lesibar|
 |Thu 10 Sep|@naartjie, |
 
