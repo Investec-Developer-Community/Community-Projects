@@ -8,55 +8,14 @@ Challenge acceptors create open source software by completing community challeng
 
 ## Submit a challenge
 
-- **To submit a new challenge**: Add the challenge to the `Open challenges` table by [editing `this` page](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/edit/master/community_challenges.md), and submit a merge request.
-- *Challenges should drive acceptors to create code that is reusable by the rest of the community.*
+**To submit a new challenge**: Add an issue to the "Submitted Challenges" list on the [Command Center Issues Board](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/boards/1927995). Use [this template](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/issues/30).
 
 ## Accept a challenge
 
-1. **Accepting a challenge:** Move the challenge into the `Accepted challenges` table, by [editing `this` page](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/edit/master/community_challenges.md), and submit a merge request.
+1. **Accepting a challenge:** Assign yourself to an issue on the [Command Center Issues Board](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/boards/1927995). Move the issue into the `Accepted Challenges` list.
 2. **Build and publish code:** Build a solution, submit your code repo and get featured on the community Gitlab.
 3. **Demo your solution:** Book a demo at the weekly meetup and get featured on the community Youtube channel.
 4. **Claim a reward:** We will reward you with one of the prizes from The Bounty Box.
-
-## Open challenges
-
-These are challenges that are open to challenge acceptors i.e. **you!** Grab 'em while they're hot ;)
-
-### Integrations
-
-| Problem | Challenge | Use Cases |
-| - | - | - |
-| As a user, it's a pain to import my transactions into Sage One's Accounting software. | Build an integration using the [Sage One API](https://accounting.sageone.co.za/api/1.1.1) | As a user, if I have Programmable Banking, I can easily setup an integration with Sage One to automatically import my transactions. |
-| As a user, it's a pain to import my transactions into Xero's Accounting software. | Build an integration using the [Xero API](https://developer.xero.com/) | As a user, if I have Programmable Banking, I can easily setup an integration with Sage to automatically import my transactions. |
-| As a user, I want to "chat" with my bank account via Telegram to find out information about my spending habits // As a dev, I'd like to easily be able to enable "conversations" between users and their accounts.  | Telegram chatbot that sends transactions as well as tooling to manage a conversation with the user. | I can now chat with my bank account using Telegram to find out information about my spending, woohoo! / I can easily create programmable banking Telegram chat apps, woohoo! |
-| As a user, I want to "chat" with my bank account via WhatsApp to find out information about my spending habits // As a dev, I'd like to easily be able to enable "conversations" between users and their accounts.  | WhatsApp chatbot that sends transactions as well as tooling to manage a conversation with the user. | I can now chat with my bank account using WhatsApp to find out information about my spending, woohoo! / I can easily create programmable banking Telegram chat apps, woohoo! |
-
-### Libraries / wrappers
-
-| Problem | Challenge | Use Cases |
-| - | - | - |
-| As a dev, I can't get timestamps from the Open API. | Create a library that merges times from card transactions with transactions from the Open API to give exact (where possible) and estimate timestamps to transactions. | I can use the library to enrich transaction data that comes back from the API. |
-| As a Rust dev, I am hesitant to build an app due to the setup costs. | Build an Open API Rust Wrapper | I'm much less hesitant to build awesome apps because there's a great Rust wrapper for the API! |
-
-### PoCs
-
-| Problem | Challenge | Use Cases |
-| - | - | - |
-| As a user, I am hesitant to share my transaction data with app developers. | Create a JavaScript function that anonymises transaction data and sends the data to a centralised DB.| I can use the code script in my Programmable Banking IDE to share my data while keeping anonymity. |
-| As a user, I am sensitive about sharing my data for machine learning purposes. | `Epic challenge` Build a [federated learning](https://federated.withgoogle.com/) app that can be used by the rest of the community to train an AI on transaction data, while keeping a client anonymous. | I can download an app that shares the learning data from my transactions while keeping my actual data and identity abstracted and anonymous, respectively. |
-| As a user, I can't go full Minority report with my bank account. <img src = "https://memegenerator.net/img/instances/71965450.jpg" width="150"> | Create an augmented reality app so that a user can engage with their bank account in 3d virtual space. | As a user, I'm inside the computer! |
-| As a user, I don't want to interact with my bank account/budget through a screen. | Build a reusable voice module that can be used to build a watch app / Google Home app that allows you to issue the commands. | As a user I can ask my voice assistant: Categorize transaction just made. What was my last transaction? Give me a list of recent transactions, or transactions on a specific day. What was my last payment made to merchant? value/category/when. When was my last payment to merchant? |
-| As a developer I want to be able to classify and reclassify transactions based on historical classifications which should affect future classifications. | Create a ML model that can learn from existing classifications and classify future transactions accordingly. Given that transaction descriptions change and may contain strange characters you will need to use some form of ML. See this [blog post](https://blog.plaid.com/making-sense-of-messy-data/) from Plaid for some inspiration. The function should output an array of classifications with probabilities for each - Meaning multi-classification. | Myself and other developers can use the lib/api in projects to classify and reclassify transactions inteligently per user.|
-
-## Accepted challenges
-
-| Problem | Challenge | Use Cases | Challenge Acceptor | Due |
-|-|-|-|-|-|
-| As an GraphQL dev, I am hesitant to build an app due to the setup costs. | Build an Open API GraphQL Wrapper | I'm much less hesitant to build awesome apps because there's a great GraphQL wrapper for the API! Open API GraphQL Wrapper|@naartjie|14 August 2020|
-| `R10k challenge 🤑` As a business, it's a pain for us to import our transactions into Sage's Business Accounting software. | Build an integration using the [Sage Business API](https://www.sage.com/en-za/sage-business-cloud/accounting/developer-api/) that enables a financial manager to click a button to sync transactions in Sage with Investec transactions. You will need to reformat the transaction data to match Sage's format. Make a clear guide on how to set this up for a user. | As a user, if I have Programmable Banking, I can easily setup an integration with Sage Business to automatically import my transactions. |@imraanp|30 July|
-| As a user, it's hard to keep track of my daily allowance. // As a dev, I'd like to help a user have better visibility into their spending. | `Special challenge` Create code/software for a [magic mirror](https://youtu.be/BR_yko0gr-Y) that displays your spending habits and gives you advice based on those habits. The code/software needs to be well documented and make it really simple for other devs to build and configure their own magic mirror dashboards. | I can setup a magic mirror in my house so that I can easily be reminded of my current spending allowance. |@theodowling|26 July 2020|
-| As a dev, I can't listen for the event when a transaction is recorded on my bank account. | Build a system that checks an account via the API to find new transactions every minute. Also, create a webhook mechanism to push new transactions to another service.  | I can now set up actions to take place whenever a transaction occurs on my accounts. |@renenw |30 July 2020|
-| As a Go dev, I am hesitant to build an app due to the setup costs. | Build an Open API Go Wrapper | I'm much less hesitant to build awesome apps because there's a great Go wrapper for the API! |@nickcorin |28 Aug 2020|
 
 ## Completed challenges 🚀
 
