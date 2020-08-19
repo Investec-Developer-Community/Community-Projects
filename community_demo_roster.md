@@ -7,7 +7,7 @@
 |-|-|
 |Thu 20 Aug|@kamogelo.sebopelo|
 |Thu 27 Aug|@LoicAn21, @mikewl|
-|Thu 03 Sep|@imraanp, @lesibar|
+|Thu 03 Sep|@lesibar|
 |Thu 10 Sep|@naartjie, |
 
 |Past Demos|Presenters|
