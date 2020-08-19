@@ -5,7 +5,6 @@
 
 |Upcoming Demos|Presenters|
 |-|-|
-
 |Thu 20 Aug|@kamogelo.sebopelo|
 |Thu 27 Aug|@LoicAn21, @mikewl|
 |Thu 03 Sep|@imraanp, @lesibar|
