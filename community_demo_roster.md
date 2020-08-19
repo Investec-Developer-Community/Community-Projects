@@ -5,9 +5,9 @@
 
 |Upcoming Demos|Presenters|
 |-|-|
-|Thu 13 Aug|@imraanp, @adrianhopebailie|
-|Thu 20 Aug|@mikewl,@kamogelo.sebopelo|
-|Thu 27 Aug|@LoicAn21|
+
+|Thu 20 Aug|@kamogelo.sebopelo|
+|Thu 27 Aug|@LoicAn21, @mikewl|
 |Thu 03 Sep|@imraanp, @lesibar|
 |Thu 10 Sep|@naartjie, |
 
@@ -31,3 +31,4 @@
 |Thu 23 Jul|@jethrof, Ross Purdon|
 |Thu 30 Jul|@fisher.adam.online, |
 |Thu 06 Aug|OfferZen Team, @rendani10|
+|Thu 13 Aug|@imraanp, @adrianhopebailie|
