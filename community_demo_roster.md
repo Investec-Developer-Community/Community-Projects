@@ -5,7 +5,6 @@
 
 |Upcoming Demos|Presenters|
 |-|-|
-|Thu 20 Aug|@avgjoe , @benblaine|
 |Thu 27 Aug|@LoicAn21, @mikewl|
 |Thu 03 Sep|@lesibar, @andile (TBD)|
 |Thu 10 Sep|@naartjie, @nickcorin|
@@ -33,3 +32,4 @@
 |Thu 30 Jul|@fisher.adam.online, |
 |Thu 06 Aug|OfferZen Team, @rendani10|
 |Thu 13 Aug|@imraanp, @adrianhopebailie|
+|Thu 20 Aug|@avgjoe , @benblaine|
