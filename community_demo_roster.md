@@ -5,10 +5,10 @@
 
 |Upcoming Demos|Presenters|
 |-|-|
-|Thu 27 Aug|@LoicAn21, @mikewl|
-|Thu 03 Sep|@lesibar, @andile|
+|Thu 27 Aug|@michaellouis157 , @mikewl|
+|Thu 03 Sep|@lesibar, @LoicAn21|
 |Thu 10 Sep|@naartjie, @nickcorin|
-|Thu 17 Sep|@kamogelo.sebopelo|
+|Thu 17 Sep|@kamogelo.sebopelo, @andile|
 |Thu 17 Sep|@renenw|
 
 |Past Demos|Presenters|
