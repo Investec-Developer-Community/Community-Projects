@@ -1,6 +1,6 @@
 # Find out more about Programmable Banking
 
-To find out more, check out these links, or get in touch by emailing Ben at [community-investec@offerzen.com](mailto:community-investec@offerzen.com)
+To find out more, check out these links, or get in touch by emailing @benblaine at [community-investec@offerzen.com](mailto:community-investec@offerzen.com)
 
 - [Demo of the OfferZen Finance App we built to track company card spend and recon](https://www.offerzen.com/blog/programmable-banking-community-offerzens-team-spending-finance-app)
 - [Programmable Banking for Business Pitch Deck](https://docs.google.com/presentation/d/e/2PACX-1vQJFvudepzE4DhSiISyx7TcWdu0R35bCwsRbcVjkvLziy5JLRwfWT3vnMNds7wcCmBxBye021zj7rIv/pub?start=false&loop=false&delayms=3000&slide=id.g91f766fb9b_0_1278)
