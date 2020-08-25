@@ -10,7 +10,9 @@ To find out more, check out these links, or get in touch by emailing @benblaine 
 
 # Open Source Projects
 
-`Let's make Open Banking a reality by building, sharing and connecting!`
+This is an index of open source code and demos of apps and systems built by the Programmable Banking Dev Community.
+
+`Let's make Open Banking a reality by building, sharing reusable software and connecting!`
 
 👉 [Community challenges:](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/blob/master/community_challenges.md) If you're looking for something to build, or want to challenge the community to build something. The intention with community challenges is to incentivise the creation of "building blocks" in the form of reusable libraries, utilities and code snippets. This should reduce the effort required for others in the community to build personal and business projects.
 
