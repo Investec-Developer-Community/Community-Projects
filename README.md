@@ -2,11 +2,13 @@
 
 To find out more, check out these links, or get in touch by emailing @benblaine at [community-investec@offerzen.com](mailto:community-investec@offerzen.com)
 
-- [Demo of the OfferZen Finance App we built to track company card spend and recon](https://www.offerzen.com/blog/programmable-banking-community-offerzens-team-spending-finance-app)
-- [Programmable Banking for Business Pitch Deck](https://docs.google.com/presentation/d/e/2PACX-1vQJFvudepzE4DhSiISyx7TcWdu0R35bCwsRbcVjkvLziy5JLRwfWT3vnMNds7wcCmBxBye021zj7rIv/pub?start=false&loop=false&delayms=3000&slide=id.g91f766fb9b_0_1278)
-- [OfferZen's Marketing / Landing page for Programmable Banking](https://www.offerzen.com/community/investec/)
 - [Investec's Developer Documentation for Programmable Banking / Open API](https://developer.investec.com/programmable-banking/#programmable-banking)
+- [Programmable Banking for Business Pitch Deck](https://docs.google.com/presentation/d/e/2PACX-1vQJFvudepzE4DhSiISyx7TcWdu0R35bCwsRbcVjkvLziy5JLRwfWT3vnMNds7wcCmBxBye021zj7rIv/pub?start=false&loop=false&delayms=3000&slide=id.g91f766fb9b_0_1278)
+- [Community challenges - open source projects in progress](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/blob/master/community_challenges.md)
 - [Blog Post about the collaboration between Investec and OfferZen](https://www.offerzen.com/blog/building-a-programmable-bank-account-for-developers-part-2)
+- [Demo of the OfferZen Finance App we built to track company card spend and recon](https://www.offerzen.com/blog/programmable-banking-community-offerzens-team-spending-finance-app)
+- [OfferZen's Marketing / Landing page for Programmable Banking](https://www.offerzen.com/community/investec/)
+- [Private - Platfrom Issues](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/issues-and-ideas)
 
 # Open Source Projects
 
@@ -14,7 +16,7 @@ This is an index of open source code and demos of apps and systems built by the 
 
 `Let's make Open Banking a reality by building, sharing reusable software and connecting!`
 
-👉 [Community challenges:](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/blob/master/community_challenges.md) If you're looking for something to build, or want to challenge the community to build something. The intention with community challenges is to incentivise the creation of "building blocks" in the form of reusable libraries, utilities and code snippets. This should reduce the effort required for others in the community to build personal and business projects.
+ If you're looking for something to build, or want to challenge the community to build something. The intention with community challenges is to incentivise the creation of "building blocks" in the form of reusable libraries, utilities and code snippets. This should reduce the effort required for others in the community to build personal and business projects.
 
 ## Built with Investec Business Banking
 | Open Source Repo | Description | Tech Stack | Author |
