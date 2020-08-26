@@ -1,4 +1,5 @@
 # Community Challenges
+This page is about how community challenges work. See the [challenges board](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/boards/1927995) for submitted and in progress challenges.
 
 The intention with community challenges is to incentivise the creation of "building blocks" in the form of reusable libraries, utilities and code snippets. This should reduce the effort required for others in the community to build personal and business projects.
 
