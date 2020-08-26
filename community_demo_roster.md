@@ -9,7 +9,7 @@
 |Thu 03 Sep|@lesibar, @michaellouis157|
 |Thu 10 Sep|@naartjie, @nickcorin|
 |Thu 17 Sep|@kamogelo.sebopelo, @andile|
-|Thu 17 Sep|@renenw|
+|Thu 24 Sep|@renenw|
 
 |Past Demos|Presenters|
 |-|-|
