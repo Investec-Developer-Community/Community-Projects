@@ -16,7 +16,7 @@ This is an index of open source code and demos of apps and systems built by the 
 
 `Let's make Open Banking a reality by building, sharing reusable software and connecting!`
 
- If you're looking for something to build, or want to challenge the community to build something. The intention with community challenges is to incentivise the creation of "building blocks" in the form of reusable libraries, utilities and code snippets. This should reduce the effort required for others in the community to build personal and business projects.
+If you're looking for something to build, or want to challenge the community to build something. The intention with [community challenges](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/blob/master/community_challenges.md) is to incentivise the creation of "building blocks" in the form of reusable libraries, utilities and code snippets. This should reduce the effort required for others in the community to build personal and business projects.
 
 ## Built with Investec Business Banking
 | Open Source Repo | Description | Tech Stack | Author |
