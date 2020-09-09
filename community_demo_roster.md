@@ -5,11 +5,10 @@
 
 |Upcoming Demos|Presenters|
 |-|-|
-|Thu 27 Aug|@LoicAn21 , @mikewl|
-|Thu 03 Sep|@lesibar, @michaellouis157|
 |Thu 10 Sep|@naartjie, @nickcorin|
 |Thu 17 Sep|@kamogelo.sebopelo, @andile|
 |Thu 1 Oct|@renenw, @bezchristo|
+|Thu 8 Oct|@@ihiresolutions|
 
 |Past Demos|Presenters|
 |-|-|
@@ -33,3 +32,5 @@
 |Thu 06 Aug|OfferZen Team, @rendani10|
 |Thu 13 Aug|@imraanp, @adrianhopebailie|
 |Thu 20 Aug|@avgjoe , @benblaine|
+|Thu 27 Aug|@LoicAn21 , @mikewl|
+|Thu 03 Sep|@lesibar, @michaellouis157|
