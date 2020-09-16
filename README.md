@@ -27,6 +27,7 @@ If you're looking for something to build, or want to challenge the community to 
 
 | Open Source Repo | Description | Tech Stack | Author |
 | - | - | - | - |
+| [Investec Bank GraphQL](https://github.com/naartjie/investec.graphql) | GraphQL API for Investec Open Banking | *F#, .Net Core, GraphQL* | [@naartjie](https://github.com/naartjie/investec.graphql) |
 | [Investec to Sage One](https://github.com/imraanparker/investec-to-sage-one) | Sync Investec transactions with Sage One accounting. | *FastAPI, Sage API, Python, Heroku, Python Investec OpenAPI Wrapper* | [@imraanp](https://github.com/imraanparker/investec-to-sage-one) |
 | [SparaBox](https://github.com/RendaniDau/Sparabox) and [SparaBoxFlutter](https://github.com/RendaniDau/SparaBoxFlutter) | Personal budget app to explore the potentials of programmable banking. | *Spring Boot, Keycloak, Flutter, Android* | [@RendaniDau](https://github.com/RendaniDau) |
 | [investec-openbanking-dotnet](https://github.com/dalion619/investec-openbanking-dotnet) | C# Open API wrapper.  | *C#* | @dalion619 |
