@@ -5,7 +5,6 @@
 
 |Upcoming Demos|Presenters|
 |-|-|
-|Thu 17 Sep|@kamogelo.sebopelo|
 |Thu 1 Oct|@renenw, @bezchristo|
 |Thu 8 Oct|@ihiresolutions, @nickcorin|
 |Thu 15 Oct|@andile, @|
@@ -35,3 +34,4 @@
 |Thu 27 Aug|@LoicAn21 , @mikewl|
 |Thu 03 Sep|@lesibar, @michaellouis157|
 |Thu 10 Sep|@naartjie|
+|Thu 17 Sep|@kamogelo.sebopelo|
