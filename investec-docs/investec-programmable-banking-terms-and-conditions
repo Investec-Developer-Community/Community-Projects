@@ -1,0 +1,199 @@
+# Updated 23 Sep 2020
+
+These Investec Programmable Banking terms and conditions ("Terms") shall, to the extent that the account holder has been approved to participate in the Programmable Banking Offering (as defined below), form part of and are deemed to be, incorporated in the Investec Private Bank Account terms and conditions ("agreement") as ancillary conditions (as that term is defined in the agreement). Words and expressions defined in the agreement shall bear the same meanings in these Terms (unless defined in these Terms).
+
+ 
+
+The Terms shall come into effect, and all of the provisions of the Terms will apply to Investec and the account holder, when the account holder first uses the Programmable Banking Offering. The account holder warrants that he/she had read and understood and agrees to be bound thereto.
+
+ 
+
+1. Definitions
+
+ 
+
+The headings in these Terms are for reference only. Words importing one gender include the other genders, words in the singular include the plural and vice versa and natural persons include created entities. The following expressions have the following meanings:
+
+ 
+
+1.1 “affected transaction” means any transaction to which the parameters set apply;
+
+ 
+
+1.2 “Communications” means communications between the client and Investec exchanged by means of an e-communication and/or such other communication as Investec may allow from time to time;
+
+ 
+
+1.3 “IDE” means the integrated development environment situated on the website;
+
+ 
+
+1.4 “parameters” means the rules (in compliance with these terms) which the account holder developed and authorised for his/her own programmable banking account through this Programmable Banking Offering which will result in the affected transactions being declined;
+
+ 
+
+1.5 “Programmable Banking Offering” means a developer driven root card accessible type product offering which the account holder uses to set Parameters by means of Communications sent by the accountholder to Investec;
+
+ 
+
+"service providers" means those suppliers and/or third party service providers appointed by Investec from time to time in its sole discretion, for the purposes of making Investec Programmable Banking available to the account holder;
+
+ 
+
+2. Programmable Banking Offering
+
+ 
+
+As a benefit to being an account holder of Investec, [an [account holder] and/or [card holder] to whom an extra card has been issued (as the case may be)] will, to the extent that the account holder and/or extra cardholder has been approved, be able to participate in the Programmable Banking Offering.
+
+ 
+
+To participate in the Programmable Banking Offering, the following will apply:
+
+ 
+
+2.1 Participation in the Programmable Banking Offering is only available to [account holders] and [cardholders if approved by the accountholder], of an Investec Private Bank Account and all card holders.
+
+ 
+
+2.2 Investec will be entitled to determine eligibility for the Programmable Banking Offering. To be eligible for the Programmable Banking Offering, each card to which the Programmable Banking Offering applies, must be registered separately and unless otherwise advised, the account holder and/or extra cardholder must be in possession of a valid card.
+
+ 
+
+2.3 Only an account holder whose account is open and in good standing will be entitled to participate in the Programmable Banking Offering.
+
+ 
+
+2.4 The [account holder] and/or [extra cardholder] may, pursuant to an application, participate in the Programmable Banking Offering in respect of any extra cards issued under an account as well.
+
+ 
+
+2.5 Investec may, in its sole discretion without affecting any rights it may have, cancel or suspend an [account holder’s] participation in the Programmable Banking Offering pursuant to this agreement.
+
+ 
+
+2.6 Investec reserves the right to cancel the Programmable Banking Offering in its entirety upon three months’ notice to the account holder. Investec will give the account holder notification of such cancellation by any means of communication, including mail, statement, facsimile, e-communication or through any other medium that Investec may deem fit.
+
+ 
+
+2.7 Investec will not act nor will it be deemed to be acting as the account holder’s agent nor as the agent of any merchant and/or related third party.
+
+ 
+
+2.8 Copyright in all materials made available through the Programmable Banking Offering is owned either by Investec and/or service providers and protected by both national and international intellectual property laws. Accordingly, any unauthorised copying, reproduction, retransmission, distribution, dissemination, sale, publication, broadcast or other circulation or exploitation of any such material will constitute an infringement of that copyright. The trademarks, logos and service marks displayed relating to the Programmable Banking Offering are registered and unregistered trademarks of Investec and/or any service providers. Nothing contained in the Programmable Banking Offering should be construed as granting any license or right to use any trademark, logos or service marks without the written permission of Investec and/or any service providers.
+
+ 
+
+2.9 Parameters and all the rules, information technology code (including the language used) and configuration to execute said parameters will belong to the account holder as his/her intellectual property for so long as it is distinguishable from the Programmable Banking Offering.
+
+ 
+
+2.10 By submitting the parameters into the Programmable Banking Offering (thereby taking the code live into production for that account or product), the account holder grants to Investec a perpetual, irrevocable, transferable, worldwide, fully paid up license to use, retain, commercialise, and transmit such parameters.
+
+ 
+
+2.11 Otherwise than as required by applicable law, Investec will not be responsible for any certification, clarification or directive to the account holder or be responsible for any obligations or liability owing by the account holder arising from the Programmable Banking Offering.
+
+ 
+
+2.12 The account holder waives any rights it may have against Investec arising directly or indirectly from any loss or damage of whatsoever nature, which may be suffered as a result of the Programmable Banking Offering or any matter incidental thereto or the acts or omissions of any merchant and/or service provider. The account holder agrees that Investec is not responsible for any consequential loss or damage (including loss of profits or data) arising from the Programmable Banking Offering.
+
+ 
+
+2.13 The account holder accepts that Investec may in its sole and absolute discretion from time to time amend, replace or substitute the Programmable Banking Offering and/or any aspects thereof. Investec will give no less than 90 days’ notification of such amendment by any means of communication, including mail, statement, facsimile, e-communication or through any other medium that Investec may deem fit.
+
+ 
+
+2.14 The account holder agrees and consents thereto that by participating in the Programmable Banking Offering, Investec may, in its sole discretion, send marketing and promotional information relating to the Programmable Banking Offering to the account holder and such information will not be considered unsolicited. The account holder has the right to request that Investec not send any such information.
+
+ 
+
+2.15 Any communication contained on the website will be deemed to be sufficient communication or notice relating to the Programmable Banking Offering and will be binding on the client.
+
+ 
+
+2.16 If there is any conflict between these Terms and any other terms, rules, regulations or procedures applicable to the Programmable Banking Offering, these Terms will prevail.
+
+ 
+
+3. Programmable Banking Participation
+
+ 
+
+3.1 Parameters will only apply to the affected transactions with effect from (and including) the later of the date on which the provisions of the agreement apply to the account holder and/or extra cardholder (as the case may be) in respect of a particular card or the date on which the particular card is registered ("effective date").
+
+ 
+
+3.2 Investec reserves the right at its election to refuse to record or honour parameters set. This will result in the authorisation of an affected transaction notwithstanding the parameters that have been set for the decline of such transactions if (amongst other things):
+
+ 
+
+3.2.1 the affected transaction is an under the floor limit purchase;
+
+ 
+
+3.2.2 any failure, delay and/or malfunction in the application of the parameters to affected transactions for any reason whatsoever;
+
+ 
+
+3.2.3 Investec by law is obliged to refuse to record or honour parameters;
+
+ 
+
+3.2.4 the account is not in good standing; or
+
+ 
+
+3.2.5 participation in the Programmable Banking Offering is cancelled or suspended.
+
+ 
+
+3.2.6 All transactions remain subject to Investec’s internal approval/authorisation processes notwithstanding any parameters set by the client.
+
+ 
+
+3.3 The account holder will not be compensated for any transaction where any parameter has been dishonoured or refused or where a transaction was declined as a result of the parameter set.
+
+ 
+
+3.4 The client can view all existing parameters on online banking within IDE. In the event that the parameters do not reflect, the account holder is obliged to contact Investec with regards to any discrepancies the account holder has or may have. If Investec is not contacted accordingly, any affected transaction shall be processed as if the parameters had not been set.
+
+ 
+
+3.5 Existing parameters set can be cancelled or amended through using IDE.
+
+ 
+
+3.6 The account holder will bear all risk and liability for his/her and/or any cardholder’s participation in the Programmable Banking Offering unless caused as a result of Investec’s gross negligence or wilful misconduct.
+
+ 
+
+3.7 The account holder accepts that affected transactions will not be processed against any parameters set after suspension or cancellation of the relevant card used or suspension or termination of the credit facility or account.
+
+ 
+
+3.8 It is the accountholder’s responsibility to ensure that, if a card is replaced for any reason whatsoever, the Programmable Banking functionality is deactivated from the old card and activated on the new card using IDE. Investec accepts not responsibility for any affected transactions not processed against any parameters set as result of the account holder’s failure to process the required deactivation and/or activation.
+
+ 
+
+4. General
+
+ 
+
+4.1 An account holder may not cede, delegate or otherwise transfer any rights or obligations arising from these Terms without Investec's prior approval, which approval will be at Investec's sole discretion.
+
+ 
+
+4.2 If any of the terms and conditions in these Terms are found to be invalid or unenforceable, such terms and conditions will be severable from the remaining terms and conditions, which will remain in full force and effect.
+
+ 
+
+4.3 Investec, on prior reasonable notice to the account holder, will be entitled to amend, update or terminate these Terms and the account holder agrees to be bound by the amended Terms.
+
+ 
+
+4.4 The existence of a link or reference from the website to any partner's website, web pages or other content or service does not constitute Investec’s recommendation or approval thereof.
+
+ 
+
+4.5 These Terms will be governed by and construed in accordance with the laws of the Republic of South Africa.
