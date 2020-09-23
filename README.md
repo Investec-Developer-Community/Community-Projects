@@ -2,13 +2,13 @@
 
 To find out more, check out these links, or get in touch by emailing @benblaine at [community-investec@offerzen.com](mailto:community-investec@offerzen.com)
 
-- [Investec's Developer Documentation for Programmable Banking / Open API](https://developer.investec.com/programmable-banking/#programmable-banking)
-- [Programmable Banking for Business Pitch Deck](https://docs.google.com/presentation/d/e/2PACX-1vQJFvudepzE4DhSiISyx7TcWdu0R35bCwsRbcVjkvLziy5JLRwfWT3vnMNds7wcCmBxBye021zj7rIv/pub?start=false&loop=false&delayms=3000&slide=id.g91f766fb9b_0_1278)
-- [Community challenges - open source projects in progress](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/blob/master/community_challenges.md)
-- [Blog Post about the collaboration between Investec and OfferZen](https://www.offerzen.com/blog/building-a-programmable-bank-account-for-developers-part-2)
-- [Demo of the OfferZen Finance App we built to track company card spend and recon](https://www.offerzen.com/blog/programmable-banking-community-offerzens-team-spending-finance-app)
-- [OfferZen's Marketing / Landing page for Programmable Banking](https://www.offerzen.com/community/investec/)
-- [Private - Platfrom Issues](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/issues-and-ideas)
+- [API Docs](https://developer.investec.com/programmable-banking/#programmable-banking)
+- [Programmable Businesses Banking](https://docs.google.com/presentation/d/e/2PACX-1vQJFvudepzE4DhSiISyx7TcWdu0R35bCwsRbcVjkvLziy5JLRwfWT3vnMNds7wcCmBxBye021zj7rIv/pub?start=false&loop=false&delayms=3000&slide=id.g91f766fb9b_0_1278)
+- [Community Challenges](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/blob/master/community_challenges.md)
+- [Background on OfferZen + Investec](https://www.offerzen.com/blog/building-a-programmable-bank-account-for-developers-part-2)
+- [Programmable Banking Website](https://www.offerzen.com/community/investec/)
+- [Platform Feedback](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/issues-and-ideas)
+- [Terms and Condiditions](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/raw/master/investec-docs/investec-programmable-banking-terms-and-conditions)
 
 # Open Source Projects
 
