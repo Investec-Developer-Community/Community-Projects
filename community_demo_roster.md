@@ -7,7 +7,8 @@
 |-|-|
 |Thu 1 Oct|@renenw, @bezchristo|
 |Thu 8 Oct|@ihiresolutions, @nickcorin|
-|Thu 15 Oct|@andile, @|
+|Thu 15 Oct|@ihiresolutions, @ttyanini|
+|Thu 22 Oct|@naartjie, @|
 
 |Past Demos|Presenters|
 |-|-|
