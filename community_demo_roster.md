@@ -8,6 +8,7 @@
 |Thu 8 Oct|@ihiresolutions, Investec Team|
 |Thu 15 Oct|@renenw, @nickcorin|
 |Thu 22 Oct|@naartjie, @|
+|Thu 29 Oct|@spsiphamandla363, @|
 
 |Past Demos|Presenters|
 |-|-|
