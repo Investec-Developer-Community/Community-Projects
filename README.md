@@ -1,3 +1,6 @@
+# Whois?
+We're a community of software 200+ devs on a mission We want to make Open Banking a reality a in South Africa.
+
 # Find out more about Programmable Banking
 
 To find out more, check out these links, or get in touch by emailing @benblaine at [community-investec@offerzen.com](mailto:community-investec@offerzen.com)
