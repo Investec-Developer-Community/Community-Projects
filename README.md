@@ -6,6 +6,7 @@ We're a community of software 200+ devs on a mission We want to make Open Bankin
 To find out more, check out these links, or get in touch by emailing @benblaine at [community-investec@offerzen.com](mailto:community-investec@offerzen.com)
 
 - [API Docs](https://developer.investec.com/programmable-banking/#programmable-banking)
+- [Blog Posts](https://community.offerzen.com/c/blog-posts/8)
 - [Programmable Businesses Banking](https://docs.google.com/presentation/d/e/2PACX-1vQJFvudepzE4DhSiISyx7TcWdu0R35bCwsRbcVjkvLziy5JLRwfWT3vnMNds7wcCmBxBye021zj7rIv/pub?start=false&loop=false&delayms=3000&slide=id.g91f766fb9b_0_1278)
 - [Community Challenges](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/blob/master/community_challenges.md)
 - [Background on OfferZen + Investec](https://www.offerzen.com/blog/building-a-programmable-bank-account-for-developers-part-2)
