@@ -6,7 +6,8 @@
 |Upcoming Demos|Presenters|
 |-|-|
 |Thu 22 Oct|@naartjie|
-|Thu 29 Oct|@spsiphamandla363, @nickcorin|
+|Thu 29 Oct|Workshop|
+|Thu 5 Nov|@spsiphamandla363, @nickcorin|
 
 |Past Demos|Presenters|
 |-|-|
