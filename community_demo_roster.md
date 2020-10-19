@@ -5,9 +5,8 @@
 
 |Upcoming Demos|Presenters|
 |-|-|
-|Thu 15 Oct|@renenw, @nickcorin|
-|Thu 22 Oct|@naartjie, @|
-|Thu 29 Oct|@spsiphamandla363, @|
+|Thu 22 Oct|@naartjie|
+|Thu 29 Oct|@spsiphamandla363, @nickcorin|
 
 |Past Demos|Presenters|
 |-|-|
@@ -37,3 +36,4 @@
 |Thu 17 Sep|@kamogelo.sebopelo|
 |Thu 1 Oct|@renenw, @bezchristo|
 |Thu 8 Oct|@ihiresolutions, Investec Team|
+|Thu 15 Oct|@renenw|
