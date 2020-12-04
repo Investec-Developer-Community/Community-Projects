@@ -4,6 +4,7 @@
 *  Please don't hesitate to volunteer - if you have an issue and can't make the date we can postpone
 
 **Waiting list**
+- Nick Corin RE Go Wrapper
 - adrianhopebailie RE working at Ripple
 - Edward van Kuik RE LawPracticeZA integration
 - Kevin Boshoff RE how African Alliance integrates
