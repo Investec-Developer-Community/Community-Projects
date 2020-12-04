@@ -3,11 +3,15 @@
 *  Demos can be super short and sweet, even just a line of code
 *  Please don't hesitate to volunteer - if you have an issue and can't make the date we can postpone
 
+**Waiting list**
+- adrianhopebailie RE working at Ripple
+- Edward van Kuik RE LawPracticeZA integration
+- Kevin Boshoff RE how African Alliance integrates
+- Hackathon teams RE building their solutions
+
 |Upcoming Demos|Presenters|
 |-|-|
-|Thu 22 Oct|@naartjie|
-|Thu 29 Oct|Workshop|
-|Thu 5 Nov|@spsiphamandla363, @nickcorin|
+|||
 
 |Past Demos|Presenters|
 |-|-|
@@ -38,3 +42,5 @@
 |Thu 1 Oct|@renenw, @bezchristo|
 |Thu 8 Oct|@ihiresolutions, Investec Team|
 |Thu 15 Oct|@renenw|
+|Thu 22 Oct|@naartjie|
+|Thu 29 Oct|Workshop|
