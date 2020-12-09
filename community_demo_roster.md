@@ -4,6 +4,7 @@
 - Edward van Kuik RE LawPracticeZA integration
 - Kevin Boshoff RE how African Alliance integrates
 - Hackathon teams RE building their solutions
+- VAT IT expense tracking
 
 |Upcoming Demos|Presenters|
 |-|-|
