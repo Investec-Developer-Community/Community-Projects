@@ -3,7 +3,7 @@ We're a community of software 200+ devs on a mission We want to make Open Bankin
 
 # Find out more about Programmable Banking
 
-To find out more, check out these links, or get in touch by emailing @benblaine at [community-investec@offerzen.com](mailto:community-investec@offerzen.com)
+To find out more, check out these links, or get in touch by emailing @nickbenson at [community-investec@offerzen.com](mailto:community-investec@offerzen.com)
 
 - [API Docs](https://developer.investec.com/programmable-banking/#programmable-banking)
 - [Ask the Community](https://community.offerzen.com/)
