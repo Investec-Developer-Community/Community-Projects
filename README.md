@@ -50,6 +50,7 @@ If you're looking for something to build, or want to challenge the community to 
 
 | Open Source Repo | Description | Tech Stack | Author |
 | - | - | - | - |
+| [Card Guard](https://dev.azure.com/RiderZebraDevops/blueprints) | web solution for Investec clients to create their own rules using a web interface. Non technical account holders have the opportunity to configure their own rules. Banking app users have greater control over where and how they want to transact. | *Tools: C#, TypeScript Components: ASP.net, Angular* | [CSTech](https://zebrabluebrints.azurewebsites.net/demo) |
 | [Command center bridge](https://gitlab.com/fisher.adam.online/command-center-bridge) | A bridge solution for other programmable banking solutions that enables a single point of contact for approval determination and secure transaction forwarding to other APIs. Constructed in conjunction with [aws-cdk-js-dev-guide](https://github.com/therightstuff/aws-cdk-js-dev-guide).  | *Tools: CDK (a mix of TypeScript and Javascript) Components: AWS: api-gateway, lambda, sqs, dynamodb* | [@fisher.adam.online](https://gitlab.com/fisher.adam.online) |
 | [Investec Query Bot](https://github.com/lebomorojele/investecbot)|A NLP service for interpreting transaction data from Investec Programmable Card API 🤖|*Python, Flask, SQLAlchemy, Rasa*|@lebo0|
 | [pdb-investec-transaction-insights](https://gitlab.com/grimx13/pdb-investec-transaction-insights) | Store programmable card transactions in Google Sheet | *AWS Serverless, Google Sheets* | @grimx13 |
@@ -70,7 +71,7 @@ If you're looking for something to build, or want to challenge the community to 
 
 ## Demos
 
-We meet every Thursday at 6:30pm over Zoom to see demos from community members. Come support us :)!
+We meet every last Thursday of the month at 6:30pm over Zoom to see demos from community members. Come support us :)!
 
 | <img src = "/images/youtube_logo.png"> Demo | Open Source Repo | Description | Tech Stack | Author |
 | ------ | ------ | ------ | ------ | ------ |
