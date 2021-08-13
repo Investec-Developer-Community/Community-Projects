@@ -1,5 +1,5 @@
 # Whois?
-We're a community of software 200+ devs on a mission We want to make Open Banking a reality a in South Africa: by building open source tech with [Investec Programmable Banking](https://www.offerzen.com/community/investec/). We meet up every week to share what we learn.
+We're a community of software 200+ devs on a mission We want to make Open Banking a reality a in South Africa: by building open source tech with [Investec Programmable Banking](https://www.offerzen.com/community/investec/). We meet up every month to share what we learn.
 
 # Find out more about Programmable Banking
 
