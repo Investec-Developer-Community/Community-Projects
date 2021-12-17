@@ -5,7 +5,7 @@ We're a community of 400+ software devs on a mission. We want to make Open Banki
 
 To find out more, check out these links, or get in touch by emailing @nickbenson at [community-investec@offerzen.com](mailto:community-investec@offerzen.com)
 
-## NB Community Links
+## NB Community Links  :tent:
 
 - [API Docs](https://developer.investec.com/programmable-banking/#programmable-banking)
 - [Ask the Community](https://community.offerzen.com/)
