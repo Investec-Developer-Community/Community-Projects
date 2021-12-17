@@ -5,6 +5,8 @@ We're a community of 400+ software devs on a mission. We want to make Open Banki
 
 To find out more, check out these links, or get in touch by emailing @nickbenson at [community-investec@offerzen.com](mailto:community-investec@offerzen.com)
 
+## NB Community Links
+
 - [API Docs](https://developer.investec.com/programmable-banking/#programmable-banking)
 - [Ask the Community](https://community.offerzen.com/)
 - [Blog Posts](https://www.offerzen.com/blog#stq=Programmable%20Banking%20Community&stp=1)
@@ -16,8 +18,6 @@ To find out more, check out these links, or get in touch by emailing @nickbenson
 - [Terms and Condiditions](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/raw/master/investec-docs/investec-programmable-banking-terms-and-conditions)
 - [Community Challenges](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/blob/master/community_challenges.md)
 
-[click on this link](#hackathon-build-submissions)
-
 # Open Source Projects
 
 This is an index of open source code and demos of apps and systems built by the Programmable Banking Dev Community.
@@ -25,6 +25,15 @@ This is an index of open source code and demos of apps and systems built by the 
 `Let's make Open Banking a reality by building, sharing reusable software and connecting!`
 
 If you're looking for something to build, or want to challenge the community to build something. The intention with [community challenges](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/blob/master/community_challenges.md) is to incentivise the creation of "building blocks" in the form of reusable libraries, utilities and code snippets. This should reduce the effort required for others in the community to build personal and business projects.
+
+## Quick Links
+
+- [Hackathon Build Submissions](#hackathon-build-submissions)
+- [Built with Investec Business Banking](#built-with-investec-business-banking)
+- [Built with Investec Open API](#built-with-investec-open-api)
+- [Built with Investec Programmable Card](#built-with-investec-programmable-card)
+- [Collection of demos](#demos)
+- [Some Useful Resources](#some0usefull-resources)
 
 ## Hackathon Build Submissions
 | Hackathon Date | Team Name | Description | Open Source Repo | Demo Video |
