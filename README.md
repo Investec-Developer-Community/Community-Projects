@@ -23,6 +23,12 @@ This is an index of open source code and demos of apps and systems built by the 
 
 If you're looking for something to build, or want to challenge the community to build something. The intention with [community challenges](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/blob/master/community_challenges.md) is to incentivise the creation of "building blocks" in the form of reusable libraries, utilities and code snippets. This should reduce the effort required for others in the community to build personal and business projects.
 
+## Hackathon Build Submissions
+| Hackathon Date | Team Name | Description | Open Source Repo | Video Demo
+| - | - | - | - | - |
+| [Q2 2021](https://docs.google.com/spreadsheets/d/1Rh7bjikdBxGVXoCIKS8XU3apjvCwUIxagt1Nziuz_u0/edit?usp=sharing) | [Insert-name-here](https://docs.google.com/presentation/d/1g1EEvF8hY-eqtKzHIiTfEV9ZiXQVwvD3BAXMtwkwEJo/edit#slide=id.ge132b111e7_11_22) | Open Source Participation Tokens: A mechanism for contributors to be fairly and transparently recognised for their contributions to projects. | [Trophies](https://gitlab.com/insert-name-here/trophies-demo-project/-/blob/master/README.md) | [Demo recording](https://drive.google.com/file/d/1pD9mrOsFyVVgvnXUPVWO9Di71xBuES6G/view?usp=sharing) |[Q2 2021](https://docs.google.com/spreadsheets/d/1Rh7bjikdBxGVXoCIKS8XU3apjvCwUIxagt1Nziuz_u0/edit?usp=sharing) | [Snitch](https://docs.google.com/presentation/d/177qQ8U3h-sXn021fztf3PRrLMO1q--y85UDOu0rhCpQ/edit?usp=sharing) | Automatically track subscriptions on multiple credit cards. Maintain a list of subscriptions to update once a credit card expires | [Snitch](https://github.com/GoosenA/snitch) | [Demo recording](https://youtu.be/OUf_G66UDpc) |
+
+
 ## Built with Investec Business Banking
 | Open Source Repo | Description | Tech Stack | Author |
 | - | - | - | - |
