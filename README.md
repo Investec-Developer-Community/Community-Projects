@@ -16,6 +16,8 @@ To find out more, check out these links, or get in touch by emailing @nickbenson
 - [Terms and Condiditions](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/raw/master/investec-docs/investec-programmable-banking-terms-and-conditions)
 - [Community Challenges](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/blob/master/community_challenges.md)
 
+[click on this link](#hackathon-build-submissions)
+
 # Open Source Projects
 
 This is an index of open source code and demos of apps and systems built by the Programmable Banking Dev Community.
