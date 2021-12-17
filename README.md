@@ -36,6 +36,8 @@ If you're looking for something to build, or want to challenge the community to 
 - [Some Useful Resources](#some0usefull-resources)
 
 ## Hackathon Build Submissions
+[Hackathon Builds](#hackathon-build-submissions) | [Business Banking](#built-with-investec-business-banking) | [Open API](#built-with-investec-open-api) | [Programmable Card](#built-with-investec-programmable-card) | [Demos](#demos) | [Resources](#some0usefull-resources)
+
 | Hackathon Date | Team Name | Description | Open Source Repo | Demo Video |
 | - | - | - | - | - |
 | [Q2 2021](https://docs.google.com/spreadsheets/d/1Rh7bjikdBxGVXoCIKS8XU3apjvCwUIxagt1Nziuz_u0/edit?usp=sharing) | [Insert-name-here](https://docs.google.com/presentation/d/1g1EEvF8hY-eqtKzHIiTfEV9ZiXQVwvD3BAXMtwkwEJo/edit#slide=id.ge132b111e7_11_22) | Open Source Participation Tokens: A mechanism for contributors to be fairly and transparently recognised for their contributions to projects. | [Trophies](https://gitlab.com/insert-name-here/trophies-demo-project/-/blob/master/README.md) | [Demo recording](https://drive.google.com/file/d/1pD9mrOsFyVVgvnXUPVWO9Di71xBuES6G/view?usp=sharing) |
