@@ -33,11 +33,11 @@ If you're looking for something to build, or want to challenge the community to 
 - [Built with Investec Open API](#built-with-investec-open-api)
 - [Built with Investec Programmable Card](#built-with-investec-programmable-card)
 - [Collection of demos](#demos)
-- [Some Useful Resources](#some0usefull-resources)
+- [Some Useful Resources](#some-useful-resources)
 
 ## Hackathon Build Submissions
 
-[Business Banking](#built-with-investec-business-banking) | [Open API](#built-with-investec-open-api) | [Programmable Card](#built-with-investec-programmable-card) | [Demos](#demos) | [Resources](#some0usefull-resources)
+[Business Banking](#built-with-investec-business-banking) | [Open API](#built-with-investec-open-api) | [Programmable Card](#built-with-investec-programmable-card) | [Demos](#demos) | [Resources](#some-useful-resources)
 
 | Hackathon Date | Team Name | Description | Open Source Repo | Demo Video |
 | - | - | - | - | - |
@@ -55,7 +55,7 @@ If you're looking for something to build, or want to challenge the community to 
 
 ## Built with Investec Business Banking
 
-[Hackathon Builds](#hackathon-build-submissions) | [Open API](#built-with-investec-open-api) | [Programmable Card](#built-with-investec-programmable-card) | [Demos](#demos) | [Resources](#some0usefull-resources)
+[Hackathon Builds](#hackathon-build-submissions) | [Open API](#built-with-investec-open-api) | [Programmable Card](#built-with-investec-programmable-card) | [Demos](#demos) | [Resources](#some-useful-resources)
 
 | Open Source Repo | Description | Tech Stack | Author |
 | - | - | - | - |
@@ -63,7 +63,7 @@ If you're looking for something to build, or want to challenge the community to 
 
 ## Built with Investec Open API
 
-[Hackathon Builds](#hackathon-build-submissions) | [Business Banking](#built-with-investec-business-banking) | [Programmable Card](#built-with-investec-programmable-card) | [Demos](#demos) | [Resources](#some0usefull-resources)
+[Hackathon Builds](#hackathon-build-submissions) | [Business Banking](#built-with-investec-business-banking) | [Programmable Card](#built-with-investec-programmable-card) | [Demos](#demos) | [Resources](#some-useful-resources)
 
 | Open Source Repo | Description | Tech Stack | Author |
 | - | - | - | - |
@@ -83,7 +83,7 @@ If you're looking for something to build, or want to challenge the community to 
 
 ## Built with Investec Programmable Card
 
-[Hackathon Builds](#hackathon-build-submissions) | [Business Banking](#built-with-investec-business-banking) | [Open API](#built-with-investec-open-api) | [Demos](#demos) | [Resources](#some0usefull-resources)
+[Hackathon Builds](#hackathon-build-submissions) | [Business Banking](#built-with-investec-business-banking) | [Open API](#built-with-investec-open-api) | [Demos](#demos) | [Resources](#some-useful-resources)
 
 | Open Source Repo | Description | Tech Stack | Author |
 | - | - | - | - |
@@ -107,7 +107,7 @@ If you're looking for something to build, or want to challenge the community to 
 
 ## Demos
 
-[Hackathon Builds](#hackathon-build-submissions) | [Business Banking](#built-with-investec-business-banking) | [Open API](#built-with-investec-open-api) | [Programmable Card](#built-with-investec-programmable-card) | [Resources](#some0usefull-resources)
+[Hackathon Builds](#hackathon-build-submissions) | [Business Banking](#built-with-investec-business-banking) | [Open API](#built-with-investec-open-api) | [Programmable Card](#built-with-investec-programmable-card) | [Resources](#some-useful-resources)
 
 We meet every last Thursday of the month at 6:30pm over Zoom to see demos from community members. Come support us :)!
 
