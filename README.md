@@ -36,7 +36,8 @@ If you're looking for something to build, or want to challenge the community to 
 - [Some Useful Resources](#some0usefull-resources)
 
 ## Hackathon Build Submissions
-[Hackathon Builds](#hackathon-build-submissions) | [Business Banking](#built-with-investec-business-banking) | [Open API](#built-with-investec-open-api) | [Programmable Card](#built-with-investec-programmable-card) | [Demos](#demos) | [Resources](#some0usefull-resources)
+
+[Business Banking](#built-with-investec-business-banking) | [Open API](#built-with-investec-open-api) | [Programmable Card](#built-with-investec-programmable-card) | [Demos](#demos) | [Resources](#some0usefull-resources)
 
 | Hackathon Date | Team Name | Description | Open Source Repo | Demo Video |
 | - | - | - | - | - |
@@ -53,11 +54,16 @@ If you're looking for something to build, or want to challenge the community to 
 &nbsp; | [Members 404](https://docs.google.com/presentation/d/1yWXx7iUEZUbQAKpm86J8sSbAjxXd9L_EQ0b7A80sjKY/edit?usp=sharing) | Keep money in higher interest bearing accounts, round up transactions and save the difference. | [Bank My Change](https://gitlab.com/storecaster/bankmychange/-/tree/master) | [Demo recording](https://youtu.be/-G-fYsYFqGs) |
 
 ## Built with Investec Business Banking
+
+[Hackathon Builds](#hackathon-build-submissions) | [Open API](#built-with-investec-open-api) | [Programmable Card](#built-with-investec-programmable-card) | [Demos](#demos) | [Resources](#some0usefull-resources)
+
 | Open Source Repo | Description | Tech Stack | Author |
 | - | - | - | - |
 | [Team Spend Tracker](https://github.com/Offerzen/roz) | Financial recon for teams using who use Investec Business Banking and the Open API.  | *Ruby on Rails, PostgreSQL, Heroku* | *[@OfferZen](https://github.com/Offerzen/investec_open_api)* |
 
 ## Built with Investec Open API
+
+[Hackathon Builds](#hackathon-build-submissions) | [Business Banking](#built-with-investec-business-banking) | [Programmable Card](#built-with-investec-programmable-card) | [Demos](#demos) | [Resources](#some0usefull-resources)
 
 | Open Source Repo | Description | Tech Stack | Author |
 | - | - | - | - |
@@ -76,6 +82,8 @@ If you're looking for something to build, or want to challenge the community to 
 
 
 ## Built with Investec Programmable Card
+
+[Hackathon Builds](#hackathon-build-submissions) | [Business Banking](#built-with-investec-business-banking) | [Open API](#built-with-investec-open-api) | [Demos](#demos) | [Resources](#some0usefull-resources)
 
 | Open Source Repo | Description | Tech Stack | Author |
 | - | - | - | - |
@@ -97,8 +105,9 @@ If you're looking for something to build, or want to challenge the community to 
 | [React Frontend](https://github.com/donohutcheon/reactwebclient)|React frontend for programmable card transactions management.|*React*|@donohutcheon|
 | [Telegram to Wave Receipt Capture]((https://gitlab.com/benblaine/bill/))|A hack to remind you via Telegram message to send your receipt to Wave Receipts.|*Telegram Bot API, Wave Receipts, Email*|@benblaine|
 
-
 ## Demos
+
+[Hackathon Builds](#hackathon-build-submissions) | [Business Banking](#built-with-investec-business-banking) | [Open API](#built-with-investec-open-api) | [Programmable Card](#built-with-investec-programmable-card) | [Resources](#some0usefull-resources)
 
 We meet every last Thursday of the month at 6:30pm over Zoom to see demos from community members. Come support us :)!
 
@@ -145,6 +154,8 @@ We meet every last Thursday of the month at 6:30pm over Zoom to see demos from c
 |[demo](youtubelink)| [<img src = "/imagelink.png" width="200">](repolink) |[Slide deck](slidesURL) - description.| *Tech_Tools* |*[@author](https://gitlab.com/author)*|
 
 ## Some Useful Resources
+
+[Hackathon Builds](#hackathon-build-submissions) | [Business Banking](#built-with-investec-business-banking) | [Open API](#built-with-investec-open-api) | [Programmable Card](#built-with-investec-programmable-card) | [Demos](#demos)
 
 ### Auth
 
