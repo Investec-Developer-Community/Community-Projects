@@ -109,7 +109,7 @@ If you're looking for something to build, or want to challenge the community to 
 
 [Hackathon Builds](#hackathon-build-submissions) | [Business Banking](#built-with-investec-business-banking) | [Open API](#built-with-investec-open-api) | [Programmable Card](#built-with-investec-programmable-card) | [Resources](#some-useful-resources)
 
-We meet every last Thursday of the month at 6:30pm over Zoom to see demos from community members. Come support us :)!
+We meet every last Thursday of the month at 6:30pm over Zoom to see demos from community members. Come support us :)! Watch all [past recorded Meetups here.](https://www.youtube.com/watch?v=PcU0aT5ckDM&list=PLjTry3duaTAGJ6UOW5ISS_ymV46-VqkPa)
 
 | <img src = "/images/youtube_logo.png"> Demo | Open Source Repo | Description | Tech Stack | Author |
 | ------ | ------ | ------ | ------ | ------ |
