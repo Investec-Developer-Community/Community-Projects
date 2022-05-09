@@ -7,6 +7,7 @@ To find out more, check out these links, or get in touch by emailing @nickbenson
 
 ## NB Community Links  :tent:
 
+- [Community Wiki](https://offerzen.gitbook.io/programmable-banking-community-wiki/)
 - [API Docs](https://developer.investec.com/programmable-banking/#programmable-banking)
 - [Ask the Community](https://community.offerzen.com/)
 - [Blog Posts](https://www.offerzen.com/blog#stq=Programmable%20Banking%20Community&stp=1)
