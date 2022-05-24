@@ -1,0 +1,666 @@
+{
+  "openapi": "3.0.0",
+  "servers": [
+    {
+      "url": "http://api.investec.com",
+      "description": "",
+      "variables": {}
+    }
+  ],
+  "info": {
+    "version": "1.0.0",
+    "title": "SA PB Account Information",
+    "description": "The Account Information API allows Investec SA Private Banking clients to access their account and transactional information (read-only) via an API.  \n  \nIt can be used to retrieve account information such as:\n\n*   Account details\n*   Balances\n*   Account transactions\n    \n\nThere are many possible use cases for the Account Information API: from extracting the data to aggregate it with financial data from other banking institutions to personal money management tools.\n\n**Release Notes (Accounts)**\n\n 2020-11-13\n\n*   **Enhancement**: Included transaction type filter to - Get Account Transactions\n    \n\n2020-11-10\n\n*   **Enhancement**: Included postedOrder to - Get Account Transactions\n*   **Enhancement**: Included transactionType to - Get Account Transactions\n    \n\n 2020-09-08\n\n*   **Fix**: Implemented CORS support\n*   **Fix**: Implemented multi User-Agent support\n    \n\n 2020-07-21\n\n*   **Enhancement**: Included transactionDate to - Get Account Transactions\n*   **Enhancement**: Included date range filter to - Get Account Transactions\n    \n\n 2021-10-01\n\n*   **Fix**: The runningBalance on transactions shows (-) if it is a negative balance - Get Account Transactions\n\n# Authentication\n\n<!-- ReDoc-Inject: <security-definitions> -->",
+    "termsOfService": "https://developerbeta.investec.com/za/terms-of-use",
+    "contact": {}
+  },
+  "paths": {
+    "/za/pb/v1/accounts": {
+      "get": {
+        "summary": "Get Accounts",
+        "description": "Obtain a list of accounts in associated profile.",
+        "operationId": "Accounts",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "The requested operation was successfully completed",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Accounts"
+                },
+                "example": {
+                  "data": {
+                    "accounts": [
+                      {
+                        "accountId": "172878438321553632224",
+                        "accountNumber": "10010206147",
+                        "accountName": "Mr John Doe",
+                        "referenceName": "My Investec Private Bank Account",
+                        "productName": "Private Bank Account"
+                      }
+                    ]
+                  },
+                  "links": {
+                    "self": "https://openapi.investec.com/za/pb/v1/accounts"
+                  },
+                  "meta": {
+                    "totalPages": 1
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request - The requested operation will not be carried out"
+          },
+          "401": {
+            "description": "Unauthorized - The requested operation was refused access"
+          },
+          "403": {
+            "description": "Forbidden - Not permitted to make this request"
+          },
+          "429": {
+            "description": "Too Many Requests - To many requests in quick succession, Retry the request."
+          },
+          "500": {
+            "description": "Internal Server Error - The requested operation failed to execute"
+          }
+        },
+        "requestBody": {
+          "content": {
+            "application/text": {
+              "example": "GET https://openapi.investec.com/za/pb/v1/accounts HTTP/1.1 \nAuthorization: Basic e2NsaWVudElkfTp7c2VjcmV0fQ== \nHost: openapi.investec.com \nAccept: application/json \n\n $.ajax({ \n   url: 'https://openapi.investec.com/za/pb/v1/accounts',\n   type: 'GET', \n      headers: {\n      'Authorization': 'Basic e2NsaWVudElkfTp7c2VjcmV0fQ=='\n   },\n   success: function (result) {\n       console.log(JSON.stringify(result));\n   }\n});"
+            }
+          }
+        }
+      }
+    },
+    "/za/pb/v1/accounts/{accountId}/balance": {
+      "get": {
+        "summary": "Get Account Balance",
+        "description": "Obtain a specified account's balance.",
+        "operationId": "Balance",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "accountId",
+            "description": "AccountId Id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Resource has been retrieved",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Balance"
+                },
+                "example": {
+                  "data": {
+                    "accountId": "172878438321553632224",
+                    "currentBalance": 28857.76,
+                    "availableBalance": 98857.76,
+                    "currency": "ZAR"
+                  },
+                  "links": {
+                    "self": "https://openapi.investec.com/za/pb/v1/accounts/{accountId}/balance"
+                  },
+                  "meta": {
+                    "totalPages": 1
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request - The requested operation will not be carried out"
+          },
+          "401": {
+            "description": "Unauthorized - The requested operation was refused access"
+          },
+          "403": {
+            "description": "Forbidden - Not permitted to make this request"
+          },
+          "429": {
+            "description": "Too Many Requests - To many requests in quick succession, Retry the request."
+          },
+          "500": {
+            "description": "Internal Server Error - The requested operation failed to execute"
+          }
+        },
+        "requestBody": {
+          "content": {
+            "application/text": {
+              "example": "GET https://openapi.investec.com/za/pb/v1/accounts/{accountId}/balance HTTP/1.1 \nAuthorization: Basic e2NsaWVudElkfTp7c2VjcmV0fQ== \nHost: openapi.investec.com \nAccept: application/json \n\n $.ajax({ \n   url: 'https://openapi.investec.com/za/pb/v1/accounts/{accountId}/balance',\n   type: 'GET', \n      headers: {\n      'Authorization': 'Basic e2NsaWVudElkfTp7c2VjcmV0fQ=='\n   },\n   success: function (result) {\n       console.log(JSON.stringify(result));\n   }\n});"
+            }
+          }
+        }
+      }
+    },
+    "/za/pb/v1/accounts/{accountId}/transactions?fromDate={fromDate}&toDate={toDate}&transactionType={transactionType}": {
+      "get": {
+        "summary": "Get Account Transactions",
+        "description": "Obtain a specified account's transactions.",
+        "operationId": "AccountsTransactions",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "accountId",
+            "description": "AccountId Id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "$ref": "#/components/parameters/fromDate"
+          },
+          {
+            "$ref": "#/components/parameters/toDate"
+          },
+          {
+            "$ref": "#/components/parameters/transactionType"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Resource has been retrieved",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Transactions"
+                },
+                "example": {
+                  "data": {
+                    "transactions": [
+                      {
+                        "accountId": "172878438321553632224",
+                        "type": "DEBIT",
+                        "transactionType": "FeesAndInterest",
+                        "status": "POSTED",
+                        "description": "MONTHLY SERVICE CHARGE",
+                        "cardNumber": "",
+                        "postedOrder": 13379,
+                        "postingDate": "2020-06-11",
+                        "valueDate": "2020-06-10",
+                        "actionDate": "2020-11-10",
+                        "transactionDate": "2020-06-10",
+                        "amount": 535,
+                        "runningBalance": 28857.76
+                      },
+                      {
+                        "accountId": "172878438321553632224",
+                        "type": "CREDIT",
+                        "transactionType": "FeesAndInterest",
+                        "status": "POSTED",
+                        "description": "CREDIT INTEREST",
+                        "cardNumber": "",
+                        "postedOrder": 13378,
+                        "postingDate": "2020-06-11",
+                        "valueDate": "2020-06-10",
+                        "actionDate": "2020-11-10",
+                        "transactionDate": "2020-06-10",
+                        "amount": 31.09,
+                        "runningBalance": 29392.76
+                      }
+                    ]
+                  },
+                  "links": {
+                    "self": "https://openapi.investec.com/za/pb/v1/accounts/{accountId}/transactions?fromDate={fromDate}&toDate={toDate}&transactionType={transactionType}"
+                  },
+                  "meta": {
+                    "totalPages": 1
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request - The requested operation will not be carried out"
+          },
+          "401": {
+            "description": "Unauthorized - The requested operation was refused access"
+          },
+          "403": {
+            "description": "Forbidden - Not permitted to make this request"
+          },
+          "429": {
+            "description": "Too Many Requests - To many requests in quick succession, Retry the request."
+          },
+          "500": {
+            "description": "Internal Server Error - The requested operation failed to execute"
+          }
+        },
+        "requestBody": {
+          "content": {
+            "application/text": {
+              "example": "GET https://openapi.investec.com/za/pb/v1/accounts/{accountId}/transactions?fromDate={fromDate}&toDate={toDate}&transactionType={transactionType} HTTP/1.1 \nAuthorization: Basic e2NsaWVudElkfTp7c2VjcmV0fQ== \nHost: openapi.investec.com \nAccept: application/json \n\n $.ajax({ \n   url: 'https://openapi.investec.com/za/pb/v1/accounts/{accountId}/transactions?fromDate={fromDate}&toDate={toDate}&transactionType={transactionType}',\n   type: 'GET', \n      headers: {\n      'Authorization': 'Basic e2NsaWVudElkfTp7c2VjcmV0fQ=='\n   },\n   success: function (result) {\n       console.log(JSON.stringify(result));\n   }\n});"
+            }
+          }
+        }
+      }
+    },
+    "/za/pb/v1/accounts/transfermultiple": {
+      "post": {
+        "summary": "Transfer Multiple",
+        "description": "Transfer funds to one or multiple accounts.",
+        "operationId": "transfer",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Resource has been retrieved",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Balance"
+                },
+                "example": {
+                  "data": {
+                    "transferResponse": {
+                      "TransferResponses": [
+                        {
+                          "PaymentReferenceNumber": "UBP0012345678",
+                          "PaymentDate": "06/04/2022",
+                          "Status": "- No authorisation necessary <BR>- Payment/Transfer effective date 06/04/2022",
+                          "BeneficiaryName": "API transfer",
+                          "BeneficiaryAccountId": "XXXXXXXXXX",
+                          "AuthorisationRequired": false
+                        }
+                      ],
+                      "ErrorMessage": null
+                    }
+                  },
+                  "links": {
+                    "self": "https://openapi.investec.com/za/pb/v1/accounts/transfermultiple"
+                  },
+                  "meta": {
+                    "totalPages": 1
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request - The requested operation will not be carried out"
+          },
+          "401": {
+            "description": "Unauthorized - The requested operation was refused access"
+          },
+          "403": {
+            "description": "Forbidden - Not permitted to make this request"
+          },
+          "429": {
+            "description": "Too Many Requests - To many requests in quick succession, Retry the request."
+          },
+          "500": {
+            "description": "Internal Server Error - The requested operation failed to execute"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/text": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "AccountId"
+                ],
+                "properties": {
+                  "AccountId": {
+                    "type": "string",
+                    "example": "XXXXXX"
+                  },
+                  "TransferList": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/TransferList"
+                    }
+                  }
+                }
+              },
+              "example": "POST https://openapi.investec.com/za/pb/v1/accounts/transfermultiple HTTP/1.1 \nAuthorization: Basic e2NsaWVudElkfTp7c2VjcmV0fQ== \nHost: openapi.investec.com \nAccept: application/json \ndata-raw {\n 'AccountId': 'XXXXXXXXXX',\n 'TransferList': [\n     {\n       'BeneficiaryAccountId': 'YYYYYYYYYY',\n       'Amount': '10',\n       'MyReference': 'API transfer',\n       'TheirReference': 'API transfer'\n     }\n   ] \n}\n\n $.ajax({ \n   url: 'https://openapi.investec.com/za/pb/v1/accounts/transfermultiple',\n   type: 'POST', \n      headers: {\n      'Authorization': 'Basic e2NsaWVudElkfTp7c2VjcmV0fQ=='\n   },\n   success: function (result) {\n       console.log(JSON.stringify(result));\n   }\n});"
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "bearer": {
+        "type": "http",
+        "scheme": "bearer"
+      }
+    },
+    "parameters": {
+      "x-api-key": {
+        "name": "x-api-key",
+        "in": "header",
+        "required": true,
+        "style": "simple",
+        "schema": {
+          "type": "string",
+          "example": "{{x-api-key}}"
+        }
+      },
+      "fromDate": {
+        "name": "fromDate",
+        "description": "Refers to the date range filter's start date. Will default to today's date, minus 180 days, if not specified.",
+        "in": "query",
+        "required": false,
+        "style": "form",
+        "schema": {
+          "type": "string",
+          "example": "2021-05-01"
+        }
+      },
+      "toDate": {
+        "name": "toDate",
+        "description": "Refers to the date range filter's end date. Will default to today's date if not specified.",
+        "in": "query",
+        "required": false,
+        "style": "form",
+        "schema": {
+          "type": "string",
+          "example": "2021-06-01"
+        }
+      },
+      "transactionType": {
+        "name": "transactionType",
+        "description": "Refers to the transaction type filter's value.",
+        "in": "query",
+        "required": false,
+        "style": "form",
+        "schema": {
+          "type": "string",
+          "example": "FeesAndInterest"
+        }
+      }
+    },
+    "schemas": {
+      "MetaData": {
+        "description": "Meta Data relevant to the payload",
+        "type": "object",
+        "properties": {
+          "TotalPages": {
+            "format": "int32",
+            "type": "integer"
+          }
+        }
+      },
+      "Links": {
+        "description": "Links relevant to the payload",
+        "required": [
+          "Self"
+        ],
+        "type": "object",
+        "properties": {
+          "Self": {
+            "type": "string"
+          }
+        }
+      },
+      "Accounts": {
+        "required": [
+          "Data",
+          "Links",
+          "Meta"
+        ],
+        "type": "object",
+        "properties": {
+          "data": {
+            "$ref": "#/components/schemas/AccountDataModel"
+          },
+          "meta": {
+            "$ref": "#/components/schemas/MetaData"
+          },
+          "links": {
+            "$ref": "#/components/schemas/Links"
+          }
+        }
+      },
+      "AccountDataModel": {
+        "required": [
+          "accountId",
+          "accountNumber",
+          "accountName",
+          "referenceName",
+          "productName"
+        ],
+        "type": "object",
+        "properties": {
+          "accountId": {
+            "description": "A unique and immutable identifier used to identify the account resource. This identifier has no meaning to the account owner.",
+            "maxLength": 40,
+            "minLength": 1,
+            "type": "string"
+          },
+          "accountNumber": {
+            "description": "A unique and immutable identifier used to identify the account resource. This identifier is what is commonly known to the owner.",
+            "maxLength": 40,
+            "minLength": 1,
+            "type": "string"
+          },
+          "accountName": {
+            "description": "The nickname of the account, a means of identification of the account.",
+            "maxLength": 70,
+            "minLength": 1,
+            "type": "string"
+          },
+          "referenceName": {
+            "description": "The nickname of the account, assigned by the account owner in order to provide an additional means of identification of the account.",
+            "maxLength": 70,
+            "minLength": 1,
+            "type": "string"
+          },
+          "productName": {
+            "description": "Identifies the product of the account.",
+            "maxLength": 70,
+            "minLength": 1,
+            "type": "string"
+          }
+        }
+      },
+      "Balance": {
+        "required": [
+          "Data",
+          "Links",
+          "Meta"
+        ],
+        "type": "object",
+        "properties": {
+          "data": {
+            "$ref": "#/components/schemas/BalanceDataModel"
+          },
+          "meta": {
+            "$ref": "#/components/schemas/MetaData"
+          },
+          "links": {
+            "$ref": "#/components/schemas/Links"
+          }
+        }
+      },
+      "BalanceDataModel": {
+        "description": "Set of elements used to define the balance details.",
+        "required": [
+          "accountId",
+          "currentBalance",
+          "availableBalance",
+          "currency"
+        ],
+        "type": "object",
+        "properties": {
+          "accountId": {
+            "description": "A unique and immutable identifier used to identify the account resource. This identifier has no meaning to the account owner.",
+            "maxLength": 40,
+            "minLength": 1,
+            "type": "string"
+          },
+          "currentBalance": {
+            "description": "A number of monetary units specified in an active currency where the unit of currency is explicit and compliant with ISO 4217.",
+            "pattern": "^\\d{1,13}\\.\\d{1,2}$",
+            "type": "string"
+          },
+          "availableBalance": {
+            "description": "A number of monetary units specified in an active currency where the unit of currency is explicit and compliant with ISO 4217.",
+            "pattern": "^\\d{1,13}\\.\\d{1,2}$",
+            "type": "string"
+          },
+          "currency": {
+            "description": "A code allocated to a currency by a Maintenance Agency under an international identification scheme, as described in the latest edition of the international standard ISO 4217 \"Codes for the representation of currencies and funds\".",
+            "pattern": "^[A-Z]{3,3}$",
+            "type": "string"
+          }
+        }
+      },
+      "Transactions": {
+        "required": [
+          "Data",
+          "Links",
+          "Meta"
+        ],
+        "type": "object",
+        "properties": {
+          "Data": {
+            "$ref": "#/components/schemas/TransactionsDataModel"
+          },
+          "Meta": {
+            "$ref": "#/components/schemas/MetaData"
+          },
+          "Links": {
+            "$ref": "#/components/schemas/Links"
+          }
+        }
+      },
+      "TransactionsDataModel": {
+        "description": "Provides further details on an entry in the report.",
+        "required": [
+          "AccountId",
+          "Amount",
+          "BookingDateTime",
+          "CreditDebitIndicator",
+          "Status"
+        ],
+        "type": "object",
+        "properties": {
+          "accountId": {
+            "description": "A unique and immutable identifier used to identify the account resource. This identifier has no meaning to the account owner.",
+            "maxLength": 40,
+            "minLength": 1,
+            "type": "string"
+          },
+          "type": {
+            "$ref": "#/components/schemas/CreditDebitCode"
+          },
+          "transactionType": {
+            "description": "Refers to the transaction type filter's value.",
+            "type": "string"
+          },
+          "status": {
+            "$ref": "#/components/schemas/EntryStatusCode"
+          },
+          "description": {
+            "description": "Unique identifier for the transaction within an servicing institution. This identifier is both unique and immutable.",
+            "maxLength": 40,
+            "minLength": 1,
+            "type": "string"
+          },
+          "cardNumber": {
+            "description": "Unique identifier for the transaction within an servicing institution. This identifier is both unique and immutable.",
+            "maxLength": 40,
+            "minLength": 1,
+            "type": "string"
+          },
+          "postedOrder": {
+            "description": "Unique identifier for the transaction within an servicing institution. This identifier is both unique and immutable.",
+            "maxLength": 40,
+            "minLength": 1,
+            "type": "string"
+          },
+          "postingDate": {
+            "format": "date-time",
+            "description": "Date and time when a transaction entry is posted to an account on the account servicer's books.\r\nUsage: Booking date is the expected booking date, unless the status is booked, in which case it is the actual booking date.\r\nAll dates in the JSON payloads are represented in ISO 8601 date-time format.\r\nAll date-time fields in responses must include the timezone. An example is below:\r\n2017-04-05T10:43:07+00:00",
+            "type": "string"
+          },
+          "valueDate": {
+            "format": "date-time",
+            "description": "Date and time at which assets become available to the account owner in case of a credit entry, or cease to be available to the account owner in case of a debit transaction entry.\r\nUsage: If transaction entry status is pending and value date is present, then the value date refers to an expected/requested value date.\r\nFor transaction entries subject to availability/float and for which availability information is provided, the value date must not be used. In this case the availability component identifies the number of availability days.\r\nAll dates in the JSON payloads are represented in ISO 8601 date-time format.\r\nAll date-time fields in responses must include the timezone. An example is below:\r\n2017-04-05T10:43:07+00:00",
+            "type": "string"
+          },
+          "actionDate": {
+            "format": "date-time",
+            "description": "Date and time at which assets become available to the account owner in case of a credit entry, or cease to be available to the account owner in case of a debit transaction entry.\r\nUsage: If transaction entry status is pending and value date is present, then the value date refers to an expected/requested value date.\r\nFor transaction entries subject to availability/float and for which availability information is provided, the value date must not be used. In this case the availability component identifies the number of availability days.\r\nAll dates in the JSON payloads are represented in ISO 8601 date-time format.\r\nAll date-time fields in responses must include the timezone. An example is below:\r\n2017-04-05T10:43:07+00:00",
+            "type": "string"
+          },
+          "transactionDate": {
+            "format": "date-time",
+            "description": "Date and time at which assets become available to the account owner in case of a credit entry, or cease to be available to the account owner in case of a debit transaction entry.\r\nUsage: If transaction entry status is pending and value date is present, then the value date refers to an expected/requested value date.\r\nFor transaction entries subject to availability/float and for which availability information is provided, the value date must not be used. In this case the availability component identifies the number of availability days.\r\nAll dates in the JSON payloads are represented in ISO 8601 date-time format.\r\nAll date-time fields in responses must include the timezone. An example is below:\r\n2017-04-05T10:43:07+00:00",
+            "type": "string"
+          },
+          "amount": {
+            "description": "A number of monetary units specified in an active currency where the unit of currency is explicit and compliant with ISO 4217.",
+            "pattern": "^\\d{1,13}\\.\\d{1,2}$",
+            "type": "string"
+          },
+          "runningBalance": {
+            "description": "A number of monetary units specified in an active currency where the unit of currency is explicit and compliant with ISO 4217.",
+            "pattern": "^\\d{1,13}\\.\\d{1,2}$",
+            "type": "string"
+          }
+        }
+      },
+      "CreditDebitCode": {
+        "enum": [
+          "Credit",
+          "Debit"
+        ],
+        "type": "string"
+      },
+      "EntryStatusCode": {
+        "enum": [
+          "Posted",
+          "Pending"
+        ],
+        "type": "string"
+      },
+      "TransferList": {
+        "required": [
+          "BeneficiaryAccountId",
+          "Amount",
+          "MyReference",
+          "TheirReference"
+        ],
+        "type": "object",
+        "properties": {
+          "BeneficiaryAccountId": {
+            "type": "string"
+          },
+          "Amount": {
+            "type": "string"
+          },
+          "MyReference": {
+            "type": "string"
+          },
+          "TheirReference": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "security": [
+    {
+      "bearer": []
+    }
+  ],
+  "tags": [],
+  "externalDocs": {
+    "url": "",
+    "description": ""
+  }
+}
