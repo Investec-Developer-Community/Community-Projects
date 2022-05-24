@@ -1,26 +1,26 @@
 # Community Challenges
-This page is about how community challenges work. See the [challenges board](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/boards/1927995) for submitted and in progress challenges.
+This page is about how community challenges work. See the [challenges board](https://gitlab.com/offerzen-community/investec-programmable-banking/command-center/-/boards/1927995) for submitted and in progress challenges.
 
 The intention with community challenges is to incentivise the creation of "building blocks" in the form of reusable libraries, utilities and code snippets. This should reduce the effort required for others in the community to build personal and business projects.
 
 Challenge acceptors create open source software by completing community challenges, get featured on our Gitlab and Youtube and win cool prizes 👾 💪🏆 
 
-*Contact Ben on [email](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/issues/new) or [Slack](https://app.slack.com/client/T8CRG18UC/D8D0JTUBE) if you have questions.*
+*Contact Nick on [email](mailto:community-investec@offerzen.com) if you have questions.*
 
 ## Submit a challenge
 
-**To submit a new challenge**: Add an issue to the "Submitted Challenges" list on the [Command Center Issues Board](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/boards/1927995). Use [this template](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/issues/30).
+**To submit a new challenge**: Add an issue to the "Submitted Challenges" list on the [Command Center Issues Board](https://gitlab.com/offerzen-community/investec-programmable-banking/command-center/-/boards/1927995). Use [this template](https://gitlab.com/offerzen-community/investec-programmable-banking/command-center/-/issues/30).
 
 ## Accept a challenge
 
-1. **Accepting a challenge:** Assign yourself to an issue on the [Command Center Issues Board](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/boards/1927995). Move the issue into the `Accepted Challenges` list.
+1. **Accepting a challenge:** Assign yourself to an issue on the [Command Center Issues Board](https://gitlab.com/offerzen-community/investec-programmable-banking/command-center/-/boards/1927995). Move the issue into the `Accepted Challenges` list.
 2. **Build and publish code:** Build a solution, submit your code repo and get featured on the community Gitlab.
 3. **Demo your solution:** Book a demo at the weekly meetup and get featured on the community Youtube channel.
 4. **Claim a reward:** We will reward you with one of the prizes from The Bounty Box.
 
 ## Completed challenges 🚀
 
-[See community projects.](https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/blob/master/README.md)
+[See community projects.](https://gitlab.com/offerzen-community/investec-programmable-banking/command-center/-/blob/master/README.md)
 
 ## The Bounty Box 🏆
 
