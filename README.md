@@ -82,6 +82,7 @@ If you're looking for something to build, or want to challenge the community to 
 
 | Open Source Repo | Description | Tech Stack | Author |
 | - | - | - | - |
+| [investecOpenAPI package for Golang](https://github.com/investec-programmable-banking/GolangInvestecOpenAPI) | A Golang package for Investec's API | *Golang* | [Amnon Melzer](https://www.linkedin.com/in/amnon-melzer-01b2431/) |
 | [Investec Programmable Banking Open API Simulator](https://github.com/devinpearson/programmable-banking-sim) | A nodejs server to get eveyone building and demoing regardless whether you have an account. | *Node.js* | [@devinpearson](https://github.com/devinpearson) |
 | [Investec Bank GraphQL](https://github.com/naartjie/investec.graphql) | GraphQL API for Investec Open Banking | *F#, .Net Core, GraphQL* | [@naartjie](https://github.com/naartjie/investec.graphql) |
 | [Investec to Sage One](https://github.com/imraanparker/investec-to-sage-one) | Sync Investec transactions with Sage One accounting. | *FastAPI, Sage API, Python, Heroku, Python Investec OpenAPI Wrapper* | [@imraanp](https://github.com/imraanparker/investec-to-sage-one) |
