@@ -1,5 +1,5 @@
 # Whois?
-We're a community of 700+ software devs on a mission. We want to make Open Banking a reality in South Africa: by building open source tech with [Investec Programmable Banking](https://www.investec.com/en_za/banking/programmable-banking.html). We meet up every month to share what we learn.
+We're a community of 900+ software devs on a mission. We want to make Open Banking a reality in South Africa: by building open source tech with [Investec Programmable Banking](https://www.investec.com/en_za/banking/programmable-banking.html). We meet up every month to share what we learn.
 
 # Find out more about Programmable Banking
 
@@ -82,6 +82,9 @@ If you're looking for something to build, or want to challenge the community to 
 
 | Open Source Repo | Description | Tech Stack | Author |
 | - | - | - | - |
+| [NPM_my_API](https://www.npmjs.com/package/investec-api) | An NPM module to interact with Investec's Open API. | *NPM* | [Frikkie Snyman](https://github.com/FrikkieSnyman) |
+| [The Maintainer](https://github.com/rijnhardtkotze/investec-maintain-balance) | Moves money into your PrimeSaver every 5 minutes, so that you can maximise that interest every month | *Python* | [Rijnhardt Kotze](https://github.com/rijnhardtkotze) |
+| [investec-openapi-wrapper](https://github.com/GoosenA/ipb-python-wrapper) | A python wrapper for the IPB OpenAPI Personal Banking API | *Python* | [Anri Goosen](https://github.com/GoosenA) |
 | [investecOpenAPI package for Golang](https://github.com/investec-programmable-banking/GolangInvestecOpenAPI) | A Golang package for Investec's API | *Golang* | [Amnon Melzer](https://www.linkedin.com/in/amnon-melzer-01b2431/) |
 | [Investec Programmable Banking Open API Simulator](https://github.com/devinpearson/programmable-banking-sim) | A nodejs server to get eveyone building and demoing regardless whether you have an account. | *Node.js* | [@devinpearson](https://github.com/devinpearson) |
 | [Investec Bank GraphQL](https://github.com/naartjie/investec.graphql) | GraphQL API for Investec Open Banking | *F#, .Net Core, GraphQL* | [@naartjie](https://github.com/naartjie/investec.graphql) |
