@@ -1,5 +1,5 @@
 # Whois?
-We're a community of 900+ software devs on a mission. We want to make Open Banking a reality in South Africa: by building open source tech with [Investec Programmable Banking](https://www.investec.com/en_za/banking/programmable-banking.html). We meet up every month to share what we learn.
+We're a community of 1,000+ software devs on a mission. We want to make Open Banking a reality in South Africa: by building open source tech with [Investec Programmable Banking](https://www.investec.com/en_za/banking/programmable-banking.html). We meet up every month to share what we learn.
 
 # Find out more about Programmable Banking
 
