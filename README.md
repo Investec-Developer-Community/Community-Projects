@@ -3,7 +3,7 @@ We're a community of 1,000+ software devs on a mission. We want to make Open Ban
 
 # Find out more about Programmable Banking
 
-To find out more, check out these links, or get in touch by emailing @nickbenson at [community-investec@offerzen.com](mailto:community-investec@offerzen.com)
+To find out more, check out these links, or get in touch by emailing the Investec community team at [developercommunity@investec.co.za](developercommunity@investec.co.za)
 
 ## NB Community Links  :tent:
 
