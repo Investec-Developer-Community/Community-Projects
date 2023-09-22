@@ -2,9 +2,11 @@
 
 This is an index of open-source code and demos of apps and systems built by the Programmable Banking Dev Community.
 
+**🚧 This readme is always being updated - so should be viewed as a work in progress - like all awesome things 🦄**
+
 `Let's make Open Banking a reality by building, sharing reusable software and connecting!`
 
-If you're looking for something to build, or want to challenge the community to build something. The intention with [community challenges]([https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/blob/master/community_challenges.md](https://offerzen.gitbook.io/programmable-banking-community-wiki/get-building/build-events)) is to incentivise the creation of "building blocks" in the form of reusable libraries, utilities and code snippets. This should reduce the effort required for others in the community to build personal and business projects.
+If you're looking for something to build, or want to challenge the community to build something. The intention with the [Build Challenges](https://offerzen.gitbook.io/programmable-banking-community-wiki/get-building/build-events) is to incentivise the creation of "building blocks" in the form of reusable libraries, utilities and code snippets. This should reduce the effort required for others in the community to build personal and business projects.
 
 ## Quick Links
 
@@ -61,6 +63,7 @@ If you're looking for something to build, or want to challenge the community to 
 
 | Open Source Repo | Description | Tech Stack | Author |
 | - | - | - | - |
+| [investec-api-python](https://github.com/tailucas/investec-api-python) | Python client for Investec Programmable Banking | *Python* | [Tai Lucas](https://github.com/tailucas) |
 | [NPM_my_API](https://www.npmjs.com/package/investec-api) | An NPM module to interact with Investec's Open API. | *NPM* | [Frikkie Snyman](https://github.com/FrikkieSnyman) |
 | [The Maintainer](https://github.com/rijnhardtkotze/investec-maintain-balance) | Moves money into your PrimeSaver every 5 minutes, so that you can maximise that interest every month | *Python* | [Rijnhardt Kotze](https://github.com/rijnhardtkotze) |
 | [investec-openapi-wrapper](https://github.com/GoosenA/ipb-python-wrapper) | A python wrapper for the IPB OpenAPI Personal Banking API | *Python* | [Anri Goosen](https://github.com/GoosenA) |
@@ -157,56 +160,9 @@ We meet every last Thursday of the month at 6:30pm over Zoom to see demos from c
 
 ## Some Useful Resources
 
-[Hackathon Builds](#hackathon-build-submissions) | [Business Banking](#built-with-investec-business-banking) | [Open API](#built-with-investec-open-api) | [Programmable Card](#built-with-investec-programmable-card) | [Demos](#demos)
-
-### Auth
-
-- [Cloudflare Auth0](https://developers.cloudflare.com/workers/tutorials/user-auth-with-auth0)
-- [auth0.com](auth0.com)
-
-### AWS CDK
-
-- [aws-cdk-js-dev-guide](https://github.com/therightstuff/aws-cdk-js-dev-guide)
-
-### CI/CD
-
-- [GitLab CI/CD | GitLab](https://docs.gitlab.com/ee/ci/)
-- [Github actions](https://github.com/features/actions)
-
-### Prototyping tools
-- [ngrok - secure introspectable tunnels to localhost](https://ngrok.com/)
-
-### Web App
-- [Ruby on Rails | A web-application framework](https://rubyonrails.org/)
-
-### Database / Storage
-
-- [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine)
-- [InfluxDB](https://www.influxdata.com/)
-- [RethinkDB](https://rethinkdb.com/)
-
-### Front-end
-- [VueJS](https://vuejs.org/)
-- [ReactJS](https://reactjs.org/)
-
-### Chat/Chatbots
-
-#### Chat Interfaces
-
-- [Telegram Bots: An introduction for developers](https://core.telegram.org/bots)
-- [Facebook Messenger: Chatfuel](https://chatfuel.com/)
-- [Slack Bots API](https://api.slack.com/bot-users)
-
-#### Dialogflow - NLP
-
-If you want to create chat logic so that you can interact with your chatbot via text, this is a great platform.
-
-- [Basic Tutorial](https://developers.google.com/actions/dialogflow/first-app) 
-- [Website](https://dialogflow.com/) 
-- [Sample Apps](https://dialogflow.com/docs/examples/) 
-- [Starter example with API integration](https://dialogflow.com/docs/getting-started/basic-fulfillment-conversation) 
-- [Crafting a Conversation](https://developers.google.com/actions/design/walkthrough#write_dialogs)
-
-#### Other NLP Solutions
-- [Wit.ai](https://wit.ai/) 
-- [Rasa](http://rasa.com/) 
+- [Use Cases](https://offerzen.gitbook.io/programmable-banking-community-wiki/get-building/use-cases)
+- [Sample Apps](https://offerzen.gitbook.io/programmable-banking-community-wiki/get-started/sample-apps)
+- [API Quick Start Guide](https://offerzen.gitbook.io/programmable-banking-community-wiki/get-started/api-quick-start-guide)
+- [Card Quick Start Guide](https://offerzen.gitbook.io/programmable-banking-community-wiki/get-started/card-quick-start-guide)
+- [Build Tutorials & Templates](https://offerzen.gitbook.io/programmable-banking-community-wiki/get-building/build-something-simple)
+- [Community Libraries & Tools](https://offerzen.gitbook.io/programmable-banking-community-wiki/get-building/community-libraries-and-tools)
