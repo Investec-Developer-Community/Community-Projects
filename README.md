@@ -90,7 +90,7 @@ If you're looking for something to build, or want to challenge the community to 
 
 | Open Source Repo | Description | Tech Stack | Author |
 | - | - | - | - |
-| [Subtrack]([https://github.com/dominicsanto/card-notifier](https://www.subtrack.co.za/)) | A kick-ass webapp that is a subscription management for you and your business. | *Tools: JavaScript, framer* | [@nicbotes](https://github.com/nicbotes) |
+| [Subtrack](https://www.subtrack.co.za/) | A kick-ass webapp that is a subscription management for you and your business. | *Tools: JavaScript, framer* | [@nicbotes](https://github.com/nicbotes) |
 | [Card-notifier](https://github.com/dominicsanto/card-notifier) | A simple script that gets executed once a transaction has completed that notifies an external service. | *Tools: JavaScript* | [@dominicsanto](https://github.com/dominicsanto) |
 | [ Savings Roulette](https://github.com/FrikkieSnyman/investec-tools/blob/master/src/cards/savingsRoulette.js) | Random transaction rejections funnelling into savings. You control the rules! | *Tools: JavaScript* | [@FrikkieSnyman](https://github.com/FrikkieSnyman) |
 | [Card Guard](https://dev.azure.com/RiderZebraDevops/blueprints) | Web solution for Investec clients to create their own rules using a web interface. Non technical account holders have the opportunity to configure their own rules. Banking app users have greater control over where and how they want to transact. | *Tools: C#, TypeScript Components: ASP.net, Angular* | [CSTech](https://zebrabluebrints.azurewebsites.net/demo) |
