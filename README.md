@@ -4,7 +4,7 @@ This is an index of open-source code and demos of apps and systems built and sha
 
  **🚧 This readme is always being updated - view it as a work in progress - like all awesome things 🦄**
 
-![GitHub](https://img.shields.io/github/license/investec-developer-community/community-projects)
+[![GitHub](https://img.shields.io/github/license/investec-developer-community/community-projects)](https://github.com/Investec-Developer-Community/Community-Projects/blob/master/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=round-square)](https://github.com/Investec-Developer-Community/Community-Projects/pulls)
 
 `Let's make Open Banking a reality by building, sharing reusable software and connecting!`
