@@ -1,12 +1,22 @@
 # Open Source Projects
 
-This is an index of open-source code and demos of apps and systems built by the Programmable Banking Dev Community.
+This is an index of open-source code and demos of apps and systems built and shared by the [Programmable Banking Dev Community](https://developer.investec.com/za/community).
 
-**🚧 This readme is always being updated - so should be viewed as a work in progress - like all awesome things 🦄**
+ **🚧 This readme is always being updated - view it as a work in progress - like all awesome things 🦄**
+
+![GitHub](https://img.shields.io/github/license/investec-developer-community/community-projects)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=round-square)](https://github.com/Investec-Developer-Community/Community-Projects/pulls)
 
 `Let's make Open Banking a reality by building, sharing reusable software and connecting!`
 
-If you're looking for something to build, or want to challenge the community to build something. The intention with the [Build Challenges](https://offerzen.gitbook.io/programmable-banking-community-wiki/get-building/build-events) is to incentivise the creation of "building blocks" in the form of reusable libraries, utilities and code snippets. This should reduce the effort required for others in the community to build personal and business projects.
+If you're looking for something to build, or want to challenge the community to build something. The intention of the [Build Challenges](https://investec.gitbook.io/programmable-banking-community-wiki/get-building/build-events) is to incentivise the creation of "building blocks" in the form of reusable libraries, utilities and code snippets. This should reduce the effort required for others in the community to build personal and business projects.
+
+## Community Created Sandboxes
+
+| Project Name | Description | Author |
+| - | - | - |
+| [Mock API simulator](https://github.com/devinpearson/programmable-banking-sim) | Mimics the programmable banking API service for local testing. | [Devin Pearson](https://github.com/devinpearson) |
+| [CLI card code emulator](https://github.com/devinpearson/card-code-cli) | Write and test programmable card code in a safe environment. | [Devin Pearson](https://github.com/devinpearson) |
 
 ## Quick Links
 
@@ -115,7 +125,7 @@ If you're looking for something to build, or want to challenge the community to 
 
 [Hackathon Builds](#hackathon-build-submissions) | [Business Banking](#built-with-investec-business-banking) | [Open API](#built-with-investec-open-api) | [Programmable Card](#built-with-investec-programmable-card) | [Resources](#some-useful-resources)
 
-We meet every last Thursday of the month at 6:30pm over Zoom to see demos from community members. Come support us :)! Watch all [past recorded Meetups here.](https://www.youtube.com/watch?v=PcU0aT5ckDM&list=PLjTry3duaTAGJ6UOW5ISS_ymV46-VqkPa)
+We meet every last Thursday of the month at 6:30pm over Zoom to see demos from community members. Come support us :)! Watch all [past recorded Meetups here.](https://www.youtube.com/watch?v=PcU0aT5ckDM&list=PLjTry3duaTAGJ6UOW5ISS_ymV46-VqkPa) and [newly recorded meetups here](https://www.youtube.com/playlist?list=PLdtUNQ2k27WiAdJFzLeF-a7weue5U12Kl).
 
 | <img src = "/images/youtube_logo.png"> Demo | Open Source Repo | Description | Tech Stack | Author |
 | ------ | ------ | ------ | ------ | ------ |
@@ -161,9 +171,9 @@ We meet every last Thursday of the month at 6:30pm over Zoom to see demos from c
 
 ## Some Useful Resources
 
-- [Use Cases](https://offerzen.gitbook.io/programmable-banking-community-wiki/get-building/use-cases)
-- [Sample Apps](https://offerzen.gitbook.io/programmable-banking-community-wiki/get-started/sample-apps)
-- [API Quick Start Guide](https://offerzen.gitbook.io/programmable-banking-community-wiki/get-started/api-quick-start-guide)
-- [Card Quick Start Guide](https://offerzen.gitbook.io/programmable-banking-community-wiki/get-started/card-quick-start-guide)
-- [Build Tutorials & Templates](https://offerzen.gitbook.io/programmable-banking-community-wiki/get-building/build-something-simple)
-- [Community Libraries & Tools](https://offerzen.gitbook.io/programmable-banking-community-wiki/get-building/community-libraries-and-tools)
+- [Use Cases](https://investec.gitbook.io/programmable-banking-community-wiki/get-building/use-cases)
+- [Sample Apps](https://investec.gitbook.io/programmable-banking-community-wiki/get-started/sample-apps)
+- [API Quick Start Guide](https://investec.gitbook.io/programmable-banking-community-wiki/get-started/api-quick-start-guide)
+- [Card Quick Start Guide](https://investec.gitbook.io/programmable-banking-community-wiki/get-started/card-quick-start-guide)
+- [Build Tutorials & Templates](https://investec.gitbook.io/programmable-banking-community-wiki/get-building/build-something-simple)
+- [Community Libraries & Tools](https://investec.gitbook.io/programmable-banking-community-wiki/get-building/community-libraries-and-tools)
