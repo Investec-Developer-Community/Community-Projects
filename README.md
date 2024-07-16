@@ -27,9 +27,21 @@ If you're looking for something to build, or want to challenge the community to 
 - [Collection of demos](#demos)
 - [Some Useful Resources](#some-useful-resources)
 
+## Bounty Submissions
+We had six amazing submissions for our [Q2 2024 Bounty Challenge | Card Code Snippets](https://investec.gitbook.io/programmable-banking-community-wiki/get-building/build-events/q2-2024-bounty-challenge-or-card-code-snippets). Check them out below:
+
+| Full Name                | Snippet Name       | Documentation                                                                 | Description                                                                 |
+|--------------------------|-------------------------|-----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| Peter Smythe             | [Swipe 'n Save](https://github.com/petersmythe/investec-swipe-n-save)           | [Documentation](https://github.com/petersmythe/investec-swipe-n-save/blob/main/README.md) | Demo code integrating the Private Banking API (OAuth2) with the Card API.         |
+| Amery Winter & Peter Smythe | [CarbonCooler](https://github.com/Brodreger/CarbonCooler)           | [Documentation](https://github.com/Brodreger/CarbonCooler/blob/main/README.md)    | Tracks carbon footprint of fuel purchases and invests in carbon offset initiatives. |
+| Peter Smythe             | [Virtual Card Fortress](https://github.com/petersmythe/investec-virtual-card-fortress)   | [Documentation](https://github.com/petersmythe/investec-virtual-card-fortress?tab=readme-ov-file) | Shifts recurring subscription payments to a separate virtual credit card.         |
+| Roberto Aldera           | [Payment Pinger 💸](https://github.com/roberto-aldera/card-payment-notifier)       | [Documentation](https://github.com/roberto-aldera/card-payment-notifier)          | Posts payment details to Telegram for card payments and includes anomaly detection for non-ZAR transactions. |
+| Matt van Niekerk         | [Teleidop](https://github.com/mattvanniekerk/teleidop/)                | [Documentation](https://github.com/mattvanniekerk/teleidop/blob/main/README.md)   | Uses Investec's Programmable Card feature to send transaction notifications via Telegram. |
+| Dominic Santo            | [Card To Sheet Sync](https://github.com/dominicsanto/card-to-sheet-sync)      | [Documentation](https://github.com/dominicsanto/card-to-sheet-sync/blob/main/README.md) | Sends card transactions to a Google Sheets document.                             |
+
 ## Hackathon Build Submissions
 
-[Business Banking](#built-with-investec-business-banking) | [Open API](#built-with-investec-open-api) | [Programmable Card](#built-with-investec-programmable-card) | [Demos](#demos) | [Resources](#some-useful-resources)
+[Bounty Submissions](#bounty-submissions) | [Business Banking](#built-with-investec-business-banking) | [Open API](#built-with-investec-open-api) | [Programmable Card](#built-with-investec-programmable-card) | [Demos](#demos) | [Resources](#some-useful-resources)
 
 | Hackathon Date | Team Name | Description | Open Source Repo | Demo Video |
 | - | - | - | - | - |
@@ -61,7 +73,7 @@ If you're looking for something to build, or want to challenge the community to 
 
 ## Built with Investec Business Banking
 
-[Hackathon Builds](#hackathon-build-submissions) | [Open API](#built-with-investec-open-api) | [Programmable Card](#built-with-investec-programmable-card) | [Demos](#demos) | [Resources](#some-useful-resources)
+[Bounty Submissions](#bounty-submissions) | [Hackathon Builds](#hackathon-build-submissions) | [Open API](#built-with-investec-open-api) | [Programmable Card](#built-with-investec-programmable-card) | [Demos](#demos) | [Resources](#some-useful-resources)
 
 | Open Source Repo | Description | Tech Stack | Author |
 | - | - | - | - |
@@ -69,7 +81,7 @@ If you're looking for something to build, or want to challenge the community to 
 
 ## Built with Investec Open API
 
-[Hackathon Builds](#hackathon-build-submissions) | [Business Banking](#built-with-investec-business-banking) | [Programmable Card](#built-with-investec-programmable-card) | [Demos](#demos) | [Resources](#some-useful-resources)
+[Bounty Submissions](#bounty-submissions) | [Hackathon Builds](#hackathon-build-submissions) | [Business Banking](#built-with-investec-business-banking) | [Programmable Card](#built-with-investec-programmable-card) | [Demos](#demos) | [Resources](#some-useful-resources)
 
 | Open Source Repo | Description | Tech Stack | Author |
 | - | - | - | - |
@@ -96,7 +108,7 @@ If you're looking for something to build, or want to challenge the community to 
 
 ## Built with Investec Programmable Card
 
-[Hackathon Builds](#hackathon-build-submissions) | [Business Banking](#built-with-investec-business-banking) | [Open API](#built-with-investec-open-api) | [Demos](#demos) | [Resources](#some-useful-resources)
+[Bounty Submissions](#bounty-submissions) | [Hackathon Builds](#hackathon-build-submissions) | [Business Banking](#built-with-investec-business-banking) | [Open API](#built-with-investec-open-api) | [Demos](#demos) | [Resources](#some-useful-resources)
 
 | Open Source Repo | Description | Tech Stack | Author |
 | - | - | - | - |
@@ -123,7 +135,7 @@ If you're looking for something to build, or want to challenge the community to 
 
 ## Demos
 
-[Hackathon Builds](#hackathon-build-submissions) | [Business Banking](#built-with-investec-business-banking) | [Open API](#built-with-investec-open-api) | [Programmable Card](#built-with-investec-programmable-card) | [Resources](#some-useful-resources)
+[Bounty Submissions](#bounty-submissions) | [Hackathon Builds](#hackathon-build-submissions) | [Business Banking](#built-with-investec-business-banking) | [Open API](#built-with-investec-open-api) | [Programmable Card](#built-with-investec-programmable-card) | [Resources](#some-useful-resources)
 
 We meet every last Thursday of the month at 6:30pm over Zoom to see demos from community members. Come support us :)! Watch all [past recorded Meetups here.](https://www.youtube.com/watch?v=PcU0aT5ckDM&list=PLjTry3duaTAGJ6UOW5ISS_ymV46-VqkPa) and [newly recorded meetups here](https://www.youtube.com/playlist?list=PLdtUNQ2k27WiAdJFzLeF-a7weue5U12Kl).
 
