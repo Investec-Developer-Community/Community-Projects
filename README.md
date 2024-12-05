@@ -28,7 +28,7 @@ If you're looking for something to build, or want to challenge the community to 
 - [Some Useful Resources](#some-useful-resources)
 
 ## Bounty Submissions
-We had six amazing submissions for our [Q2 2024 Bounty Challenge | Card Code Snippets](https://investec.gitbook.io/programmable-banking-community-wiki/get-building/build-events/q2-2024-bounty-challenge-or-card-code-snippets). Check them out below:
+We've seen some awesome [bounty challenge](https://investec.gitbook.io/programmable-banking-community-wiki/get-building/build-events) submissions. Check a few of them out below:
 
 | Full Name                | Snippet Name       | Documentation                                                                 | Description                                                                 |
 |--------------------------|-------------------------|-----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
@@ -38,6 +38,7 @@ We had six amazing submissions for our [Q2 2024 Bounty Challenge | Card Code Sni
 | Roberto Aldera           | [Payment Pinger 💸](https://github.com/roberto-aldera/card-payment-notifier)       | [Documentation](https://github.com/roberto-aldera/card-payment-notifier)          | Posts payment details to Telegram for card payments and includes anomaly detection for non-ZAR transactions. |
 | Matt van Niekerk         | [Teleidop](https://github.com/mattvanniekerk/teleidop/)                | [Documentation](https://github.com/mattvanniekerk/teleidop/blob/main/README.md)   | Uses Investec's Programmable Card feature to send transaction notifications via Telegram. |
 | Dominic Santo            | [Card To Sheet Sync](https://github.com/dominicsanto/card-to-sheet-sync)      | [Documentation](https://github.com/dominicsanto/card-to-sheet-sync/blob/main/README.md) | Sends card transactions to a Google Sheets document.                             |
+| Melody Mbewe             | 🎄 [Investec API Wrapper: Your Festive Helper!](https://github.com/devNenyasha/investec-api-wrapper | [Documentation](https://github.com/devNenyasha/investec-api-wrapper/blob/main/README.md) | A simple PHP wrapper for Investec's Private Banking and ICIB APIs. |
 
 ## Hackathon Build Submissions
 
