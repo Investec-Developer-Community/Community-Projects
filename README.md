@@ -16,7 +16,7 @@ If you're looking for something to build, or want to challenge the community to 
 | Project Name | Description | Author |
 | - | - | - |
 | [Mock API simulator](https://github.com/devinpearson/programmable-banking-sim) | Mimics the programmable banking API service for local testing. | [Devin Pearson](https://github.com/devinpearson) |
-| [CLI card code emulator](https://github.com/devinpearson/card-code-cli) | Write and test programmable card code in a safe environment. | [Devin Pearson](https://github.com/devinpearson) |
+| [CLI for card code](https://github.com/devinpearson/ipb) | Deploy your code directly to your card. Includes an emulator to test code locally. | [Devin Pearson](https://github.com/devinpearson) |
 
 ## Quick Links
 
