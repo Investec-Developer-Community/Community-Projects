@@ -18,6 +18,18 @@ If you're looking for something to build, or want to challenge the community to 
 | [Mock API simulator](https://github.com/devinpearson/programmable-banking-sim) | Mimics the programmable banking API service for local testing. | [Devin Pearson](https://github.com/devinpearson) |
 | [CLI for card code](https://github.com/devinpearson/ipb) | Deploy your code directly to your card. Includes an emulator to test code locally. | [Devin Pearson](https://github.com/devinpearson) |
 
+## Community AI Projects
+
+Why a separate AI list? Well, AI's where it's at, and these projects are paving the way! We're pulling together this list to show off how our community is using AI to build smarter stuff. Jump in and see how AI's shaking up banking and tech!
+
+| Project Name | Description | Author |
+| - | - | - |
+| [Investec Query Bot](https://github.com/lebomorojele/investecbot) | A NLP service for interpreting transaction data from Investec Programmable Card API 🤖 | [Lebo Morojele](https://github.com/lebomorojele) |
+| [AI Budget Tracking](https://offerzenbv.sharepoint.com/:x:/r/sites/SpreadsheetBanking/_layouts/15/doc2.aspx?sourcedoc=%7BCFC738F9-7D3D-4CEC-8589-25EFA7A82CD6%7D&file=Spreadsheet%20Banking.xlsx&action=default&mobileredirect=true&cid=682de773-383b-479f-a8d2-47380c92cada) | AI-powered budget tracking spreadsheet. | [Luyanda Gumede](https://drive.google.com/file/d/1Ng8I0mKufm7UVTlr4bd6ul181Qminj7R/view) | 
+| [ZATechRadio](https://github.com/Vutlhari/paycat) | AI Powered Transaction Categorizer. | [Vutlhari](https://github.com/Vutlhari) |
+| [Investec API MCP Server](https://github.com/acambitsis/mcp-investec-sapb-simple) | A simple Model Context Protocol (MCP) server for interacting with Investec's API, designed for easy auditing and security. | [Andrew Cambitsis](https://github.com/acambitsis) |
+| [Investec SAPB MCP Server](https://github.com/acambitsis/investec-sapb-mcp) | Python-based MCP server for seamless AI integration with Investec's API, using a standardised interface. | [Andrew Cambitsis](https://github.com/acambitsis) |
+
 ## Quick Links
 
 - [Hackathon Build Submissions](#hackathon-build-submissions)
