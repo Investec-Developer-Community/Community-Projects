@@ -1,60 +1,66 @@
-# Open Source Projects
+# 🌟 Open Source Projects by the Investec Developer Community
 
-This is an index of open-source code and demos of apps and systems built and shared by the [Programmable Banking Dev Community](https://developer.investec.com/za/community).
+Welcome to the hub of innovation and collaboration! This repository is a showcase of open-source projects and demos created by the [Programmable Banking Dev Community](https://developer.investec.com/za/community). Our mission is to empower developers to shape the future of open banking through shared knowledge and reusable software.
 
- **🚧 This readme is always being updated - view it as a work in progress - like all awesome things 🦄**
+**🚧 This README is a living document, continuously evolving with new projects and updates. 🦄**
 
-[![GitHub](https://img.shields.io/github/license/investec-developer-community/community-projects)](https://github.com/Investec-Developer-Community/Community-Projects/blob/master/LICENSE)
+[![GitHub License](https://img.shields.io/github/license/investec-developer-community/community-projects)](https://github.com/Investec-Developer-Community/Community-Projects/blob/master/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=round-square)](https://github.com/Investec-Developer-Community/Community-Projects/pulls)
 
-`Let's make Open Banking a reality by building, sharing reusable software and connecting!`
+## 🌐 Quick Links
+- [Community Projects](#community-projects)
+  - [Sandboxes](#sandboxes)
+  - [AI Projects](#ai-projects)
+  - [Bounty Submissions](#bounty-submissions)
+  - [Hackathon Build Submissions](#hackathon-build-submissions)
+- [Built with Investec](#built-with-investec)
+  - [Business Banking](#business-banking)
+  - [Open API](#open-api)
+  - [Programmable Card](#programmable-card)
+- [Demos](#demos)
+- [Resources](#resources)
+- [Get Involved](#get-involved)
 
-If you're looking for something to build, or want to challenge the community to build something. The intention of the [Build Challenges](https://investec.gitbook.io/programmable-banking-community-wiki/get-building/build-events) is to incentivise the creation of "building blocks" in the form of reusable libraries, utilities and code snippets. This should reduce the effort required for others in the community to build personal and business projects.
+## 📜 Introduction
 
-## Community Created Sandboxes
+Join us in making Open Banking a reality in South Africa by building and sharing reusable software. Whether you're looking for inspiration or want to challenge the community, our [Build Challenges](https://investec.gitbook.io/programmable-banking-community-wiki/get-building/build-events) incentivise the creation of "building blocks" to reduce the effort required for personal and business projects.
+
+## 🏗️ Community Projects
+
+### Community Created Sandboxes
+Explore projects designed to simulate and enhance your development experience.
 
 | Project Name | Description | Author |
-| - | - | - |
-| [Mock API simulator](https://github.com/devinpearson/programmable-banking-sim) | Mimics the programmable banking API service for local testing. | [Devin Pearson](https://github.com/devinpearson) |
-| [CLI for card code](https://github.com/devinpearson/ipb) | Deploy your code directly to your card. Includes an emulator to test code locally. | [Devin Pearson](https://github.com/devinpearson) |
+|--------------|-------------|--------|
+| [Mock API Simulator](https://github.com/devinpearson/programmable-banking-sim) | Mimics the programmable banking API service for local testing. | [Devin Pearson](https://github.com/devinpearson) |
+| [CLI for Card Code](https://github.com/devinpearson/ipb) | Deploy your code directly to your card. Includes an emulator for local testing. | [Devin Pearson](https://github.com/devinpearson) |
 
-## Community AI Projects
-
-Why a separate AI list? Well, AI's where it's at, and these projects are paving the way! We're pulling together this list to show off how our community is using AI to build smarter stuff. Jump in and see how AI's shaking up banking and tech!
+### Community AI Projects
+Discover how AI is revolutionising banking and tech through innovative projects.
 
 | Project Name | Description | Author |
-| - | - | - |
-| [Investec Query Bot](https://github.com/lebomorojele/investecbot) | A NLP service for interpreting transaction data from Investec Programmable Card API 🤖 | [Lebo Morojele](https://github.com/lebomorojele) |
-| [AI Budget Tracking](https://offerzenbv.sharepoint.com/:x:/r/sites/SpreadsheetBanking/_layouts/15/doc2.aspx?sourcedoc=%7BCFC738F9-7D3D-4CEC-8589-25EFA7A82CD6%7D&file=Spreadsheet%20Banking.xlsx&action=default&mobileredirect=true&cid=682de773-383b-479f-a8d2-47380c92cada) | AI-powered budget tracking spreadsheet. | [Luyanda Gumede](https://drive.google.com/file/d/1Ng8I0mKufm7UVTlr4bd6ul181Qminj7R/view) | 
+|--------------|-------------|--------|
+| [Investec Query Bot](https://github.com/lebomorojele/investecbot) | NLP service for interpreting transaction data from Investec Programmable Card API 🤖 | [Lebo Morojele](https://github.com/lebomorojele) |
+| [AI Budget Tracking](https://offerzenbv.sharepoint.com/:x:/r/sites/SpreadsheetBanking/_layouts/15/doc2.aspx?sourcedoc=%7BCFC738F9-7D3D-4CEC-8589-25EFA7A82CD6%7D&file=Spreadsheet%20Banking.xlsx&action=default&mobileredirect=true&cid=682de773-383b-479f-a8d2-47380c92cada) | AI-powered budget tracking spreadsheet. | [Luyanda Gumede](https://drive.google.com/file/d/1Ng8I0mKufm7UVTlr4bd6ul181Qminj7R/view) |
 | [ZATechRadio](https://github.com/Vutlhari/paycat) | AI Powered Transaction Categorizer. | [Vutlhari](https://github.com/Vutlhari) |
 | [Investec API MCP Server](https://github.com/acambitsis/mcp-investec-sapb-simple) | A simple Model Context Protocol (MCP) server for interacting with Investec's API, designed for easy auditing and security. | [Andrew Cambitsis](https://github.com/acambitsis) |
 | [Investec SAPB MCP Server](https://github.com/acambitsis/investec-sapb-mcp) | Python-based MCP server for seamless AI integration with Investec's API, using a standardised interface. | [Andrew Cambitsis](https://github.com/acambitsis) |
 
-## Quick Links
+### 🏆 Bounty Submissions
+Explore innovative solutions from our [bounty challenge](https://investec.gitbook.io/programmable-banking-community-wiki/get-building/build-events) submissions.
 
-- [Hackathon Build Submissions](#hackathon-build-submissions)
-- [Built with Investec Business Banking](#built-with-investec-business-banking)
-- [Built with Investec Open API](#built-with-investec-open-api)
-- [Built with Investec Programmable Card](#built-with-investec-programmable-card)
-- [Collection of demos](#demos)
-- [Some Useful Resources](#some-useful-resources)
+| Full Name | Snippet Name | Documentation | Description |
+|-----------|--------------|---------------|-------------|
+| Peter Smythe | [Swipe 'n Save](https://github.com/petersmythe/investec-swipe-n-save) | [Documentation](https://github.com/petersmythe/investec-swipe-n-save/blob/main/README.md) | Demo code integrating the Private Banking API (OAuth2) with the Card API. |
+| Amery Winter & Peter Smythe | [CarbonCooler](https://github.com/Brodreger/CarbonCooler) | [Documentation](https://github.com/Brodreger/CarbonCooler/blob/main/README.md) | Tracks carbon footprint of fuel purchases and invests in carbon offset initiatives. |
+| Peter Smythe | [Virtual Card Fortress](https://github.com/petersmythe/investec-virtual-card-fortress) | [Documentation](https://github.com/petersmythe/investec-virtual-card-fortress?tab=readme-ov-file) | Shifts recurring subscription payments to a separate virtual credit card. |
+| Roberto Aldera | [Payment Pinger 💸](https://github.com/roberto-aldera/card-payment-notifier) | [Documentation](https://github.com/roberto-aldera/card-payment-notifier) | Posts payment details to Telegram for card payments and includes anomaly detection for non-ZAR transactions. |
+| Matt van Niekerk | [Teleidop](https://github.com/mattvanniekerk/teleidop/) | [Documentation](https://github.com/mattvanniekerk/teleidop/blob/main/README.md) | Uses Investec's Programmable Card feature to send transaction notifications via Telegram. |
+| Dominic Santo | [Card To Sheet Sync](https://github.com/dominicsanto/card-to-sheet-sync) | [Documentation](https://github.com/dominicsanto/card-to-sheet-sync/blob/main/README.md) | Sends card transactions to a Google Sheets document. |
+| Melody Mbewe | 🎄 [Investec API Wrapper: Your Festive Helper!](https://github.com/devNenyasha/investec-api-wrapper) | [Documentation](https://github.com/devNenyasha/investec-api-wrapper/blob/main/README.md) | A simple PHP wrapper for Investec's Private Banking and ICIB APIs. |
 
-## Bounty Submissions
-We've seen some awesome [bounty challenge](https://investec.gitbook.io/programmable-banking-community-wiki/get-building/build-events) submissions. Check a few of them out below:
-
-| Full Name                | Snippet Name       | Documentation                                                                 | Description                                                                 |
-|--------------------------|-------------------------|-----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
-| Peter Smythe             | [Swipe 'n Save](https://github.com/petersmythe/investec-swipe-n-save)           | [Documentation](https://github.com/petersmythe/investec-swipe-n-save/blob/main/README.md) | Demo code integrating the Private Banking API (OAuth2) with the Card API.         |
-| Amery Winter & Peter Smythe | [CarbonCooler](https://github.com/Brodreger/CarbonCooler)           | [Documentation](https://github.com/Brodreger/CarbonCooler/blob/main/README.md)    | Tracks carbon footprint of fuel purchases and invests in carbon offset initiatives. |
-| Peter Smythe             | [Virtual Card Fortress](https://github.com/petersmythe/investec-virtual-card-fortress)   | [Documentation](https://github.com/petersmythe/investec-virtual-card-fortress?tab=readme-ov-file) | Shifts recurring subscription payments to a separate virtual credit card.         |
-| Roberto Aldera           | [Payment Pinger 💸](https://github.com/roberto-aldera/card-payment-notifier)       | [Documentation](https://github.com/roberto-aldera/card-payment-notifier)          | Posts payment details to Telegram for card payments and includes anomaly detection for non-ZAR transactions. |
-| Matt van Niekerk         | [Teleidop](https://github.com/mattvanniekerk/teleidop/)                | [Documentation](https://github.com/mattvanniekerk/teleidop/blob/main/README.md)   | Uses Investec's Programmable Card feature to send transaction notifications via Telegram. |
-| Dominic Santo            | [Card To Sheet Sync](https://github.com/dominicsanto/card-to-sheet-sync)      | [Documentation](https://github.com/dominicsanto/card-to-sheet-sync/blob/main/README.md) | Sends card transactions to a Google Sheets document.                             |
-| Melody Mbewe             | 🎄 [Investec API Wrapper: Your Festive Helper!](https://github.com/devNenyasha/investec-api-wrapper) | [Documentation](https://github.com/devNenyasha/investec-api-wrapper/blob/main/README.md) | A simple PHP wrapper for Investec's Private Banking and ICIB APIs. |
-
-## Hackathon Build Submissions
-
-[Bounty Submissions](#bounty-submissions) | [Business Banking](#built-with-investec-business-banking) | [Open API](#built-with-investec-open-api) | [Programmable Card](#built-with-investec-programmable-card) | [Demos](#demos) | [Resources](#some-useful-resources)
+### 🚀 Hackathon Build Submissions
+Check out the creative solutions from our hackathon events.
 
 | Hackathon Date | Team Name | Description | Open Source Repo | Demo Video |
 | - | - | - | - | - |
@@ -83,21 +89,21 @@ We've seen some awesome [bounty challenge](https://investec.gitbook.io/programma
 &nbsp; | [CaptainPlanet](https://drive.google.com/file/d/1Ze5-hQ3rvGlN8vl25BNb53NK7LaVyk1Q/view?usp=sharing) | Spreadsheet Banking: Turning spending into saving… Mother Nature ❤️. | [CaptainPlanet](https://1drv.ms/x/s!Ajr1vRcXcgpma1QvZMVeZGicDyI?e=hb661H) | [Demo recording](https://drive.google.com/file/d/1gvJOav4V4ScLgP8lSLI99zfjJkwWuqj7/view?usp=sharing) |
 &nbsp; | [Telegrammetry](https://drive.google.com/file/d/1mLjBW_xwABud0eNlDRaYmlz7zloa-wqf/view?usp=sharing) | Spreadsheet Banking: Your own 24/7 private banker. | [Telegrammetry](https://1drv.ms/x/s!AtkUJn0N8CerboundGT57hRpQzg?e=PRfpnr) | [Demo recording](https://drive.google.com/file/d/1bFM8l696_5LiHA3eOWXcuqkEEquTRBBY/view?usp=sharing) |
 
+## 🔧 Built with Investec API and Card
 
-## Built with Investec Business Banking
+### Business Banking
+Explore projects leveraging Investec Business Banking and the Open API.
 
-[Bounty Submissions](#bounty-submissions) | [Hackathon Builds](#hackathon-build-submissions) | [Open API](#built-with-investec-open-api) | [Programmable Card](#built-with-investec-programmable-card) | [Demos](#demos) | [Resources](#some-useful-resources)
+| Open Source Repo | Description | Tech Stack | Author |
+|------------------|-------------|------------|--------|
+| [Team Spend Tracker](https://github.com/Offerzen/roz) | Financial recon for teams using Investec Business Banking. | *Ruby on Rails, PostgreSQL, Heroku* | *[@OfferZen](https://github.com/Offerzen/investec_open_api)* |
+
+### Investec Open API
+Discover projects utilising Investec's Open API for innovative solutions.
 
 | Open Source Repo | Description | Tech Stack | Author |
 | - | - | - | - |
-| [Team Spend Tracker](https://github.com/Offerzen/roz) | Financial recon for teams using who use Investec Business Banking and the Open API.  | *Ruby on Rails, PostgreSQL, Heroku* | *[@OfferZen](https://github.com/Offerzen/investec_open_api)* |
-
-## Built with Investec Open API
-
-[Bounty Submissions](#bounty-submissions) | [Hackathon Builds](#hackathon-build-submissions) | [Business Banking](#built-with-investec-business-banking) | [Programmable Card](#built-with-investec-programmable-card) | [Demos](#demos) | [Resources](#some-useful-resources)
-
-| Open Source Repo | Description | Tech Stack | Author |
-| - | - | - | - |
+| [InvestecPushNotifications](https://github.com/cole-miles/InvestecPushNotifications) | Investec Bank Transaction Monitor: Node.js app that sends push notifications for new transactions via Pushover, designed to run serverless on Google Cloud Functions. Features include monitoring transactions, sending push notifications for new deposits, preventing duplicate notifications with Firestore, running serverless on Google Cloud, and scheduling with Google Cloud Scheduler. | *Node.js, Google Cloud Functions, Firestore, Pushover* | [Cole Miles](https://github.com/cole-miles) |
 | [investec-api-python](https://github.com/tailucas/investec-api-python) | Python client for Investec Programmable Banking | *Python* | [Tai Lucas](https://github.com/tailucas) |
 | [NPM_my_API](https://www.npmjs.com/package/investec-api) | An NPM module to interact with Investec's Open API. | *NPM* | [Frikkie Snyman](https://github.com/FrikkieSnyman) |
 | [The Maintainer](https://github.com/rijnhardtkotze/investec-maintain-balance) | Moves money into your PrimeSaver every 5 minutes, so that you can maximise that interest every month | *Python* | [Rijnhardt Kotze](https://github.com/rijnhardtkotze) |
@@ -118,10 +124,8 @@ We've seen some awesome [bounty challenge](https://investec.gitbook.io/programma
 | [Python CLI](https://github.com/banchee/investecli) | Python CLI Wrapper for Investec Private Bank Accounts. | *Python* | [@banshee](https://github.com/banchee) |
 | [API library for Clojure](https://github.com/walterl/investec-api) | Clojure wrapper for Investec's Programmable Banking API. | *Clojure* | [@Walter](https://github.com/walterl) |
 
-
-## Built with Investec Programmable Card
-
-[Bounty Submissions](#bounty-submissions) | [Hackathon Builds](#hackathon-build-submissions) | [Business Banking](#built-with-investec-business-banking) | [Open API](#built-with-investec-open-api) | [Demos](#demos) | [Resources](#some-useful-resources)
+### Programmable Card
+Explore projects enhancing functionality with Investec's Programmable Card.
 
 | Open Source Repo | Description | Tech Stack | Author |
 | - | - | - | - |
@@ -146,14 +150,11 @@ We've seen some awesome [bounty challenge](https://investec.gitbook.io/programma
 | [React Frontend](https://github.com/donohutcheon/reactwebclient)|React frontend for programmable card transactions management.|*React*|@donohutcheon|
 | [Telegram to Wave Receipt Capture]((https://gitlab.com/benblaine/bill/))|A hack to remind you via Telegram message to send your receipt to Wave Receipts.|*Telegram Bot API, Wave Receipts, Email*|@benblaine|
 
-## Demos
+## 🎥 Demos
+Watch [past recorded Meetups here](https://www.youtube.com/watch?v=PcU0aT5ckDM&list=PLjTry3duaTAGJ6UOW5ISS_ymV46-VqkPa) and [newly recorded meetups here](https://www.youtube.com/playlist?list=PLdtUNQ2k27WiAdJFzLeF-a7weue5U12Kl).
 
-[Bounty Submissions](#bounty-submissions) | [Hackathon Builds](#hackathon-build-submissions) | [Business Banking](#built-with-investec-business-banking) | [Open API](#built-with-investec-open-api) | [Programmable Card](#built-with-investec-programmable-card) | [Resources](#some-useful-resources)
-
-We meet every last Thursday of the month at 6:30pm over Zoom to see demos from community members. Come support us :)! Watch all [past recorded Meetups here.](https://www.youtube.com/watch?v=PcU0aT5ckDM&list=PLjTry3duaTAGJ6UOW5ISS_ymV46-VqkPa) and [newly recorded meetups here](https://www.youtube.com/playlist?list=PLdtUNQ2k27WiAdJFzLeF-a7weue5U12Kl).
-
-| <img src = "/images/youtube_logo.png"> Demo | Open Source Repo | Description | Tech Stack | Author |
-| ------ | ------ | ------ | ------ | ------ |
+| Demo | Open Source Repo | Description | Tech Stack | Author |
+|------|------------------|-------------|------------|--------|
 |[Watch](https://youtu.be/xG_gqGwfnhQ) Consuming about GraphQL in the Browser | [<img src = "https://offerzen.ghost.io/content/images/2020/11/Programmable-Banking-Community-Marcin-s-GraphQL-Wrapper-for-the-OpenAPI_Inner-Article-Image.png" width="200">](https://github.com/naartjie) | As a follow up to his presentation [GraphQL Wrapper for Investec open API](https://youtu.be/PmGy-2p3dwo), Marcin took us on a deep dive into the frontend developer experience. It was a really insightful session. If you want to learn more about the power of GraphQL and get some ideas of what you can do with the Investec Open API then you should check it out. Thanks Marcin!.| ** | [Marcin](https://github.com/naartjie) |
 |[Watch](https://www.youtube.com/watch?v=ROzQkNj3xP8&ab_channel=OfferZen) or [Read](https://www.offerzen.com/blog/programmable-banking-community-renens-transaction-notifications) Transaction Event Listening | [<img src = "https://offerzen.ghost.io/content/images/2020/11/Programmable-Banking-Community--Renen-s-Transaction-Notifications_Inner-Article-Image.png" width="200">]() | [Slide deck](https://drive.google.com/file/d/17_JJttJ5PYsrhw0wlltNx9Xl6Ah8RKL6/view) - Renen Watermeyer shows how he built a system that checks an account via the Investec OpenAPI to find new transactions every minute. He also demos how he created a webhook mechanism to push new notifications to another service.| ** | [Renen](https://github.com/sasa-solutions/investec_poller/) |
 |[Watch](https://www.youtube.com/watch?v=g13lB10RFcw&list=PLjTry3duaTAGJ6UOW5ISS_ymV46-VqkPa&index=3&t=0s) or [Read](https://www.offerzen.com/blog/programmable-banking-community-lishens-temporary-store-of-value) about Temporary Store of Value | [<img src = "https://offerzen.ghost.io/content/images/2020/10/Investec-Programmable-Banking-Meetup----Lishen-s-Temporary-Store-of-Value_-Programmable-Banking-Community--Michael-s-Use-of-Protobuf-for-OpenAPI_Inner-Article-Image.png" width="200">](https://github.com/ihiresolutions?tab=repositories&q=investec&type=&language=) | [Slide deck](https://docs.google.com/presentation/d/e/2PACX-1vSwtUBwBAUydVpNyERES8L70a5V8yt_Hibc-x3OSKxvHZUKA5ACAi9aBkpCBuqlSL7zuNeDR_HrUdtK/pub?start=false&loop=false&delayms=3000&slide=id.g92d0868e55_0_169) - Lishen Ramsudh discusses the tool he’s been working on to streamline business operations and open up product possibilities through the use of a temporary store of value. The temporary store of value and automation of certain operations opens up a different trust relationship with a process being the custodian instead of hoping that a transaction is upheld.| *C# DotNet Core 3.1, Postgres, Redis, Xamarin Forms, (eventually include Docker, AWS ECS Fargate and API Gateway, AWS Aurora)* | [Lishen](https://github.com/ihiresolutions) |
@@ -167,7 +168,7 @@ We meet every last Thursday of the month at 6:30pm over Zoom to see demos from c
 |[WATCH: Investec Open Banking CLI](http://www.youtube.com/watch?v=kMdfLQ5fJwo&t=26m2s)| [<img src = "https://offerzen.ghost.io/content/images/2020/10/Programmable-Banking-Community--Adrian-s-Open-Banking-CLI_Inner-Article-Image@2x.png" width="200">](https://www.offerzen.com/blog/programmable-banking-community-adrians-open-banking-cli) |[Slide deck](https://docs.google.com/presentation/d/e/2PACX-1vR8X1I48VzrgB9eJGTJEuy0H-Bm1ZH9PUcH1LQvZZ9lbxZSCYMPbU8-WMt_Qj9ZPlDOH2u3xDXLJLsk/pub?start=false&loop=false&delayms=3000) - What it does: CLI for working with your bank account(s). No need to log into app or Web. Built to learn Deno. How it works: Very simple (one Typescript file). REPL (Read Eval Print Loop). Basic state held in-memory and shown in prompt (e.g. :closed_lock_with_key: vs :unlock:). Logged in (valid access token). Selected Account. Privacy mode. Auto-login if possible (looks in ENV variables for credentials)..| *Deno* |*@adrianhopebailie*|
 |[WATCH: Sync Investec to Sage One](http://www.youtube.com/watch?v=kMdfLQ5fJwo&t=0m1s)| [<img src = "https://offerzen.ghost.io/content/images/2020/09/Programmable-Banking-Community--Syncing-Investec-to-Sage-One_Inner-Article-Image.png" width="200">](https://www.offerzen.com/blog/syncing-transactions-into-sage-one-with-investec-programmable-banking) |[Slide deck](https://docs.google.com/presentation/d/e/2PACX-1vQ7MlSACjBSTg0L3rQNOM0Un6IbFxtE-OOZ6MRmXqUwBrba7nrL1N6xSOIeS09HdUt3fv3St8y1xAoH/pub?start=false&loop=false&delayms=3000) - What it does: Syncing transactions automatically from Investec into Sage One. The current methods of importing transactions are manual or where you have to give your credentials to a third party. How it works: Retrieves the transactions from both Investec and Sage to compare. Removes transactions already synced. Sage will have the transaction hash. Compares manually added transactions in Sage One to stop duplication. Imports the transactions that are left over..| *FastAPI, Sage API, Python, Heroku, Python Investec OpenAPI Wrapper* |*@imraanp*|
 |[WATCH: Flutterflys in Spring](https://www.youtube.com/watch?v=7Mr4E_w14sE&t=0s)| [SparaBox](https://github.com/RendaniDau/Sparabox) and [SparaBoxFlutter](https://github.com/RendaniDau/SparaBoxFlutter) <img src = "https://offerzen.ghost.io/content/images/2020/08/Programmable-Banking-Community--Rendani-s-Personal-Budget-App_Inner-Article-Image@2x.png" width="200"> |[Slide deck](https://docs.google.com/presentation/d/e/2PACX-1vS_soKErMuTtiW_zqRJopznnIadQONEXOkG5POxh0z8z_MjFLVkpuoyzUQL1NScShwH6K-F98yUzLMZ/pub?start=false&loop=false&delayms=3000) - Personal budget app to explore the potentials of programmable banking..| *Spring Boot, Keycloak, Flutter, Android* |*@rendani10*|
-|[WATCH: OfferZen Finance App](https://www.youtube.com/watch?v=7Mr4E_w14sE&t=840s)| [<img src = "https://github.com/Offerzen/roz/raw/master/docs/simple-schema.jpg" width="200">](https://github.com/Offerzen/roz) |[Slide deck](https://docs.google.com/presentation/d/1Q7_8RGpXqA1F20enKxojbcM3avdW8Y6XmgBX3DgC7Yg/edit#slide=id.p) - Empowering the OfferZen team to spend money and helping the Finance team manage that spend easily and confidently.| *Ruby on Rails, PostgreSQL, Heroku* |*[@OfferZen](https://github.com/Offerzen/investec_open_api)*|
+|[WATCH: OfferZen Finance App](https://www.youtube.com/watch?v=7Mr4E_w14sE&t=840s)| |[Slide deck](https://docs.google.com/presentation/d/1Q7_8RGpXqA1F20enKxojbcM3avdW8Y6XmgBX3DgC7Yg/edit#slide=id.p) - Empowering the OfferZen team to spend money and helping the Finance team manage that spend easily and confidently.| *Ruby on Rails, PostgreSQL, Heroku* |*[@OfferZen](https://github.com/Offerzen/investec_open_api)*|
 |[WATCH: Command center bridge](https://youtu.be/mszU70RzQWQ)| [<img src = "https://gitlab.com/offerzen-beta-community/investec-programmable-banking/command-center/-/raw/master/images/command-center-bridge-architecture.jpg" width="200">](https://gitlab.com/fisher.adam.online/command-center-bridge) | A bridge solution for other programmable banking solutions that enables a single point of contact for approval determination and secure transaction forwarding to other APIs. Constructed in conjunction with [aws-cdk-js-dev-guide](https://github.com/therightstuff/aws-cdk-js-dev-guide).| *Tools: CDK (a mix of TypeScript and Javascript) Components: AWS: api-gateway, lambda, sqs, dynamodb* |*[@fisher.adam.online](https://gitlab.com/fisher.adam.online/command-center-bridge)*|
 |[WATCH: Investec CLI Tool](https://youtu.be/-HrEy_8OwgI?t=1116)| [REPO](https://github.com/banchee/investecli)| Get accounts, balance and transactions in your CLI.| *Python Tabulate, Python Fire (CLI)* |*[@rpurdon-nf](https://github.com/rpurdon-nf)*|
 |[Shared Expenes](https://youtu.be/-HrEy_8OwgI)|  |[Slide deck](https://www.youtube.com/redirect?v=-HrEy_8OwgI&event=video_description&q=https%3A%2F%2Fdocs.google.com%2Fpresentation%2Fd%2F141EWHLj84RxiMXCSzgl6EkEUhGHDUrwrJARa6OeqCZ4%2Fedit%23slide%3Did.g7757fe7c3f_0_136&redir_token=QUFFLUhqbERBNW5TZS1Za1Z4UXdMaXk2Ni05bGpiaWVCUXxBQ3Jtc0tuUHAtNjd4S0xBb0RQaFM0M04wSTYxb1N2bHdfN2U3VERqVjRDMVl1UVJ2N3o2OGdoOEdBZmstR19xaDR0a3VvMFVncWhiWTZDc0lfUnpHbnFqdFlORlEyNklaellXUDNTT1phUF8tSTRFdVhjdWtOSQ%3D%3D) - Simple sharing of expenses in small groups. Existing shared expense app needed Investec Programmable Banking to make adding expense easier..| *Rails, React, Redux, Postgres* |*@jethrof*|
@@ -181,24 +182,29 @@ We meet every last Thursday of the month at 6:30pm over Zoom to see demos from c
 |[WATCH: InvestecCMD](https://youtu.be/aqZotFl9fQw?t=669)|| What it does: Sync transactions to Firestore as they come in. From Firestone, you can view you transactions in the iOS app as well as details of the transactions. You will also receive pushes when transactions are approved to the iOS App. Why create it? Great opportunity to learn how the Investec APIs works & to cut my teeth on a bunch of new techs I been dying to play with: firebase, cloud functions. typescript.. | *Native iOS, Swift, Firebase (Firestore, Cloud Functions)* |@WarrenFoxley|
 |[WATCH: Decentralised API](https://youtu.be/LrnBHsY55uA?t=636)|| What it does: The goal was to create a decentralised API to handle incoming beforeTransaction and afterTransaction requests before storing the data. This allows you to execute logic prior to storing the data and before validating transactions. Why create it? The main goal was to allow for validation logic on a transaction based on externally defined criteria, eg: limit daily spend, limit per transaction spend etc. Also, this provided an authenticated basecamp on which to build logic. | *Google Cloud Platform, Laravel* |@cwbmuller|
 |[WATCH: HankApp](https://youtu.be/3tYfpc_rjvU?t=1202)|| Hank is banking done right. Imagine a world where banking is an intuitive pleasure. It's our mission to make that world a reality. As banks open up their API's we aim to unlock their utility for the people. | *Flutter, Firebase* |*[@Chris.Fraser](https://gitlab.com/Chris.Fraser)*|
-|[WATCH: Investec Oracle](https://youtu.be/tnpsjOFbkco?t=295)|[<img src = "https://gitlab.com/bezchristo/investec-command-center/-/raw/master/Investec.jpg" width="200">](https://gitlab.com/bezchristo/investec-command-center)| What it does: Routes data through cloud functions to Google pub/sub, to which I can add multiple subscriptions for different applications. Why create it? To serve as a base for all transactions to flow through and to which different applications can connect to to receive transaction data. I also wanted to have the ability to replay transactions, which Google pub/sub provides and make it easy for other users to be able to spin up their own command center with a few clicks.  | *Google Cloud Platform (Cloud functions, pub/sub, Firestore), Twillio, React, Zapper* |*[@bezchristo](https://gitlab.com/bezchristo)*|
+|[WATCH: Investec Oracle](https://youtu.be/tnpsjOFbkco?t=295)| | What it does: Routes data through cloud functions to Google pub/sub, to which I can add multiple subscriptions for different applications. Why create it? To serve as a base for all transactions to flow through and to which different applications can connect to to receive transaction data. I also wanted to have the ability to replay transactions, which Google pub/sub provides and make it easy for other users to be able to spin up their own command center with a few clicks.  | *Google Cloud Platform (Cloud functions, pub/sub, Firestore), Twillio, React, Zapper* |*[@bezchristo](https://gitlab.com/bezchristo)*|
 |[WATCH: Purple Pigger](https://youtu.be/5xiRrJbblc8?t=2841)|| Linked to the beforeTransaction function, PP checks all transactions (for now) and approves or declines them, to help you control budgets in certain periods. Keeping those wild nights, not too wild. I keep a mental count of my daily spending and how it affects my budget. Now I can get a machine to do it. Basically I'm lazy!. | *Firebase, Svelte* |*[@kamogelo.sebopelo](https://gitlab.com/kamogelo.sebopelo)*|
 |[WATCH: Payments Splitter](https://youtu.be/qkFFE3aIGZc)|| An app that let's you split the bill for a transaction with a friend using their email address. | *Node, AWS* |*[@Yashu Tanna](yashutanna @yashutanna)*|
 |[WATCH: Investec Logs](https://youtu.be/Hkv8qeScXQ0)|[investec-logs-functions](https://github.com/JeremyWalters/investec-logs-functions) AND [investec-logs-web](https://github.com/JeremyWalters/investec-logs-web)| System to log transactions to Google Firebase using NodeJS and a frontend view with VueJS. | *Firebase* |@JeremyWalters|
 |[WATCH: Ur Command Center](https://youtu.be/addbahzP1ks)|[<img src = "https://gitlab.com/dale10/ur-command-center/-/raw/master/assets/CCArchitecture.png" width="200">](https://gitlab.com/dale10/ur-command-center)| Infrastructure to save transactions into S3. The idea is that S3 is the source of truth and this can be extended to trigger processing on object creation. That will come in a future iteration. | *AWS*, *Terraform*, *Lambda*, *S3*, *Grafana* |*[Dale Tristram @dale10](https://gitlab.com/dale10)*|
-|[WATCH: InvestecPOC](https://youtu.be/3HDNL5CVwDs)|[<img src = "https://gitlab.com/wernerpereira/InvestecPOC/-/raw/master/main_architechture.png" width="200">](https://gitlab.com/wernerpereira/InvestecPOC)| Mobile App to categorise expenses. | *C#*, *Swift* |@WernerPereira|
+|[WATCH: InvestecPOC](https://youtu.be/3HDNL5CVwDs)| | Mobile App to categorise expenses. | *C#*, *Swift* |@WernerPereira|
 |[WATCH: Receipt Scanner](https://youtu.be/0yVRTSd19Ac)|| Simple app to fire off messages from Go through Firebase Cloud Messenger. | *Go, Firebase Cloud Messaging* |*[@brian.entersekt](https://gitlab.com/brian.entersekt)*|
 |[WATCH: Transappenate](https://youtu.be/PAgcFV0wHjc)|| A mobile app for storing and cateogrising transactions. | *Appenate* |*[@matthew.alport](https://gitlab.com/matthew.alport)*|
 |[WATCH: Singularity](https://youtu.be/N6M4tE_KhIk)||Info management app, transaction logger, auto-create transaction with Investec Beta, charts to display spending. Third party lib: "QtWebApp HTTP Server in C++". | *C++* |*[@lcoetzer](https://gitlab.com/lcoetzer)*|
 |[OfferZen's Spend Tracker](https://youtu.be/1dGC5E8GGQM)|[JS and Google Script Repo](https://github.com/offerzen/programmable-banking-glow)| This repo contains source code for our first iteration of a team spending dashboard, as demonstrated in the community update on 19 March 2020. | *JavaScript* |@jethrof @jeriko1|
 |[WATCH: PDB Investec Transaction Insights](https://youtu.be/gAiP--sk4U8)|[<img src = "https://gitlab.com/grimx13/pdb-investec-transaction-insights/-/raw/master/images/investec_logger.png" width="200">](https://gitlab.com/grimx13/pdb-investec-transaction-insights)| This project utilises AWS Serverless and managed infrastructure to deliver transaction data to a Google sheet where I can draw insights from in near real time | *NodeJS*, *Python* | @grimx13 |
-|[demo](youtubelink)| [<img src = "/imagelink.png" width="200">](repolink) |[Slide deck](slidesURL) - description.| *Tech_Tools* |*[@author](https://gitlab.com/author)*|
 
-## Some Useful Resources
-
+## 📚 Resources
 - [Use Cases](https://investec.gitbook.io/programmable-banking-community-wiki/get-building/use-cases)
 - [Sample Apps](https://investec.gitbook.io/programmable-banking-community-wiki/get-started/sample-apps)
 - [API Quick Start Guide](https://investec.gitbook.io/programmable-banking-community-wiki/get-started/api-quick-start-guide)
 - [Card Quick Start Guide](https://investec.gitbook.io/programmable-banking-community-wiki/get-started/card-quick-start-guide)
 - [Build Tutorials & Templates](https://investec.gitbook.io/programmable-banking-community-wiki/get-building/build-something-simple)
 - [Community Libraries & Tools](https://investec.gitbook.io/programmable-banking-community-wiki/get-building/community-libraries-and-tools)
+
+## 🤝 Get Involved
+We welcome contributions from developers of all skill levels. Check out [how to get involved](https://investec.gitbook.io/programmable-banking-community-wiki/community/get-involved) to get started. Join our community events and connect with fellow innovators!
+
+---
+
+Feel free to reach out if you have any questions or need support. Happy coding! 🚀
