@@ -17,17 +17,18 @@ You can test these features using Investec's Sandbox environment without needing
 
 ## 🌐 Quick Links
 - [Community Projects](#community-projects)
-  - [Sandboxes](#sandboxes)
-  - [AI Projects](#ai-projects)
-  - [Bounty Submissions](#bounty-submissions)
-  - [Hackathon Build Submissions](#hackathon-build-submissions)
-- [Built with Investec](#built-with-investec)
+  - [Sandboxes](#community-created-sandboxes)
+  - [AI Projects](#community-ai-projects)
+  - [Bounty Submissions](#-bounty-submissions)
+  - [Hackathon Build Submissions](#-hackathon-build-submissions)
+- [Built with Investec API and Card](#built-with-investec-api-and-card)
   - [Business Banking](#business-banking)
-  - [Open API](#open-api)
+  - [Investec Open API](#investec-open-api)
   - [Programmable Card](#programmable-card)
 - [Demos](#demos)
 - [Resources](#resources)
 - [Get Involved](#get-involved)
+
 
 ## 📜 Introduction
 
