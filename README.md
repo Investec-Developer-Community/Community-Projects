@@ -1,6 +1,14 @@
 # 🌟 Open Source Projects by the Investec Developer Community
 
-Welcome to the hub of innovation and collaboration! This repository is a showcase of open-source projects and demos created by the [Programmable Banking Dev Community](https://developer.investec.com/za/community). Our mission is to empower developers to shape the future of open banking through shared knowledge and reusable software.
+Welcome to the hub of Investec API innovation and collaboration! This repository is a showcase of open-source projects and demos created by the [Investec Developer Community](https://investec.gitbook.io/programmable-banking-community-wiki). Our mission is to empower developers to shape the future of open banking through shared knowledge and reusable software.
+
+**About Investec API and Programmable Banking Card Accounts:**
+
+The [Investec API](https://developer.investec.com/za/api-products) lets developers access banking features like checking balances and making payments. It's a way for developers to build apps that manage money better. 
+
+Programmable Banking cards allow developers to set custom rules for card transactions, offering more control and flexibility. 
+
+You can test these features using Investec's Sandbox environment without needing a real bank account.
 
 **🚧 This README is a living document, continuously evolving with new projects and updates. 🦄**
 
