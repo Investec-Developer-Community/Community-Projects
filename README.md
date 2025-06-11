@@ -214,6 +214,12 @@ Watch [past recorded Meetups here](https://www.youtube.com/watch?v=PcU0aT5ckDM&l
 ## 🤝 Get Involved
 We welcome contributions from developers of all skill levels. Check out [how to get involved](https://investec.gitbook.io/programmable-banking-community-wiki/community/get-involved) to get started. Join our community events and connect with fellow innovators!
 
+Contributions are welcome to this, or any other repo! If you have any ideas, improvements, or new apps to add, please create a pull request.
+
+Thank you for the support! 🙏
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Investec-Developer-Community/Community-Projects&type=Date)](https://www.star-history.com/#Investec-Developer-Community/Community-Projects&Date)
+
 ---
 
-Feel free to reach out if you have any questions or need support. Happy coding! 🚀
+Feel free to reach out if you have any questions or need support. Follow us on [LinkedIn](https://www.linkedin.com/showcase/investecdeveloper/) to stay updated. Happy coding! 🚀
