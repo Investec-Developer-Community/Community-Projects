@@ -67,6 +67,13 @@ Explore innovative solutions from our [bounty challenge](https://investec.gitboo
 | Matt van Niekerk | [Teleidop](https://github.com/mattvanniekerk/teleidop/) | [Documentation](https://github.com/mattvanniekerk/teleidop/blob/main/README.md) | Uses Investec's Programmable Card feature to send transaction notifications via Telegram. |
 | Dominic Santo | [Card To Sheet Sync](https://github.com/dominicsanto/card-to-sheet-sync) | [Documentation](https://github.com/dominicsanto/card-to-sheet-sync/blob/main/README.md) | Sends card transactions to a Google Sheets document. |
 | Melody Mbewe | 🎄 [Investec API Wrapper: Your Festive Helper!](https://github.com/devNenyasha/investec-api-wrapper) | [Documentation](https://github.com/devNenyasha/investec-api-wrapper/blob/main/README.md) | A simple PHP wrapper for Investec's Private Banking and ICIB APIs. |
+| Johannes Mogashoa | [Investa_Transact Analysis](https://github.com/JohannesMogashoa/investa-save) | [Documentation](https://github.com/JohannesMogashoa/investa-save) | Provides a summary of transactions, highlighting types and amounts. |
+| Thandekile Vundhla | [Financial Budget Monitor](https://github.com/thandhla/Financial-Budget-Monitor) | [Documentation](https://github.com/thandhla/Financial-Budget-Monitor) | Web application for tracking and managing personal finances. |
+| Alec & Team Zero Point One Four | [Nest Bundle](https://github.com/alecshelembe/investec-sandbox-app) | [Documentation](https://github.com/alecshelembe/investec-sandbox-app) | A banking product designed to enhance financial operations. |
+| Innocent Jackson | [Investec Senior Tech Hub](https://replit.com/@innoemailbox/SeniorFinanceGuide#drizzle.config.ts) | [Documentation](https://replit.com/@innoemailbox/SeniorFinanceGuide#drizzle.config.ts) | Financial wellness platform for seniors with accessible features. |
+| Tatenda Moyana | [Budget Buddy Management](https://github.com/mazhape/budget-buddy-management) | [Documentation](https://github.com/mazhape/budget-buddy-management) | Financial wellness app for budget management and spending tracking. |
+| Happy Mahlangu | [Fintrackr](https://github.com/HappyDevs1/fintrackr) | [Documentation](https://github.com/HappyDevs1/fintrackr) | AI-powered money tracker predicting future balance and spending patterns. |
+| Amery Winter | [SweepPay](https://github.com/Brodreger/SweepPay) | [Documentation](https://github.com/Brodreger/SweepPay/blob/main/README.md) | Automates monthly wage calculations and payments for employees like housekeepers and gardeners. |
 
 ### 🚀 Hackathon Build Submissions
 Check out the creative solutions from our hackathon events.
