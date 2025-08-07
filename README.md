@@ -15,6 +15,18 @@ You can test these features using Investec's Sandbox environment without needing
 [![GitHub License](https://img.shields.io/github/license/investec-developer-community/community-projects)](https://github.com/Investec-Developer-Community/Community-Projects/blob/master/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=round-square)](https://github.com/Investec-Developer-Community/Community-Projects/pulls)
 
+## 🚀 Share Your Build with the Investec Developer Community!
+
+Have you built something cool with Investec APIs or programmable banking?  
+**Show it off!**
+
+- Submit your project using our [Build Submission Form](../../issues/new?template=build-submission.yml)
+- We'll feature the best projects in our newsletter, Slack, LinkedIn, and more
+
+**No build too big or small. Your work inspires the community—share it now!**
+
+---
+
 ## 🌐 Quick Links
 - [Community Projects](#community-projects)
   - [Sandboxes](#community-created-sandboxes)
