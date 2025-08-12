@@ -1,0 +1,41 @@
+name: Auto-label, Comment & Close New Community Build
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  handle-community-build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Label new community build
+        if: startsWith(github.event.issue.title, '[Build Submission]')
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: |
+            New Community Build
+
+      - name: Add comment with showcase link
+        if: startsWith(github.event.issue.title, '[Build Submission]')
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          issue-number: ${{ github.event.issue.number }}
+          body: |
+            🚀 Thanks for your submission!  
+            You can view your build (once the page updates, usually in a few minutes):  
+            👉 https://investec-developer-community.github.io/.github/
+
+            _(If you've just submitted, give it 2–3 minutes for the page to update.)_
+
+      - name: Wait 30 minutes before closing
+        if: startsWith(github.event.issue.title, '[Build Submission]')
+        run: sleep 1800
+
+      - name: Close the issue
+        if: startsWith(github.event.issue.title, '[Build Submission]')
+        uses: peter-evans/close-issue@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
