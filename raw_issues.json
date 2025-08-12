@@ -1,0 +1,82 @@
+[
+  {
+    "url": "https://api.github.com/repos/Investec-Developer-Community/.github/issues/40",
+    "repository_url": "https://api.github.com/repos/Investec-Developer-Community/.github",
+    "labels_url": "https://api.github.com/repos/Investec-Developer-Community/.github/issues/40/labels{/name}",
+    "comments_url": "https://api.github.com/repos/Investec-Developer-Community/.github/issues/40/comments",
+    "events_url": "https://api.github.com/repos/Investec-Developer-Community/.github/issues/40/events",
+    "html_url": "https://github.com/Investec-Developer-Community/.github/issues/40",
+    "id": 3309158326,
+    "node_id": "I_kwDOKH0I087FPb-2",
+    "number": 40,
+    "title": "[Build Submission] investec-swipe-n-save - TESTING",
+    "user": {
+      "login": "programmable-banking-community",
+      "id": 60923762,
+      "node_id": "MDQ6VXNlcjYwOTIzNzYy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60923762?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/programmable-banking-community",
+      "html_url": "https://github.com/programmable-banking-community",
+      "followers_url": "https://api.github.com/users/programmable-banking-community/followers",
+      "following_url": "https://api.github.com/users/programmable-banking-community/following{/other_user}",
+      "gists_url": "https://api.github.com/users/programmable-banking-community/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/programmable-banking-community/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/programmable-banking-community/subscriptions",
+      "organizations_url": "https://api.github.com/users/programmable-banking-community/orgs",
+      "repos_url": "https://api.github.com/users/programmable-banking-community/repos",
+      "events_url": "https://api.github.com/users/programmable-banking-community/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/programmable-banking-community/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 9070718498,
+        "node_id": "LA_kwDOKH0I088AAAACHKguIg",
+        "url": "https://api.github.com/repos/Investec-Developer-Community/.github/labels/New%20Community%20Build",
+        "name": "New Community Build",
+        "color": "0e8a16",
+        "default": false,
+        "description": "A new community build shared"
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2025-08-11T09:15:52Z",
+    "updated_at": "2025-08-12T10:30:02Z",
+    "closed_at": null,
+    "author_association": "CONTRIBUTOR",
+    "type": null,
+    "active_lock_reason": null,
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
+    "body": "### Project Name\n\nInvestec Swipe-n-Save\n\n### Your Name or Team\n\nPeter Smythe\n\n### Repository/Code Link\n\nhttps://github.com/petersmythe/investec-swipe-n-save\n\n### Live Demo (if any)\n\n_No response_\n\n### Description\n\nCard Code Snippet Creation. Put aside money into a savings account each time you swipe your credit card.\n\n### Screenshots or GIFs\n\n<img width=\"1150\" height=\"761\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/81e18c29-5930-4a89-be61-2617d48fa041\" />\n\n### How to Run/Use It\n\nCopy & paste the provided Main and Env files into your existing Investec card IDE. And deploy.\n\n### Code of Conduct\n\n- [x] I agree to follow the Investec Developer Community Code of Conduct",
+    "closed_by": null,
+    "reactions": {
+      "url": "https://api.github.com/repos/Investec-Developer-Community/.github/issues/40/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/Investec-Developer-Community/.github/issues/40/timeline",
+    "performed_via_github_app": null,
+    "state_reason": null
+  }
+]
