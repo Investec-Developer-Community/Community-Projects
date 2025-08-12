@@ -1,0 +1,73 @@
+name: Export Community Builds to JSON
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # hourly
+  workflow_dispatch:
+
+jobs:
+  export-builds:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Fetch issues from GitHub
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p docs
+          curl -s -H "Authorization: token $GH_TOKEN" \
+               -H "Accept: application/vnd.github+json" \
+               "https://api.github.com/repos/Investec-Developer-Community/Community-Projects/issues?labels=New%20Community%20Build&state=all&per_page=100" \
+               > raw_issues.json
+
+      - name: Parse issues with Node.js
+        run: |
+          cat > parse-builds.js <<'EOF'
+          const fs = require('fs');
+          const issues = JSON.parse(fs.readFileSync('raw_issues.json', 'utf8'));
+
+          function extract(section, body, fallback = "") {
+            if (!body) return fallback;
+            // Multiline and dotall mode
+            const regex = new RegExp(`###\\s*${section}\\s*\\n+([\\s\\S]*?)(?=\\n###|$)`, 'i');
+            const match = body.match(regex);
+            return match ? match[1].trim() : fallback;
+          }
+
+          function extractImageLinks(text) {
+            if (!text) return [];
+            return Array.from(text.matchAll(/https?:\/\/\S+\.(?:png|jpg|jpeg|gif)/gi)).map(m => m[0]);
+          }
+
+          const builds = issues.map(issue => {
+            const body = issue.body || "";
+            return {
+              title: issue.title,
+              url: issue.html_url,
+              created_at: issue.created_at,
+              submitter: issue.user.login,
+              projectName: extract('Project Name', body, issue.title),
+              author: extract('Your Name or Team', body, issue.user.login),
+              repoLink: extract('Repository/Code Link', body),
+              liveDemo: extract('Live Demo', body),
+              description: extract('Description', body),
+              instructions: extract('How to Run/Use It', body),
+              screenshots: extractImageLinks(extract('Screenshots or GIFs', body))
+            }
+          });
+
+          fs.writeFileSync('docs/builds.json', JSON.stringify(builds, null, 2));
+          EOF
+
+          node parse-builds.js
+
+      - name: Commit builds.json
+        run: |
+          git config user.name "Investec Bot"
+          git config user.email "bot@investec.com"
+          git add docs/builds.json
+          git diff --cached --quiet || git commit -m "Update enriched community builds JSON"
+          git push
