@@ -29,13 +29,3 @@ jobs:
             👉 https://investec-developer-community.github.io/.github/
 
             _(If you've just submitted, give it 2–3 minutes for the page to update.)_
-
-      - name: Wait 30 minutes before closing
-        if: startsWith(github.event.issue.title, '[Build Submission]')
-        run: sleep 1800
-
-      - name: Close the issue
-        if: startsWith(github.event.issue.title, '[Build Submission]')
-        uses: peter-evans/close-issue@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
