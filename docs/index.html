@@ -413,7 +413,7 @@
         const data = await res.json();
         ALL = Array.isArray(data) ? data : [];
       } catch (e) {
-        $('#grid').innerHTML = `<div class="card" style="padding:16px">⚠️ ${escapeHTML(e.message)}. Ensure <code>builds.json</code> exists at the site root.</div>`;
+        $('#grid').innerHTML = `<div class="card" style="padding:16px">🦓 No builds… yet</div>`;
         return;
       }
       hydrateFromURL();
