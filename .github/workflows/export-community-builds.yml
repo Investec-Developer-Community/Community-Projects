@@ -20,7 +20,7 @@ jobs:
           mkdir -p docs
           curl -s -H "Authorization: token $GH_TOKEN" \
                -H "Accept: application/vnd.github+json" \
-               "https://api.github.com/repos/Investec-Developer-Community/Community-Projects/issues?labels=New%20Community%20Build&state=all&per_page=100" \
+               "https://api.github.com/repos/Investec-Developer-Community/.github/issues?labels=New%20Community%20Build&state=open&per_page=100" \
                > raw_issues.json
 
       - name: Parse issues with Node.js
@@ -64,10 +64,14 @@ jobs:
 
           node parse-builds.js
 
-      - name: Commit builds.json
-        run: |
-          git config user.name "Investec Bot"
-          git config user.email "bot@investec.com"
-          git add docs/builds.json
-          git diff --cached --quiet || git commit -m "Update enriched community builds JSON"
-          git push
+      - name: Create Pull Request with updated builds.json
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "Update enriched community builds JSON"
+          branch: "auto/builds-update-${{ github.run_id }}"
+          title: "chore: Update community builds JSON"
+          body: |
+            This PR updates `docs/builds.json` with the latest community build issues.
+            - Automated by GitHub Actions.
+          labels: |
+            automated-pr
