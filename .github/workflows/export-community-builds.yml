@@ -1,11 +1,9 @@
 name: Export Community Builds to JSON
 
 on:
-  # manual run
   workflow_dispatch: {}
-  # run only on new submissions / when label is applied (in THIS repo)
   issues:
-    types: [opened, labeled]
+    types: [labeled]
 
 permissions:
   contents: write
@@ -17,38 +15,29 @@ concurrency:
 
 jobs:
   export-builds:
-    # Gate runs:
-    # - manual run, OR
-    # - issue opened with the Build Submission title prefix, OR
-    # - "New Community Build" label applied
     if: >
       github.event_name == 'workflow_dispatch' ||
       (github.event_name == 'issues' &&
-        (
-          (github.event.action == 'opened' && startsWith(github.event.issue.title, '[Build Submission]')) ||
-          (github.event.action == 'labeled' && github.event.label.name == 'New Community Build')
-        )
-      )
+       github.event.action == 'labeled' &&
+       github.event.label.name == 'Showcase Approved')
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      # Optional: small buffer so auto-label workflows can finish before we fetch
-      - name: Brief wait (allow labelers to complete)
-        if: github.event_name == 'issues' && github.event.action == 'opened'
-        run: sleep 15
+      - name: Brief wait (labelers/edits to settle)
+        if: github.event_name == 'issues'
+        run: sleep 10
 
-      - name: Fetch issues from THIS repo
+      - name: Fetch only APPROVED issues from THIS repo
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           mkdir -p docs
-          # Toggle state=all to keep closed builds on the page; use state=open if you only want open issues
           curl -s -H "Authorization: token $GH_TOKEN" \
                -H "Accept: application/vnd.github+json" \
-               "https://api.github.com/repos/${GITHUB_REPOSITORY}/issues?labels=New%20Community%20Build&state=all&per_page=100" \
+               "https://api.github.com/repos/${GITHUB_REPOSITORY}/issues?labels=Showcase%20Approved&state=all&per_page=100" \
                > raw_issues.json
 
       - name: Parse issues with Node.js
@@ -57,32 +46,43 @@ jobs:
           const fs = require('fs');
           const issues = JSON.parse(fs.readFileSync('raw_issues.json', 'utf8'));
 
+          const clean = s => (s || '').trim().replace(/^no response$/i, '');
+
           function extract(section, body, fallback = "") {
             if (!body) return fallback;
             const regex = new RegExp(`###\\s*${section}\\s*\\n+([\\s\\S]*?)(?=\\n###|$)`, 'i');
-            const match = body.match(regex);
-            return match ? match[1].trim() : fallback;
+            const m = body.match(regex);
+            return m ? clean(m[1]) : fallback;
           }
 
           function extractImageLinks(text) {
-            if (!text) return [];
-            return Array.from(text.matchAll(/https?:\/\/\S+\.(?:png|jpg|jpeg|gif)/gi)).map(m => m[0]);
+            const t = clean(text);
+            if (!t) return [];
+            return Array.from(t.matchAll(/https?:\/\/\S+\.(?:png|jpg|jpeg|gif)/gi)).map(m => m[0]);
           }
 
           const builds = issues.map(issue => {
             const body = issue.body || "";
+            const projectName = extract('Project Name', body, issue.title);
+            const author = extract('Your Name or Team', body, issue.user.login);
+            const repoLink = clean(extract('Repository/Code Link', body));
+            const liveDemo = clean(extract('Live Demo', body));
+            const description = extract('Description', body);
+            const instructions = extract('How to Run/Use It', body);
+            const screenshots = extractImageLinks(extract('Screenshots or GIFs', body));
+
             return {
               title: issue.title,
               url: issue.html_url,
               created_at: issue.created_at,
               submitter: issue.user.login,
-              projectName: extract('Project Name', body, issue.title),
-              author: extract('Your Name or Team', body, issue.user.login),
-              repoLink: extract('Repository/Code Link', body),
-              liveDemo: extract('Live Demo', body),
-              description: extract('Description', body),
-              instructions: extract('How to Run/Use It', body),
-              screenshots: extractImageLinks(extract('Screenshots or GIFs', body))
+              projectName,
+              author,
+              repoLink: repoLink || undefined,
+              liveDemo: liveDemo || undefined,
+              description,
+              instructions,
+              screenshots
             };
           });
 
@@ -91,14 +91,21 @@ jobs:
 
           node parse-builds.js
 
-      - name: Create Pull Request with updated builds.json
+      - name: Create Pull Request with updated builds.json (draft)
         uses: peter-evans/create-pull-request@v6
         with:
+          token: ${{ secrets.PR_CREATION_TOKEN }}   # PAT with repo + PR write
           commit-message: "Update enriched community builds JSON"
           branch: "auto/builds-update-${{ github.run_id }}"
           title: "chore: Update community builds JSON"
           body: |
-            This PR updates `docs/builds.json` with the latest community build issues.
+            This PR updates `docs/builds.json` with the latest *approved* community build issues.
             Trigger: ${{ github.event_name }}
           labels: |
             automated-pr
+            community-builds
+          draft: true
+          add-paths: |
+            docs/builds.json
+          committer: "Investec Bot <bot@investec.com>"
+          author: "Investec Bot <bot@investec.com>"
