@@ -8,199 +8,115 @@
   <link rel="preconnect" href="https://unavatar.io" />
   <style>
     :root {
-      /* Investec-adjacent minimal palette */
-      --ink: #000000;
-      --ink-70: #2a2a2a;
-      --ink-50: #555;
-      --ink-30: #888;
-      --paper: #ffffff;
-      --canvas: #f6f6f6;
-      --line: #e8e8e8;
-      --platinum: #dcdcdc;
-      --accent: #00a3a1; /* subtle tech teal for interactive states */
-      --radius: 12px;
-      --shadow-sm: 0 1px 2px rgba(0,0,0,.04);
-      --shadow-md: 0 6px 20px rgba(0,0,0,.08);
+      --ink:#000; --ink-70:#2a2a2a; --ink-50:#555; --ink-30:#888;
+      --paper:#fff; --canvas:#f6f6f6; --line:#e8e8e8; --platinum:#dcdcdc;
+      --accent:#00a3a1; --radius:12px;
+      --shadow-sm:0 1px 2px rgba(0,0,0,.04);
+      --shadow-md:0 6px 20px rgba(0,0,0,.08);
     }
-    * { box-sizing: border-box; }
-    html, body { height: 100%; }
-    body {
-      margin: 0;
-      font-family: ui-sans-serif, -apple-system, Segoe UI, Roboto, Inter, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
-      color: var(--ink-70);
-      background: radial-gradient(1200px 800px at 70% -10%, #fafafa 0%, var(--canvas) 60%, #f2f2f2 100%);
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family:ui-sans-serif,-apple-system,Segoe UI,Roboto,Inter,"Helvetica Neue",Arial;
+      color:var(--ink-70);
+      background:radial-gradient(1200px 800px at 70% -10%, #fafafa 0%, var(--canvas) 60%, #f2f2f2 100%);
+      -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
     }
+    .wrap{max-width:1200px;margin:0 auto;padding:28px 20px 80px}
 
-    .wrap {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 28px 20px 80px;
-    }
+    .top{display:grid;grid-template-columns:1fr auto;align-items:center;gap:16px;margin-bottom:14px}
+    h1{font-size:clamp(22px,2.2vw,28px);line-height:1.1;color:var(--ink);margin:0;letter-spacing:-0.02em}
+    .subtitle{color:var(--ink-50);margin:4px 0 0 0;font-size:.98rem}
 
-    /* Top bar */
-    .top {
-      display: grid;
-      grid-template-columns: 1fr auto;
-      align-items: center;
-      gap: 16px;
-      margin-bottom: 14px;
+    .cta{
+      display:inline-flex;align-items:center;gap:10px;padding:10px 14px;background:var(--ink);color:#fff;
+      border-radius:999px;text-decoration:none;font-weight:600;box-shadow:var(--shadow-sm);
+      transition:transform .15s ease,box-shadow .2s ease,background .2s ease;white-space:nowrap
     }
-    h1 {
-      font-size: clamp(22px, 2.2vw, 28px);
-      line-height: 1.1;
-      color: var(--ink);
-      margin: 0;
-      letter-spacing: -0.02em;
-    }
-    .subtitle { color: var(--ink-50); margin: 4px 0 0 0; font-size: 0.98rem; }
+    .cta:hover{background:#1a1a1a;transform:translateY(-1px);box-shadow:var(--shadow-md)}
 
-    .cta {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      padding: 10px 14px;
-      background: var(--ink);
-      color: #fff;
-      border-radius: 999px;
-      text-decoration: none;
-      font-weight: 600;
-      box-shadow: var(--shadow-sm);
-      transition: transform .15s ease, box-shadow .2s ease, background .2s ease;
-      white-space: nowrap;
+    .controls{display:grid;grid-template-columns:1fr;gap:12px;margin:18px 0 20px}
+    @media(min-width:720px){ .controls{grid-template-columns:1.2fr auto auto;align-items:center} }
+    .search{position:relative}
+    .search input{
+      width:100%;padding:12px 42px 12px 14px;border:1px solid var(--line);border-radius:999px;background:var(--paper);
+      outline:none;font-size:.98rem;transition:border-color .2s ease,box-shadow .2s ease
     }
-    .cta:hover { background: #1a1a1a; transform: translateY(-1px); box-shadow: var(--shadow-md); }
-    .cta:active { transform: translateY(0); }
-
-    /* Controls */
-    .controls {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 12px;
-      margin: 18px 0 20px;
-    }
-    @media (min-width: 720px) {
-      .controls { grid-template-columns: 1.2fr auto auto; align-items: center; }
+    .search input:focus{border-color:var(--platinum);box-shadow:0 0 0 6px rgba(0,0,0,.02)}
+    .search .icon{position:absolute;right:12px;top:50%;transform:translateY(-50%);font-size:18px;color:var(--ink-30)}
+    .sort,.view{display:inline-flex;gap:8px;align-items:center;font-size:.92rem;color:var(--ink-50)}
+    select{
+      appearance:none;-webkit-appearance:none;padding:10px 32px 10px 12px;border:1px solid var(--line);border-radius:999px;background:
+      var(--paper) url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="%23888" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>')
+      no-repeat right 10px center/18px;color:var(--ink-70);font-size:.95rem
     }
 
-    .search {
-      position: relative;
-    }
-    .search input {
-      width: 100%;
-      padding: 12px 42px 12px 14px;
-      border: 1px solid var(--line);
-      border-radius: 999px;
-      background: var(--paper);
-      outline: none;
-      font-size: 0.98rem;
-      transition: border-color .2s ease, box-shadow .2s ease;
-    }
-    .search input:focus { border-color: var(--platinum); box-shadow: 0 0 0 6px rgba(0,0,0,0.02); }
-    .search .icon { position: absolute; right: 12px; top: 50%; transform: translateY(-50%); font-size: 18px; color: var(--ink-30); }
+    .tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+    .tag{padding:6px 10px;border:1px solid var(--line);border-radius:999px;background:var(--paper);font-size:.85rem;cursor:pointer;color:var(--ink-50)}
+    .tag:hover{border-color:var(--platinum);color:var(--ink-70)}
+    .tag.active{background:#111;color:#fff;border-color:#111}
 
-    .sort, .view {
-      display: inline-flex; gap: 8px; align-items: center; font-size: 0.92rem; color: var(--ink-50);
-    }
-    select {
-      appearance: none; -webkit-appearance: none;
-      padding: 10px 32px 10px 12px;
-      border: 1px solid var(--line);
-      border-radius: 999px;
-      background: var(--paper) url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="%23888" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>') no-repeat right 10px center / 18px;
-      color: var(--ink-70);
-      font-size: 0.95rem;
-    }
+    .grid{display:grid;grid-template-columns:1fr;gap:16px}
+    @media(min-width:740px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media(min-width:1140px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 
-    /* Tag filter bar */
-    .tags {
-      display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px;
-    }
-    .tag {
-      padding: 6px 10px; border: 1px solid var(--line); border-radius: 999px; background: var(--paper);
-      font-size: 0.85rem; cursor: pointer; user-select: none; color: var(--ink-50);
-      transition: border-color .15s ease, background .15s ease, color .15s ease;
-    }
-    .tag:hover { border-color: var(--platinum); color: var(--ink-70); }
-    .tag.active { background: #111; color: #fff; border-color: #111; }
+    .card{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;display:flex;flex-direction:column;box-shadow:var(--shadow-sm);transition:transform .18s ease, box-shadow .2s ease}
+    .card:hover{transform:translateY(-3px);box-shadow:var(--shadow-md)}
 
-    /* Grid */
-    .grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
-    @media (min-width: 740px) { .grid { grid-template-columns: repeat(2, minmax(0,1fr)); } }
-    @media (min-width: 1140px) { .grid { grid-template-columns: repeat(3, minmax(0,1fr)); } }
+    .thumb{position:relative;background:#fafafa;aspect-ratio:16/9;overflow:hidden}
+    .thumb img{width:100%;height:100%;object-fit:cover;display:block}
+    .thumb .pill{position:absolute;left:10px;top:10px;background:rgba(17,17,17,.75);color:#fff;font-size:12px;padding:6px 8px;border-radius:999px;backdrop-filter:blur(4px)}
 
-    /* Card */
-    .card { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; display: flex; flex-direction: column; box-shadow: var(--shadow-sm); transition: transform .18s ease, box-shadow .2s ease; }
-    .card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
+    .body{padding:14px 14px 0;display:flex;flex-direction:column;gap:8px}
+    .title{font-weight:700;color:var(--ink);margin:0;font-size:1.05rem;letter-spacing:-0.01em}
+    .title a{color:inherit;text-decoration:none}
+    .desc{color:var(--ink-50);line-height:1.6;margin:2px 0 0;font-size:.95rem}
 
-    .thumb { position: relative; background: #fafafa; aspect-ratio: 16 / 9; overflow: hidden; }
-    .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
-    .thumb .pill {
-      position: absolute; left: 10px; top: 10px; background: rgba(17,17,17,.75); color: #fff; font-size: 12px; padding: 6px 8px; border-radius: 999px; backdrop-filter: blur(4px);
-    }
+    .meta{display:flex;align-items:center;gap:10px;color:var(--ink-30);font-size:.88rem}
+    .avatar{width:26px;height:26px;border-radius:50%;border:1px solid var(--line);object-fit:cover}
 
-    .body { padding: 14px 14px 0; display: flex; flex-direction: column; gap: 8px; }
-    .title { font-weight: 700; color: var(--ink); margin: 0; font-size: 1.05rem; letter-spacing: -0.01em; }
-    .desc { color: var(--ink-50); line-height: 1.6; margin: 2px 0 0; font-size: 0.95rem; }
+    .tagrow{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+    .chip{background:#f2f2f2;border:1px solid var(--line);color:#333;padding:4px 8px;border-radius:999px;font-size:11px}
 
-    .meta { display: flex; align-items: center; gap: 10px; color: var(--ink-30); font-size: 0.88rem; }
-    .avatar { width: 26px; height: 26px; border-radius: 50%; border: 1px solid var(--line); object-fit: cover; }
-    .meta time { color: var(--ink-30); }
+    .shots{display:flex;gap:8px;overflow:auto;padding:10px 14px 2px}
+    .shots img{height:64px;width:auto;border-radius:8px;border:1px solid var(--line);flex:0 0 auto;cursor:pointer}
+    .shots img:hover{outline:2px solid #ddd}
 
-    .tagrow { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
-    .chip { background: #f2f2f2; border: 1px solid var(--line); color: #333; padding: 4px 8px; border-radius: 999px; font-size: 11px; }
+    .links{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:12px 14px 14px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;padding:9px 10px;border-radius:10px;border:1px solid var(--line);color:var(--ink-70);background:var(--paper)}
+    .btn:hover{border-color:var(--platinum);color:var(--ink);background:#fdfdfd}
 
-    .links { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; padding: 12px 14px 14px; }
-    .btn {
-      display: inline-flex; align-items: center; justify-content: center; gap: 8px; text-decoration: none;
-      padding: 9px 10px; border-radius: 10px; border: 1px solid var(--line); color: var(--ink-70); background: var(--paper);
-      transition: border-color .15s ease, color .15s ease, background .15s ease;
-    }
-    .btn:hover { border-color: var(--platinum); color: var(--ink); background: #fdfdfd; }
+    .codeblock{margin:0 14px 14px;background:#0f0f0f;color:#f0f0f0;border-radius:10px;border:1px solid #1a1a1a}
+    .codeblock pre{margin:0;padding:12px;overflow:auto;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;font-size:12.5px;line-height:1.5}
+    .copybar{display:flex;justify-content:space-between;align-items:center;padding:8px 10px;border-top:1px solid #1a1a1a}
+    .copybar small{color:#c8c8c8}
+    .copybtn{border:1px solid #303030;background:#161616;color:#fff;border-radius:8px;padding:6px 8px;cursor:pointer}
+    .copybtn:hover{background:#1d1d1d}
 
-    .codeblock { margin: 0 14px 14px; background: #0f0f0f; color: #f0f0f0; border-radius: 10px; border: 1px solid #1a1a1a; }
-    .codeblock pre { margin: 0; padding: 12px; overflow: auto; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: 12.5px; line-height: 1.5; }
-    .copybar { display: flex; justify-content: space-between; align-items: center; padding: 8px 10px; border-top: 1px solid #1a1a1a; }
-    .copybar small { color: #c8c8c8; }
-    .copybtn { border: 1px solid #303030; background: #161616; color: #fff; border-radius: 8px; padding: 6px 8px; cursor: pointer; }
-    .copybtn:hover { background: #1d1d1d; }
+    .skeleton{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+    .sk-thumb{background:linear-gradient(90deg,#eee,#f6f6f6,#eee);background-size:200% 100%;animation:shimmer 1.2s infinite;aspect-ratio:16/9}
+    .sk-lines{padding:12px}
+    .sk-line{height:12px;background:#eee;border-radius:6px;margin:8px 0}
+    .sk-line.w60{width:60%}.sk-line.w80{width:80%}.sk-line.w40{width:40%}
+    @keyframes shimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
 
-    /* Screenshot strip */
-    .shots { display: flex; gap: 8px; overflow: auto; padding: 10px 14px 2px; }
-    .shots img { height: 64px; width: auto; border-radius: 8px; border: 1px solid var(--line); flex: 0 0 auto; }
-
-    /* Skeletons */
-    .skeleton { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
-    .sk-thumb { background: linear-gradient(90deg, #eee, #f6f6f6, #eee); background-size: 200% 100%; animation: shimmer 1.2s infinite; aspect-ratio: 16/9; }
-    .sk-lines { padding: 12px; }
-    .sk-line { height: 12px; background: #eee; border-radius: 6px; margin: 8px 0; }
-    .sk-line.w60 { width: 60%; }
-    .sk-line.w80 { width: 80%; }
-    .sk-line.w40 { width: 40%; }
-    @keyframes shimmer { 0% { background-position: 200% 0 } 100% { background-position: -200% 0 } }
-
-    /* Footer */
-    footer { margin-top: 28px; color: var(--ink-30); font-size: 0.88rem; text-align: center; }
-
-    /* Floating top link */
-    .toplink { position: fixed; right: 16px; bottom: 16px; background: var(--ink); color: #fff; border-radius: 999px; padding: 10px 12px; text-decoration: none; font-size: 0.9rem; box-shadow: var(--shadow-md); }
-    .toplink:hover { background: #111; }
-
-    /* A11y focus ring */
-    :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    footer{margin-top:28px;color:var(--ink-30);font-size:.88rem;text-align:center}
+    .toplink{position:fixed;right:16px;bottom:16px;background:var(--ink);color:#fff;border-radius:999px;padding:10px 12px;text-decoration:none;font-size:.9rem;box-shadow:var(--shadow-md)}
+    .toplink:hover{background:#111}
+    :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
   </style>
 </head>
 <body>
   <a id="top"></a>
   <div class="wrap">
-<div class="top" role="banner">
-  <div>
-    <h1>Investec Developer Builds</h1>
-    <p class="subtitle">Showcasing tools, dashboards, automations, and experiments built with Investec APIs — shared by our talented community 🦓. Minimal, fast, and built for developers.</p>
-  </div>
-  <a class="cta" href="https://github.com/Investec-Developer-Community/Community-Projects/issues/new?template=build-submission.yml" target="_blank" rel="noopener">➕ Submit your build</a>
-</div>
+    <div class="top" role="banner">
+      <div>
+        <h1>Investec Developer Builds</h1>
+        <p class="subtitle">Showcasing tools, dashboards, automations, and experiments built with Investec APIs — shared by our talented community 🦓. Minimal, fast, and built for developers.</p>
+      </div>
+      <a class="cta" href="https://github.com/Investec-Developer-Community/Community-Projects/issues/new?template=build-submission.yml" target="_blank" rel="noopener">➕ Submit your build</a>
+    </div>
 
     <section class="controls" aria-label="Filters and search">
       <div class="search">
@@ -214,275 +130,245 @@
           <option value="az">A → Z</option>
         </select>
       </div>
-      <div class="view">
-        <span>Filters</span>
-      </div>
+      <div class="view"><span>Filters</span></div>
       <div class="tags" id="tagbar" aria-label="Tag filters"></div>
     </section>
 
     <section aria-live="polite" aria-busy="true">
       <div id="grid" class="grid" data-state="loading"></div>
-      <p id="empty" style="display:none; text-align:center; color:var(--ink-50); margin: 18px 0;">No builds match your filters.</p>
+      <p id="empty" style="display:none;text-align:center;color:var(--ink-50);margin:18px 0;">No builds match your filters.</p>
     </section>
 
     <footer>
-      <p>Questions or ideas? <a href="https://github.com/orgs/Investec-Developer-Community/discussions" target="_blank" rel="noopener">Discuss feature requests here</a>  or <a href="https://github.com/Investec-Developer-Community/.github/issues" target="_blank" rel="noopener">submit an issue/bug here</a>. Be kind. Build boldly.</p>
-<p class="subtitle" style="margin-top:8px;">
-      💡 Looking for more open‑source gems? <a href="https://github.com/Investec-Developer-Community/Community-Projects" target="_blank" rel="noopener">Browse the archive</a>
-    </p>
+      <p>Questions or ideas? <a href="https://github.com/orgs/Investec-Developer-Community/discussions" target="_blank" rel="noopener">Discuss feature requests here</a> or <a href="https://github.com/Investec-Developer-Community/.github/issues" target="_blank" rel="noopener">submit an issue/bug here</a>. Be kind. Build boldly.</p>
+      <p class="subtitle" style="margin-top:8px;">💡 Looking for more open-source gems? <a href="https://github.com/Investec-Developer-Community/Community-Projects" target="_blank" rel="noopener">Browse the archive</a></p>
     </footer>
   </div>
 
   <a class="toplink" href="#top" aria-label="Back to top">↑</a>
 
   <script>
-    // --- Utility helpers ---
-    const $ = (sel, el = document) => el.querySelector(sel);
-    const $$ = (sel, el = document) => Array.from(el.querySelectorAll(sel));
+    // ===== helpers =====
+    const $ = (s, el=document) => el.querySelector(s);
+    const $$ = (s, el=document) => Array.from(el.querySelectorAll(s));
+    const debounce = (fn, ms=200) => { let t; return (...a)=>{ clearTimeout(t); t=setTimeout(()=>fn(...a), ms); }; };
 
-    const debounce = (fn, ms = 200) => {
-      let t; return (...args) => { clearTimeout(t); t = setTimeout(() => fn(...args), ms); };
-    };
+    const PLACEHOLDER_SVG = `
+      <svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="No Screenshot">
+        <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+          <stop offset="0" stop-color="#efefef"/><stop offset="1" stop-color="#e7e7e7"/></linearGradient></defs>
+        <rect width="640" height="360" rx="12" fill="url(#g)"/>
+        <g fill="#9e9e9e" transform="translate(320 170)">
+          <path d="M-120-30h35l12-18h46l12 18h35a20 20 0 0120 20v70a20 20 0 01-20 20h-140a20 20 0 01-20-20v-70a20 20 0 0120-20zm70 20a40 40 0 100 80 40 40 0 000-80z"/>
+        </g>
+        <text x="50%" y="70%" dominant-baseline="middle" text-anchor="middle"
+              fill="#9e9e9e" font-family="system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="28">
+          No Screenshot
+        </text>
+      </svg>`;
+    const PLACEHOLDER_URL = `data:image/svg+xml;utf8,${encodeURIComponent(PLACEHOLDER_SVG)}`;
 
     const fmtDate = (iso) => {
       if (!iso) return '';
-      const d = new Date(iso);
-      if (Number.isNaN(d)) return '';
-      return d.toLocaleDateString(undefined, { year:'numeric', month:'short', day:'numeric' });
+      const d = new Date(iso); if (Number.isNaN(d)) return '';
+      return d.toLocaleDateString(undefined,{year:'numeric',month:'short',day:'numeric'});
     };
 
-    const getAvatar = (b) => {
-      const u = b.github_username || b.github || b.author || b.submitter || '';
-      const handle = String(u).replace(/^@/, '').trim();
-      if (b.avatar_url) return b.avatar_url;
-      if (handle) return `https://unavatar.io/github/${encodeURIComponent(handle)}`;
-      return `https://unavatar.io/placeholder`;
+    // Prefer enriched fields from builds.json, otherwise fall back to unavatar
+    const avatarUrlFor = (b) => {
+      if (b.avatarUrl) return b.avatarUrl;
+      const handle = (b.github_username || b.github || b.author || b.submitter || '').toString().replace(/^@/,'').trim();
+      return handle ? `https://unavatar.io/github/${encodeURIComponent(handle)}` : `https://unavatar.io/placeholder`;
     };
+    const authorLinkFor = (b) => b.authorProfile || (b.submitter ? `https://github.com/${encodeURIComponent(b.submitter)}` : null);
 
-    const asArray = (val) => Array.isArray(val) ? val : (typeof val === 'string' ? val.split(',').map(s => s.trim()).filter(Boolean) : []);
+    const asArray = (v) => Array.isArray(v) ? v : (typeof v==='string' ? v.split(',').map(s=>s.trim()).filter(Boolean) : []);
+    const escapeHTML = (s) => String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#039;');
 
-    // --- State ---
-    let ALL = [];           // full dataset
-    let FILTER = { q: '', tags: new Set(), sort: 'latest' };
+    // ===== state =====
+    let ALL=[]; let FILTER={ q:'', tags:new Set(), sort:'latest' };
 
-    // --- Skeletons ---
-    const renderSkeletons = (n = 6) => {
-      const grid = $('#grid');
-      grid.innerHTML = '';
-      for (let i=0;i<n;i++) {
-        const sk = document.createElement('div');
-        sk.className = 'skeleton';
-        sk.innerHTML = `<div class="sk-thumb"></div><div class="sk-lines">`+
-          `<div class="sk-line w80"></div>`+
-          `<div class="sk-line"></div>`+
-          `<div class="sk-line w60"></div>`+
-        `</div>`;
-        grid.appendChild(sk);
+    // ===== skeletons =====
+    const renderSkeletons=(n=9)=>{
+      const grid=$('#grid'); grid.innerHTML='';
+      for(let i=0;i<n;i++){
+        const el=document.createElement('div');
+        el.className='skeleton';
+        el.innerHTML=`<div class="sk-thumb"></div><div class="sk-lines"><div class="sk-line w80"></div><div class="sk-line"></div><div class="sk-line w60"></div></div>`;
+        grid.appendChild(el);
       }
     };
 
-    // --- Card ---
-    const placeholderImage = 'https://placehold.co/800x450/EEE/999?text=No+Screenshot';
+    // ===== card =====
+    const codeBlock = (text) => {
+      const id = 'c' + Math.random().toString(36).slice(2);
+      const escaped = escapeHTML(String(text||'').trim());
+      return `<div class="codeblock"><pre id="${id}"><code>${escaped}</code></pre>
+              <div class="copybar"><small>How to run</small><button class="copybtn" data-copy="${id}">Copy</button></div></div>`;
+    };
 
     const buildCard = (b) => {
       const title = b.projectName || b.title || 'Untitled build';
       const created = fmtDate(b.created_at);
       const shots = asArray(b.screenshots);
-      const firstImg = shots[0] || b.cover || placeholderImage;
-      const author = b.author || b.submitter || b.github_username || 'Anonymous';
-      const tags = asArray(b.tags || b.categories);
+      const cover = shots[0] || b.cover || PLACEHOLDER_URL;
       const repo = b.repoLink || b.repo || b.repository;
       const demo = b.liveDemo || b.demo || b.url_demo;
+      const bestLink = repo || demo || b.url;
+      const authorName = b.author || b.submitter || b.github_username || 'Anonymous';
+      const authorHref = authorLinkFor(b);
+      const tags = asArray(b.tags || b.categories);
 
-      const card = document.createElement('article');
-      card.className = 'card';
-      card.setAttribute('tabindex', '0');
-      card.innerHTML = `
-        <div class="thumb">
-          <img src="${firstImg}" loading="lazy" alt="Screenshot for ${title}">
-          ${created ? `<span class="pill">${created}</span>` : ''}
+      const card=document.createElement('article');
+      card.className='card';
+      card.setAttribute('tabindex','0');
+
+      // hero
+      const hero=document.createElement('div');
+      hero.className='thumb';
+      hero.innerHTML=`<img src="${cover}" alt="${title} screenshot" referrerpolicy="no-referrer" onerror="this.src='${PLACEHOLDER_URL}'">
+                      ${created?`<span class="pill">${created}</span>`:''}`;
+      card.appendChild(hero);
+
+      // body
+      const body=document.createElement('div');
+      body.className='body';
+      body.innerHTML=`
+        <h2 class="title">${bestLink?`<a href="${bestLink}" target="_blank" rel="noopener">${title}</a>`:escapeHTML(title)}</h2>
+        <p class="desc">${b.description?escapeHTML(b.description):'<em>No description provided.</em>'}</p>
+        <div class="meta">
+          <img class="avatar" src="${avatarUrlFor(b)}" alt="${authorName} avatar" referrerpolicy="no-referrer" onerror="this.style.display='none'">
+          <span>by ${authorHref?`<a href="${authorHref}" target="_blank" rel="noopener" style="color:#333;text-decoration:none">${escapeHTML(authorName)}</a>`:escapeHTML(authorName)}</span>
         </div>
-        <div class="body">
-          <h2 class="title">${title}</h2>
-          <p class="desc">${b.description ? escapeHTML(b.description) : '<em>No description provided.</em>'}</p>
-          <div class="meta">
-            <img class="avatar" src="${getAvatar(b)}" alt="${author} avatar" loading="lazy"/>
-            <span title="Submitter">${author}</span>
-            ${b.created_at ? `<span>•</span><time datetime="${b.created_at}">${created}</time>` : ''}
-          </div>
-          ${tags.length ? `<div class="tagrow">${tags.map(t=>`<span class="chip">${escapeHTML(t)}</span>`).join('')}</div>` : ''}
-        </div>
-        ${shots.length>1 ? `<div class="shots">${shots.slice(1,7).map(s=>`<a href="${s}" target="_blank" rel="noopener"><img loading="lazy" src="${s}" alt="Extra screenshot"/></a>`).join('')}</div>` : ''}
-        <div class="links">
-          ${repo ? `<a class="btn" href="${repo}" target="_blank" rel="noopener">📦 Repo</a>` : '<span></span>'}
-          ${demo ? `<a class="btn" href="${demo}" target="_blank" rel="noopener">🚀 Live demo</a>` : (b.url ? `<a class="btn" href="${b.url}" target="_blank" rel="noopener">📝 Submission</a>` : '<span></span>')}
-        </div>
-        ${b.instructions ? codeBlock(b.instructions) : ''}
+        ${tags.length?`<div class="tagrow">${tags.map(t=>`<span class="chip">${escapeHTML(t)}</span>`).join('')}</div>`:''}
       `;
+      card.appendChild(body);
+
+      // thumbs (click to swap main)
+      if (shots.length>1){
+        const strip=document.createElement('div'); strip.className='shots';
+        shots.slice(1,7).forEach((url,i)=>{
+          const t=document.createElement('img');
+          t.src=url; t.alt=`Screenshot ${i+2}`; t.loading='lazy'; t.referrerPolicy='no-referrer';
+          t.onerror=()=>{t.style.display='none';};
+          t.addEventListener('click',()=>{ const img=hero.querySelector('img'); img.src=url; });
+          strip.appendChild(t);
+        });
+        card.appendChild(strip);
+      }
+
+      // links
+      const actions=document.createElement('div'); actions.className='links';
+      const links=[
+        repo&&{label:'📦 Repo',href:repo},
+        demo&&{label:'🚀 Live demo',href:demo},
+        {label:'📝 Submission',href:b.url}
+      ].filter(Boolean);
+      links.forEach(l=>{ const a=document.createElement('a'); a.className='btn'; a.href=l.href; a.target='_blank'; a.rel='noopener'; a.textContent=l.label; actions.appendChild(a); });
+      card.appendChild(actions);
+
+      // instructions
+      if (b.instructions) card.insertAdjacentHTML('beforeend', codeBlock(b.instructions));
       return card;
     };
 
-    const codeBlock = (text) => {
-      const escaped = escapeHTML(String(text).trim());
-      const id = 'c'+Math.random().toString(36).slice(2);
-      return `
-        <div class="codeblock">
-          <pre id="${id}"><code>${escaped}</code></pre>
-          <div class="copybar">
-            <small>How to run</small>
-            <button class="copybtn" data-copy="${id}">Copy</button>
-          </div>
-        </div>`;
-    };
+    // ===== render =====
+    const render=()=>{
+      const grid=$('#grid'); grid.setAttribute('aria-busy','true');
+      const q=(FILTER.q||'').toLowerCase();
 
-    const escapeHTML = (s) => s
-      .replaceAll('&','&amp;')
-      .replaceAll('<','&lt;')
-      .replaceAll('>','&gt;')
-      .replaceAll('"','&quot;')
-      .replaceAll("'",'&#039;');
-
-    // --- Render ---
-    const render = () => {
-      const grid = $('#grid');
-      grid.setAttribute('aria-busy','true');
-      const q = FILTER.q.toLowerCase();
-
-      let list = ALL.filter(b => {
-        const hay = [b.projectName||b.title, b.description, b.author||b.submitter, b.github_username].join(' ').toLowerCase();
-        const matchQ = !q || hay.includes(q);
-        const tags = new Set(asArray(b.tags || b.categories).map(t=>t.toLowerCase()));
-        const activeTags = FILTER.tags;
-        const matchTags = activeTags.size===0 || [...activeTags].every(t=>tags.has(t));
-        return matchQ && matchTags;
+      let list=ALL.filter(b=>{
+        const hay=[b.projectName||b.title,b.description,b.author||b.submitter,b.github_username].join(' ').toLowerCase();
+        const matchesQ=!q || hay.includes(q);
+        const tags=new Set(asArray(b.tags||b.categories).map(t=>String(t).toLowerCase()));
+        const active=FILTER.tags;
+        const matchesTags = active.size===0 || [...active].every(t=>tags.has(t));
+        return matchesQ && matchesTags;
       });
 
-      if (FILTER.sort === 'az') {
-        list.sort((a,b) => String(a.projectName||a.title).localeCompare(String(b.projectName||b.title)));
+      if (FILTER.sort==='az'){
+        list.sort((a,b)=>String(a.projectName||a.title).localeCompare(String(b.projectName||b.title)));
       } else {
-        list.sort((a,b) => new Date(b.created_at||0) - new Date(a.created_at||0));
+        list.sort((a,b)=>new Date(b.created_at||0)-new Date(a.created_at||0)).reverse();
       }
 
-      grid.innerHTML = '';
-      if (!list.length) {
-        $('#empty').style.display = 'block';
-      } else {
-        $('#empty').style.display = 'none';
-        list.forEach(b => grid.appendChild(buildCard(b)));
-      }
+      grid.innerHTML='';
+      if (!list.length){ $('#empty').style.display='block'; }
+      else { $('#empty').style.display='none'; list.forEach(b=>grid.appendChild(buildCard(b))); }
       grid.removeAttribute('aria-busy');
     };
 
-    // --- Tags bar ---
-    const renderTags = () => {
-      const bar = $('#tagbar');
-      bar.innerHTML = '';
-      const set = new Set();
-      ALL.forEach(b => asArray(b.tags || b.categories).forEach(t => set.add(t)));
-      const tags = Array.from(set).sort((a,b)=>String(a).localeCompare(String(b)));
-      if (!tags.length) { bar.style.display = 'none'; return; }
-      bar.style.display = 'flex';
+    // ===== tags =====
+    const renderTags=()=>{
+      const bar=$('#tagbar'); bar.innerHTML='';
+      const set=new Set(); ALL.forEach(b=>asArray(b.tags||b.categories).forEach(t=>set.add(t)));
+      const tags=[...set].sort((a,b)=>String(a).localeCompare(String(b)));
+      if (!tags.length){ bar.style.display='none'; return; }
+      bar.style.display='flex';
 
-      // Add an "All" toggle for quick reset
-      const allBtn = document.createElement('button');
-      allBtn.className = 'tag' + (FILTER.tags.size===0 ? ' active' : '');
-      allBtn.textContent = 'All';
-      allBtn.addEventListener('click', () => { FILTER.tags.clear(); updateURL(); renderTags(); render(); });
+      const allBtn=document.createElement('button');
+      allBtn.className='tag'+(FILTER.tags.size===0?' active':'');
+      allBtn.textContent='All';
+      allBtn.addEventListener('click',()=>{ FILTER.tags.clear(); updateURL(); renderTags(); render(); });
       bar.appendChild(allBtn);
 
-      tags.forEach(t => {
-        const btn = document.createElement('button');
-        const key = String(t).toLowerCase();
-        btn.className = 'tag' + (FILTER.tags.has(key) ? ' active' : '');
-        btn.textContent = t;
-        btn.addEventListener('click', () => {
+      tags.forEach(t=>{
+        const key=String(t).toLowerCase();
+        const btn=document.createElement('button');
+        btn.className='tag'+(FILTER.tags.has(key)?' active':'');
+        btn.textContent=t;
+        btn.addEventListener('click',()=>{
           if (FILTER.tags.has(key)) FILTER.tags.delete(key); else FILTER.tags.add(key);
-          // if nothing selected, keep All active style
           renderTags(); updateURL(); render();
         });
         bar.appendChild(btn);
       });
     };
 
-    // --- Data load ---
-    const load = async () => {
+    // ===== data load =====
+    const hydrateFromURL=()=>{
+      const p=new URLSearchParams(location.search);
+      FILTER.q=p.get('q')||''; FILTER.sort=p.get('sort')||'latest';
+      FILTER.tags=new Set((p.get('tags')||'').split(',').map(s=>s.toLowerCase()).filter(Boolean));
+      $('#q').value=FILTER.q; $('#sort').value=FILTER.sort;
+    };
+    const updateURL=()=>{
+      const p=new URLSearchParams();
+      if (FILTER.q) p.set('q',FILTER.q);
+      if (FILTER.sort && FILTER.sort!=='latest') p.set('sort',FILTER.sort);
+      if (FILTER.tags.size) p.set('tags',[...FILTER.tags].join(','));
+      history.replaceState(null,'',`${location.pathname}?${p.toString()}`);
+    };
+
+    const load=async()=>{
       renderSkeletons(9);
-      try {
-        const res = await fetch('./builds.json', { cache: 'no-store' });
-        if (!res.ok) throw new Error(`Failed to load builds.json (${res.status})`);
-        const data = await res.json();
-        ALL = Array.isArray(data) ? data : [];
-      } catch (e) {
-        $('#grid').innerHTML = `<div class="card" style="padding:16px">🦓 No builds… yet</div>`;
+      try{
+        const res=await fetch('./builds.json',{cache:'no-store'});
+        if(!res.ok) throw new Error(`Failed to load builds.json (${res.status})`);
+        const data=await res.json();
+        ALL=Array.isArray(data)?data:[];
+      }catch(e){
+        $('#grid').innerHTML=`<div class="card" style="padding:16px">🦓 No builds… yet</div>`;
         return;
       }
-      hydrateFromURL();
-      renderTags();
-      render();
+      hydrateFromURL(); renderTags(); render();
     };
 
-    // --- Interactions ---
-    document.addEventListener('click', (e) => {
-      const btn = e.target.closest('.copybtn');
-      if (btn) {
-        const id = btn.getAttribute('data-copy');
-        const pre = document.getElementById(id);
-        if (pre) {
-          const text = pre.innerText;
-          navigator.clipboard.writeText(text).then(()=>{
-            btn.textContent = 'Copied';
-            setTimeout(()=>btn.textContent='Copy', 1400);
-          }).catch(()=>{
-            btn.textContent = 'Failed';
-            setTimeout(()=>btn.textContent='Copy', 1400);
-          });
-        }
-      }
+    // interactions
+    const onSearch=debounce(e=>{ FILTER.q=e.target.value.trim(); updateURL(); render(); },200);
+    $('#q').addEventListener('input',onSearch);
+    document.addEventListener('keydown',e=>{ if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==='k'){ e.preventDefault(); $('#q').focus(); }});
+    $('#sort').addEventListener('change',e=>{ FILTER.sort=e.target.value; updateURL(); render(); });
+    document.addEventListener('click',e=>{
+      const btn=e.target.closest('.copybtn');
+      if(!btn) return;
+      const pre=document.getElementById(btn.dataset.copy);
+      if (!pre) return;
+      const txt=pre.innerText;
+      navigator.clipboard.writeText(txt).then(()=>{ btn.textContent='Copied'; setTimeout(()=>btn.textContent='Copy',1200); })
+                                         .catch(()=>{ btn.textContent='Failed'; setTimeout(()=>btn.textContent='Copy',1200); });
     });
 
-    // Search + keyboard shortcut
-    const onSearch = debounce((ev) => {
-      FILTER.q = ev.target.value.trim();
-      updateURL();
-      render();
-    }, 200);
-    $('#q').addEventListener('input', onSearch);
-    document.addEventListener('keydown', (e) => {
-      if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') { e.preventDefault(); $('#q').focus(); }
-    });
-
-    // Sort
-    $('#sort').addEventListener('change', (e) => { FILTER.sort = e.target.value; updateURL(); render(); });
-
-    // Smooth scroll for top link (native via anchor; here for older browsers)
-    document.querySelectorAll('a[href^="#"]').forEach(a => {
-      a.addEventListener('click', (e) => {
-        const id = a.getAttribute('href').slice(1);
-        const target = document.getElementById(id) || document.querySelector(`[name="${id}"]`) || document.body;
-        if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth' }); }
-      });
-    });
-
-    // --- URL state (q, sort, tags) ---
-    const hydrateFromURL = () => {
-      const p = new URLSearchParams(location.search);
-      const q = p.get('q') || '';
-      const sort = p.get('sort') || 'latest';
-      const tags = (p.get('tags') || '').split(',').map(s => s.toLowerCase()).filter(Boolean);
-      FILTER.q = q; FILTER.sort = sort; FILTER.tags = new Set(tags);
-      $('#q').value = q; $('#sort').value = sort;
-    };
-
-    const updateURL = () => {
-      const p = new URLSearchParams();
-      if (FILTER.q) p.set('q', FILTER.q);
-      if (FILTER.sort && FILTER.sort !== 'latest') p.set('sort', FILTER.sort);
-      if (FILTER.tags.size) p.set('tags', Array.from(FILTER.tags).join(','));
-      const newURL = `${location.pathname}?${p.toString()}`;
-      history.replaceState(null, '', newURL);
-    };
-
-    // Kickoff
     load();
   </script>
 </body>
