@@ -136,7 +136,7 @@
 
     <section aria-live="polite" aria-busy="true">
       <div id="grid" class="grid" data-state="loading"></div>
-      <p id="empty" style="display:none;text-align:center;color:var(--ink-50);margin:18px 0;">No builds match your filters.</p>
+      <p id="empty" style="display:none;text-align:center;color:var(--ink-50);margin:18px 0;"></p>
     </section>
 
     <footer>
@@ -293,7 +293,17 @@
       }
 
       grid.innerHTML='';
-      if (!list.length){ $('#empty').style.display='block'; }
+      if (!list.length) {
+  const messages = [
+    `<strong>⚠️ 404: Builds Not Found</strong><br>The community gallery is waiting for your PR to <code>main</code>.`,
+    `<strong>🛠️ This space intentionally left awesome.</strong><br>Got something cool? Push it here → <a href="https://github.com/Investec-Developer-Community/Community-Projects/issues/new?template=build-submission.yml" target="_blank" rel="noopener">Submit your build</a>.`,
+    `<strong>💻 while(true) { waitForBuilds(); }</strong><br>…Still waiting. Help us break the loop.`
+  ];
+  const msg = messages[Math.floor(Math.random() * messages.length)];
+  const emptyEl = $('#empty');
+  emptyEl.innerHTML = msg;
+  emptyEl.style.display = 'block';
+}
       else { $('#empty').style.display='none'; list.forEach(b=>grid.appendChild(buildCard(b))); }
       grid.removeAttribute('aria-busy');
     };
