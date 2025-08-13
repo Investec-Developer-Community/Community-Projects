@@ -1,26 +1,54 @@
 name: Export Community Builds to JSON
 
 on:
-  schedule:
-    - cron: '0 * * * *'  # hourly
-  workflow_dispatch:
+  # manual run
+  workflow_dispatch: {}
+  # run only on new submissions / when label is applied (in THIS repo)
+  issues:
+    types: [opened, labeled]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: export-builds
+  cancel-in-progress: true
 
 jobs:
   export-builds:
+    # Gate runs:
+    # - manual run, OR
+    # - issue opened with the Build Submission title prefix, OR
+    # - "New Community Build" label applied
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'issues' &&
+        (
+          (github.event.action == 'opened' && startsWith(github.event.issue.title, '[Build Submission]')) ||
+          (github.event.action == 'labeled' && github.event.label.name == 'New Community Build')
+        )
+      )
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Fetch issues from GitHub
+      # Optional: small buffer so auto-label workflows can finish before we fetch
+      - name: Brief wait (allow labelers to complete)
+        if: github.event_name == 'issues' && github.event.action == 'opened'
+        run: sleep 15
+
+      - name: Fetch issues from THIS repo
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           mkdir -p docs
+          # Toggle state=all to keep closed builds on the page; use state=open if you only want open issues
           curl -s -H "Authorization: token $GH_TOKEN" \
                -H "Accept: application/vnd.github+json" \
-               "https://api.github.com/repos/Investec-Developer-Community/.github/issues?labels=New%20Community%20Build&state=open&per_page=100" \
+               "https://api.github.com/repos/${GITHUB_REPOSITORY}/issues?labels=New%20Community%20Build&state=all&per_page=100" \
                > raw_issues.json
 
       - name: Parse issues with Node.js
@@ -31,7 +59,6 @@ jobs:
 
           function extract(section, body, fallback = "") {
             if (!body) return fallback;
-            // Multiline and dotall mode
             const regex = new RegExp(`###\\s*${section}\\s*\\n+([\\s\\S]*?)(?=\\n###|$)`, 'i');
             const match = body.match(regex);
             return match ? match[1].trim() : fallback;
@@ -56,7 +83,7 @@ jobs:
               description: extract('Description', body),
               instructions: extract('How to Run/Use It', body),
               screenshots: extractImageLinks(extract('Screenshots or GIFs', body))
-            }
+            };
           });
 
           fs.writeFileSync('docs/builds.json', JSON.stringify(builds, null, 2));
@@ -72,6 +99,6 @@ jobs:
           title: "chore: Update community builds JSON"
           body: |
             This PR updates `docs/builds.json` with the latest community build issues.
-            - Automated by GitHub Actions.
+            Trigger: ${{ github.event_name }}
           labels: |
             automated-pr
