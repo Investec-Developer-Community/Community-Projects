@@ -15,6 +15,7 @@ concurrency:
 
 jobs:
   export-builds:
+    # Run only on manual OR when "Showcase Approved" is applied
     if: >
       github.event_name == 'workflow_dispatch' ||
       (github.event_name == 'issues' &&
@@ -26,27 +27,36 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Brief wait (labelers/edits to settle)
+      - name: Brief wait (allow other labelers to finish)
         if: github.event_name == 'issues'
         run: sleep 10
 
-      - name: Fetch only APPROVED issues from THIS repo
+      - name: Fetch ALL issues (filter later in Node)
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           mkdir -p docs
           curl -s -H "Authorization: token $GH_TOKEN" \
                -H "Accept: application/vnd.github+json" \
-               "https://api.github.com/repos/${GITHUB_REPOSITORY}/issues?labels=Showcase%20Approved&state=all&per_page=100" \
+               "https://api.github.com/repos/${GITHUB_REPOSITORY}/issues?state=all&per_page=100" \
                > raw_issues.json
+          echo "Fetched issues count:"
+          node -e "console.log(JSON.parse(require('fs').readFileSync('raw_issues.json','utf8')).length)"
 
-      - name: Parse issues with Node.js
+      - name: Parse APPROVED issues with Node.js
         run: |
           cat > parse-builds.js <<'EOF'
           const fs = require('fs');
+
           const issues = JSON.parse(fs.readFileSync('raw_issues.json', 'utf8'));
 
+          const APPROVAL_LABEL = 'Showcase Approved';
+
           const clean = s => (s || '').trim().replace(/^no response$/i, '');
+
+          function hasApprovalLabel(labels = []) {
+            return labels.some(l => (l.name || '').trim().toLowerCase() === APPROVAL_LABEL.toLowerCase());
+          }
 
           function extract(section, body, fallback = "") {
             if (!body) return fallback;
@@ -61,21 +71,27 @@ jobs:
             return Array.from(t.matchAll(/https?:\/\/\S+\.(?:png|jpg|jpeg|gif)/gi)).map(m => m[0]);
           }
 
-          const builds = issues.map(issue => {
+          // Filter: only true issues (no PRs) that are APPROVED
+          const approved = issues.filter(it => !it.pull_request && hasApprovalLabel(it.labels));
+
+          console.log(`Approved issues: ${approved.length}`);
+
+          const builds = approved.map(issue => {
             const body = issue.body || "";
+
             const projectName = extract('Project Name', body, issue.title);
-            const author = extract('Your Name or Team', body, issue.user.login);
-            const repoLink = clean(extract('Repository/Code Link', body));
-            const liveDemo = clean(extract('Live Demo', body));
+            const author      = extract('Your Name or Team', body, issue.user?.login || '');
+            const repoLink    = clean(extract('Repository/Code Link', body));
+            const liveDemo    = clean(extract('Live Demo', body));
             const description = extract('Description', body);
-            const instructions = extract('How to Run/Use It', body);
+            const instructions= extract('How to Run/Use It', body);
             const screenshots = extractImageLinks(extract('Screenshots or GIFs', body));
 
             return {
               title: issue.title,
               url: issue.html_url,
               created_at: issue.created_at,
-              submitter: issue.user.login,
+              submitter: issue.user?.login || '',
               projectName,
               author,
               repoLink: repoLink || undefined,
@@ -94,13 +110,15 @@ jobs:
       - name: Create Pull Request with updated builds.json (draft)
         uses: peter-evans/create-pull-request@v6
         with:
-          token: ${{ secrets.PR_CREATION_TOKEN }}   # PAT with repo + PR write
+          token: ${{ secrets.PR_CREATION_TOKEN }}   # your PAT
           commit-message: "Update enriched community builds JSON"
           branch: "auto/builds-update-${{ github.run_id }}"
           title: "chore: Update community builds JSON"
           body: |
             This PR updates `docs/builds.json` with the latest *approved* community build issues.
             Trigger: ${{ github.event_name }}
+
+            Log excerpt above shows fetched & approved counts.
           labels: |
             automated-pr
             community-builds
