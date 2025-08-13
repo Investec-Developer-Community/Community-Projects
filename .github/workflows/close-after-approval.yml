@@ -1,0 +1,28 @@
+name: Close Issue After Approval
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  close-after-approval:
+    if: github.event.label.name == 'Showcase Approved'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Courtesy comment
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          issue-number: ${{ github.event.issue.number }}
+          body: |
+            ✅ Approved and queued for the gallery. Thanks for sharing!
+            This issue will be closed shortly. You can view the gallery here:
+            https://investec-developer-community.github.io/Community-Projects/
+
+      - name: Wait 30 minutes then close
+        run: sleep 1800
+
+      - name: Close the issue
+        uses: peter-evans/close-issue@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
