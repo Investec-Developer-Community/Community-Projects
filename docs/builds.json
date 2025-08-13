@@ -1,1 +1,15 @@
-
+[
+  {
+    "title": "[Build Submission] investec-swipe-n-save - TESTING",
+    "url": "https://github.com/Investec-Developer-Community/.github/issues/40",
+    "created_at": "2025-08-11T09:15:52Z",
+    "submitter": "programmable-banking-community",
+    "projectName": "Investec Swipe-n-Save",
+    "author": "Peter Smythe",
+    "repoLink": "https://github.com/petersmythe/investec-swipe-n-save",
+    "liveDemo": "",
+    "description": "Card Code Snippet Creation. Put aside money into a savings account each time you swipe your credit card.",
+    "instructions": "Copy & paste the provided Main and Env files into your existing Investec card IDE. And deploy.",
+    "screenshots": []
+  }
+]
