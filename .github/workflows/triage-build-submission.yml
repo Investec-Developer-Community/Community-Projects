@@ -1,0 +1,38 @@
+name: Triage Build Submission
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  triage:
+    if: startsWith(github.event.issue.title, '[Build Submission]')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add triage labels
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: |
+            New Community Build
+            needs-review
+
+      - name: Assign reviewer(s)
+        uses: pozil/auto-assign-issue@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          assignees: nick-benson
+          numOfAssignee: 1
+
+      - name: Thank submitter with next steps
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          issue-number: ${{ github.event.issue.number }}
+          body: |
+            👋 Thanks for your submission!
+
+            Our team will review it shortly. If approved, it will appear on the community gallery:
+            https://investec-developer-community.github.io/Community-Projects/
+
+            _Tip: it can take a few minutes after approval for the page to update._
