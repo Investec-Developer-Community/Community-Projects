@@ -51,9 +51,14 @@ jobs:
 
           const APPROVAL_LABEL = 'Showcase Approved';
 
-          function clean(s) {
-            return (s || '').trim().replace(/^no response$/i, '');
+          const raw = JSON.parse(fs.readFileSync('raw_issues.json','utf8'));
+          if (!Array.isArray(raw)) {
+            console.log('WARN: raw_issues.json is not an array. Content:', raw);
+            fs.writeFileSync('docs/builds.json', '[]');
+            process.exit(0);
           }
+
+          const clean = s => (s || '').trim().replace(/^no response$/i, '');
 
           function hasApprovalLabel(labels = []) {
             return labels.some(l => (l.name || '').trim().toLowerCase() === APPROVAL_LABEL.toLowerCase());
@@ -66,46 +71,65 @@ jobs:
             return m ? clean(m[1]) : fallback;
           }
 
+          // Grab image URLs from Markdown, HTML, and plain links (including GitHub user-attachments)
           function extractImageLinks(text) {
             const t = clean(text);
             if (!t) return [];
-            return Array.from(t.matchAll(/https?:\/\/\S+\.(?:png|jpg|jpeg|gif)/gi)).map(m => m[0]);
+
+            const urls = new Set();
+
+            // Markdown images: ![alt](url "title")
+            for (const m of t.matchAll(/!\[[^\]]*\]\((?<url>[^)\s]+)(?:\s+"[^"]*")?\)/g)) {
+              if (m.groups?.url) urls.add(m.groups.url);
+            }
+
+            // HTML <img src="...">
+            for (const m of t.matchAll(/<img[^>]+src=["']([^"']+)["']/gi)) {
+              urls.add(m[1]);
+            }
+
+            // Any plain http(s) link
+            for (const m of t.matchAll(/https?:\/\/\S+/gi)) {
+              urls.add(m[0].replace(/[),.]+$/, '')); // trim trailing punctuation
+            }
+
+            // Filter to "likely image" URLs:
+            const likely = Array.from(urls).filter(u =>
+              /\.(png|jpg|jpeg|gif|webp)(\?|#|$)/i.test(u) ||
+              u.includes('/user-attachments/assets/') ||
+              u.includes('githubusercontent.com')
+            );
+
+            return Array.from(new Set(likely)); // dedupe
           }
 
-          const raw = JSON.parse(fs.readFileSync('raw_issues.json', 'utf8'));
-          if (!Array.isArray(raw)) {
-            console.log('WARN: raw_issues.json is not an array. Content:', raw);
-            fs.writeFileSync('docs/builds.json', '[]');
-            process.exit(0);
-          }
-
-          // Filter: true issues (no PRs) + approved label
           const approved = raw.filter(it => !it.pull_request && hasApprovalLabel(it.labels || []));
           console.log(`Approved issues found: ${approved.length}`);
 
           const builds = approved.map(issue => {
             const body = issue.body || "";
 
-            const projectName = extract('Project Name', body, issue.title);
-            const author      = extract('Your Name or Team', body, issue.user?.login || '');
-            const repoLink    = clean(extract('Repository/Code Link', body)) || undefined;
-            const liveDemo    = clean(extract('Live Demo', body)) || undefined;
-            const description = extract('Description', body);
-            const instructions= extract('How to Run/Use It', body);
-            const screenshots = extractImageLinks(extract('Screenshots or GIFs', body));
+            const projectName  = extract('Project Name', body, issue.title);
+            const author       = extract('Your Name or Team', body, issue.user?.login || '');
+            const repoLink     = clean(extract('Repository/Code Link', body)) || undefined;
+            const liveDemo     = clean(extract('Live Demo', body)) || undefined;
+            const description  = extract('Description', body);
+            const instructions = extract('How to Run/Use It', body);
+            const screenshots  = extractImageLinks(extract('Screenshots or GIFs', body));
 
             return {
+              // Basic
               title: issue.title,
               url: issue.html_url,
               created_at: issue.created_at,
+
+              // Submitter metadata
               submitter: issue.user?.login || '',
-              projectName,
-              author,
-              repoLink,
-              liveDemo,
-              description,
-              instructions,
-              screenshots
+              avatarUrl: issue.user?.avatar_url || null,
+              authorProfile: issue.user?.html_url || null,
+
+              // Parsed fields
+              projectName, author, repoLink, liveDemo, description, instructions, screenshots
             };
           });
 
