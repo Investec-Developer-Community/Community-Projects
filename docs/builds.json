@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "title": "[Build Submission] InvestEase",
+    "url": "https://github.com/Investec-Developer-Community/Community-Projects/issues/10",
+    "created_at": "2025-08-15T13:52:35Z",
+    "submitter": "Nevvyboi",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/76122856?v=4",
+    "authorProfile": "https://github.com/Nevvyboi",
+    "projectName": "Investec Sandbox API",
+    "author": "Nevin Tom",
+    "repoLink": "https://github.com/Nevvyboi/InvestEase",
+    "description": "A sleek, responsive web app that connects to the [Investec Sandbox API](https://developer.investec.com/za/api-products/documentation/SA_PB_Account_Information) 🏦, letting you -> 📊 View recent transactions in style 🎨 Enjoy a clean, animated, responsive UI ⚡ Navigate quickly with an intuitive sidebar",
+    "instructions": "## 🧰 Installation & Setup (no API credentials needed)\n\n> 🚀 This project ships with a preconfigured Investec **Sandbox** client. You can run it locally without setting any keys or secrets.",
+    "screenshots": [
+      "https://github.com/user-attachments/assets/ff9e6cef-6496-4aea-bcb1-ed1738867689",
+      "https://github.com/user-attachments/assets/ffb9e759-5bb1-484b-89e1-e569b442179e",
+      "https://github.com/user-attachments/assets/664f11ca-90a8-4205-9b7b-126e43018701",
+      "https://github.com/user-attachments/assets/3217cd07-5cd1-4630-b4cf-8c2404954aab",
+      "https://github.com/user-attachments/assets/32317858-4a14-4126-8c93-4f7a158fee58",
+      "https://github.com/user-attachments/assets/818c4c05-1051-4da3-85b6-8f78fff33561",
+      "https://github.com/user-attachments/assets/ff9e6cef-6496-4aea-bcb1-ed1738867689\"",
+      "https://github.com/user-attachments/assets/ffb9e759-5bb1-484b-89e1-e569b442179e\"",
+      "https://github.com/user-attachments/assets/664f11ca-90a8-4205-9b7b-126e43018701\"",
+      "https://github.com/user-attachments/assets/3217cd07-5cd1-4630-b4cf-8c2404954aab\"",
+      "https://github.com/user-attachments/assets/32317858-4a14-4126-8c93-4f7a158fee58\"",
+      "https://github.com/user-attachments/assets/818c4c05-1051-4da3-85b6-8f78fff33561\""
+    ]
+  }
+]
