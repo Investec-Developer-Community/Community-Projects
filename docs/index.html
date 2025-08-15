@@ -246,7 +246,13 @@
       body.className='body';
       body.innerHTML=`
         <h2 class="title">${bestLink?`<a href="${bestLink}" target="_blank" rel="noopener">${title}</a>`:escapeHTML(title)}</h2>
-        <p class="desc">${b.description?escapeHTML(b.description):'<em>No description provided.</em>'}</p>
+        <p class="desc">${
+  b.description
+    ? escapeHTML(b.description)
+        // Convert markdown links to HTML anchors
+        .replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>')
+    : '<em>No description provided.</em>'
+}</p>
         <div class="meta">
           <img class="avatar" src="${avatarUrlFor(b)}" alt="${authorName} avatar" referrerpolicy="no-referrer" onerror="this.style.display='none'">
           <span>by ${authorHref?`<a href="${authorHref}" target="_blank" rel="noopener" style="color:#333;text-decoration:none">${escapeHTML(authorName)}</a>`:escapeHTML(authorName)}</span>
