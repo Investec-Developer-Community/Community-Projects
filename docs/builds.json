@@ -1,5 +1,30 @@
 [
   {
+    "title": "[Build Submission] <Project Name>",
+    "url": "https://github.com/Investec-Developer-Community/Community-Projects/issues/14",
+    "created_at": "2025-10-01T10:14:59Z",
+    "submitter": "programmable-banking-community",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/60923762?v=4",
+    "authorProfile": "https://github.com/programmable-banking-community",
+    "projectName": "Zebra Finance - AI-Powered Personal Finance Assistant",
+    "author": "David Mellors",
+    "repoLink": "https://github.com/davidrmellors/zebra-finance",
+    "description": "Links to your Investec account to sync transactions, categorise spending, and use GPT-4o for insights. It stores data locally with SQLite for privacy and works offline after sync.",
+    "instructions": "Clone the repository\n```\ngit clone <repository-url>\ncd zebra-finance\n```\n\nInstall dependencies\n`npm install`\n\nStart the development server\n`npx expo start`\n\nRun on device/simulator\n```\nPress i for iOS simulator\nPress a for Android emulator\nScan QR code with Expo Go app for physical device\n```",
+    "screenshots": [
+      "https://github.com/user-attachments/assets/855b3eb8-9da5-4db0-8d8f-1b452c52095a",
+      "https://github.com/user-attachments/assets/31c325f9-b522-4783-b5ca-cd3029fa474b",
+      "https://github.com/user-attachments/assets/75c9e81e-5ac9-497e-95b5-e82a18a7bcb0",
+      "https://github.com/user-attachments/assets/3b8f6225-100d-4727-b608-5e7ca2b089d7",
+      "https://github.com/user-attachments/assets/19fc9f8e-de80-48a8-8697-f0866ae6001d",
+      "https://github.com/user-attachments/assets/855b3eb8-9da5-4db0-8d8f-1b452c52095a\"",
+      "https://github.com/user-attachments/assets/31c325f9-b522-4783-b5ca-cd3029fa474b\"",
+      "https://github.com/user-attachments/assets/75c9e81e-5ac9-497e-95b5-e82a18a7bcb0\"",
+      "https://github.com/user-attachments/assets/3b8f6225-100d-4727-b608-5e7ca2b089d7\"",
+      "https://github.com/user-attachments/assets/19fc9f8e-de80-48a8-8697-f0866ae6001d\""
+    ]
+  },
+  {
     "title": "[Build Submission] InvestEase",
     "url": "https://github.com/Investec-Developer-Community/Community-Projects/issues/10",
     "created_at": "2025-08-15T13:52:35Z",
