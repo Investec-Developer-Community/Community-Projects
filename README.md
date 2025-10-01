@@ -87,6 +87,11 @@ Explore innovative solutions from our [bounty challenge](https://investec.gitboo
 | Tatenda Moyana | [Budget Buddy Management](https://github.com/mazhape/budget-buddy-management) | [Documentation](https://github.com/mazhape/budget-buddy-management) | Financial wellness app for budget management and spending tracking. |
 | Happy Mahlangu | [Fintrackr](https://github.com/HappyDevs1/fintrackr) | [Documentation](https://github.com/HappyDevs1/fintrackr) | AI-powered money tracker predicting future balance and spending patterns. |
 | Amery Winter | [SweepPay](https://github.com/Brodreger/SweepPay) | [Documentation](https://github.com/Brodreger/SweepPay/blob/main/README.md) | Automates monthly wage calculations and payments for employees like housekeepers and gardeners. |
+| Nevin Tom | [InvestEase](https://github.com/Nevvyboi/InvestEase) | [Documentation](https://github.com/Nevvyboi/InvestEase/blob/main/README.md) | A web dashboard using Investec’s Sandbox API to view accounts, balances, transactions, and docs. |
+| Londolani Ndou | [Finance Tracker](https://github.com/Londolani/FinanceTracker) | [Documentation](https://github.com/Londolani/FinanceTracker/blob/main/README.md) | An iOS app to set savings goals linked to loan accounts and track progress. |
+| Johannes Mogashoa | [Ascendia](https://github.com/JohannesMogashoa/ascendia) | [Documentation](https://ascendia.johannesmogashoa.co.za/) | Early platform to track transactions with simple AI insights. |
+| Peter Smythe | [Automate the App](https://github.com/petersmythe/investec-automate-the-app) | [Documentation](https://github.com/petersmythe/investec-automate-the-app/blob/main/README.md) | OCR + regex tool that auto-fills beneficiary details into the Investec Android app. |
+| David Mellors | [Zebra Finance](https://github.com/davidrmellors/zebra-finance) | [Documentation](https://github.com/davidrmellors/zebra-finance/blob/main/README.md) | A React Native app that auto-categorises spending and gives AI chat insights. |
 
 ### 🚀 Hackathon Build Submissions
 Check out the creative solutions from our hackathon events.
