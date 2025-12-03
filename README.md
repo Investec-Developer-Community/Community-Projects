@@ -132,11 +132,12 @@ Explore projects leveraging Investec Business Banking and the Open API.
 |------------------|-------------|------------|--------|
 | [Team Spend Tracker](https://github.com/Offerzen/roz) | Financial recon for teams using Investec Business Banking. | *Ruby on Rails, PostgreSQL, Heroku* | *[@OfferZen](https://github.com/Offerzen/investec_open_api)* |
 
-### Investec Open API
+### Investec OpenAPI
 Discover projects utilising Investec's Open API for innovative solutions.
 
 | Open Source Repo | Description | Tech Stack | Author |
 | - | - | - | - |
+| [Zebra.NET](https://github.com/rudepiece/Zebra.NET) | This client library enables client applications to connect to Investec's Open Banking APIs | .NET 8 / C# | [Reuben Kruger](https://github.com/rudepiece) |
 | [InvestecPushNotifications](https://github.com/cole-miles/InvestecPushNotifications) | Investec Bank Transaction Monitor: Node.js app that sends push notifications for new transactions via Pushover, designed to run serverless on Google Cloud Functions. Features include monitoring transactions, sending push notifications for new deposits, preventing duplicate notifications with Firestore, running serverless on Google Cloud, and scheduling with Google Cloud Scheduler. | *Node.js, Google Cloud Functions, Firestore, Pushover* | [Cole Miles](https://github.com/cole-miles) |
 | [investec-api-python](https://github.com/tailucas/investec-api-python) | Python client for Investec Programmable Banking | *Python* | [Tai Lucas](https://github.com/tailucas) |
 | [NPM_my_API](https://www.npmjs.com/package/investec-api) | An NPM module to interact with Investec's Open API. | *NPM* | [Frikkie Snyman](https://github.com/FrikkieSnyman) |
