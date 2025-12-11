@@ -137,6 +137,7 @@ Discover projects utilising Investec's Open API for innovative solutions.
 
 | Open Source Repo | Description | Tech Stack | Author |
 | - | - | - | - |
+| [Investec-ActualBudget](https://github.com/sean-gordon/Investec-ActualBudget) | Self-hosted tool to sync Investec OpenAPI transactions into an [Actual Budget](https://actualbudget.org/) instance, with a web UI for managing categories and account mapping. | TypeScript, React, Node.js, Docker | [Sean Gordon](https://github.com/sean-gordon) |
 | [Zebra.NET](https://github.com/rudepiece/Zebra.NET) | This client library enables client applications to connect to Investec's Open Banking APIs | .NET 8 / C# | [Reuben Kruger](https://github.com/rudepiece) |
 | [InvestecPushNotifications](https://github.com/cole-miles/InvestecPushNotifications) | Investec Bank Transaction Monitor: Node.js app that sends push notifications for new transactions via Pushover, designed to run serverless on Google Cloud Functions. Features include monitoring transactions, sending push notifications for new deposits, preventing duplicate notifications with Firestore, running serverless on Google Cloud, and scheduling with Google Cloud Scheduler. | *Node.js, Google Cloud Functions, Firestore, Pushover* | [Cole Miles](https://github.com/cole-miles) |
 | [investec-api-python](https://github.com/tailucas/investec-api-python) | Python client for Investec Programmable Banking | *Python* | [Tai Lucas](https://github.com/tailucas) |
