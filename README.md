@@ -172,6 +172,7 @@ Tip: use **Cmd/Ctrl+F** to jump to `Python`, `React`, `Telegram`, etc.
 | 🏆 [Fintrackr](https://github.com/HappyDevs1/fintrackr) | AI-powered money tracker predicting future balance and spending patterns. | — | [@HappyDevs1](https://github.com/HappyDevs1) |
 | [Investec API MCP Server](https://github.com/acambitsis/mcp-investec-sapb-simple) | Simple MCP server for interacting with Investec’s API (built for auditability and security). | — | [@acambitsis](https://github.com/acambitsis) |
 | [Investec SAPB MCP Server](https://github.com/acambitsis/investec-sapb-mcp) | Python MCP server for AI integration with Investec’s API. | Python | [@acambitsis](https://github.com/acambitsis) |
+| [SentiVest](https://github.com/Nevvyboi/SentiVest) | AI Private Banking Agent with a Personal Financial Knowledge Graph | Python | [@Nevin Tom](https://github.com/Nevvyboi) |
 
 <a id="developer-tooling-sdks-local-dev"></a>
 
