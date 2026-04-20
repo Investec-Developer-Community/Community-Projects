@@ -85,7 +85,7 @@ Tip: use **Cmd/Ctrl+F** to jump to `Python`, `React`, `Telegram`, etc.
 
 | Project | What it does | Tech | Maintainer |
 |---|---|---|---|
-| 🏆 [Investec Runway](https://github.com/sean-gordon/investec_runway) | Predicts how many days your money will last, separates fixed vs variable spend, and answers financial questions in plain English. | TypeScript, React, Node.js, Docker, LLM integration | [@sean-gordon](https://github.com/sean-gordon) |
+| 🏆 [Investec Runway](https://github.com/sean-gordon/investec_runway) | Predicts how many days your money will last, separates fixed vs variable spend, and answers financial questions in plain English. | .NET (C#), Docker, LLM Integration, WhatsApp (Twilio) & Telegram, SQL | [@sean-gordon](https://github.com/sean-gordon) |
 | [Investec-ActualBudget](https://github.com/sean-gordon/Investec-ActualBudget) | Sync Investec transactions into a self-hosted [Actual Budget](https://actualbudget.org/) instance (includes a web UI). | TypeScript, React, Node.js, Docker | [@sean-gordon](https://github.com/sean-gordon) |
 | [openbanking-investec-dashboard](https://github.com/pivendren/openbanking-investec-dashboard) | Configurable dashboard for account/transaction insights. | Blazor WebAssembly, .NET, Azure Functions | [@pivendren](https://github.com/pivendren) |
 | [SparaBox](https://github.com/RendaniDau/Sparabox) + [SparaBoxFlutter](https://github.com/RendaniDau/SparaBoxFlutter) | Personal budget app exploring programmable banking. | Spring Boot, Flutter, Android | [@RendaniDau](https://github.com/RendaniDau) |
