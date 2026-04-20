@@ -1,9 +1,10 @@
 name: Export Community Builds to JSON
 
 on:
-  workflow_dispatch: {}
+  workflow_dispatch:
   issues:
-    types: [labeled]
+    types:
+      - labeled
 
 permissions:
   contents: write
@@ -16,145 +17,222 @@ concurrency:
 
 jobs:
   export-builds:
-    # run only on manual OR when 'Showcase Approved' label is applied
     if: >
       github.event_name == 'workflow_dispatch' ||
       (github.event_name == 'issues' &&
        github.event.action == 'labeled' &&
        github.event.label.name == 'Showcase Approved')
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+      - name: Checkout default branch
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Brief wait (let other labelers finish)
+      - name: Brief wait
         if: github.event_name == 'issues'
         run: sleep 10
 
-      - name: Fetch ALL issues (we filter in Node)
+      - name: Fetch all issues with pagination
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
         run: |
-          mkdir -p docs
-          curl -s -H "Authorization: token $GH_TOKEN" \
-               -H "Accept: application/vnd.github+json" \
-               "https://api.github.com/repos/${GITHUB_REPOSITORY}/issues?state=all&per_page=100" \
-               > raw_issues.json
-          echo "Fetched issues count:"
-          node -e "const fs=require('fs');const x=JSON.parse(fs.readFileSync('raw_issues.json','utf8'));console.log(Array.isArray(x)?x.length:x)"
+          set -euo pipefail
 
-      - name: Parse APPROVED issues with Node.js
+          mkdir -p docs
+          rm -f raw_issues_pages.json
+
+          url="https://api.github.com/repos/${REPO}/issues?state=all&per_page=100"
+          page=1
+
+          while [ -n "$url" ]; do
+            echo "Fetching page $page: $url"
+
+            headers_file="$(mktemp)"
+            body_file="$(mktemp)"
+
+            curl -sS -L \
+              -D "$headers_file" \
+              -o "$body_file" \
+              -H "Authorization: Bearer $GH_TOKEN" \
+              -H "Accept: application/vnd.github+json" \
+              -H "X-GitHub-Api-Version: 2022-11-28" \
+              "$url"
+
+            cat "$body_file" >> raw_issues_pages.json
+            echo >> raw_issues_pages.json
+
+            next_url="$(awk '
+              BEGIN { IGNORECASE=1 }
+              /^link:/ {
+                line=$0
+                while (match(line, /<[^>]+>; rel="[^"]+"/)) {
+                  part=substr(line, RSTART, RLENGTH)
+                  if (part ~ /rel="next"/) {
+                    gsub(/^</, "", part)
+                    sub(/>; rel="next"$/, "", part)
+                    print part
+                    exit
+                  }
+                  line=substr(line, RSTART + RLENGTH)
+                }
+              }
+            ' "$headers_file")"
+
+            rm -f "$headers_file" "$body_file"
+
+            url="$next_url"
+            page=$((page + 1))
+          done
+
+      - name: Merge paginated issue payloads
         run: |
+          set -euo pipefail
+
+          node <<'EOF'
+          const fs = require('fs');
+
+          const text = fs.readFileSync('raw_issues_pages.json', 'utf8').trim();
+          const blocks = text
+            .split(/\n(?=\s*\[)/)
+            .map(s => s.trim())
+            .filter(Boolean);
+
+          const merged = [];
+          for (const block of blocks) {
+            const parsed = JSON.parse(block);
+            if (Array.isArray(parsed)) merged.push(...parsed);
+          }
+
+          fs.writeFileSync('raw_issues.json', JSON.stringify(merged, null, 2));
+          console.log(`Fetched issues count: ${merged.length}`);
+          EOF
+
+      - name: Parse approved issues into docs/builds.json
+        run: |
+          set -euo pipefail
+
           cat > parse-builds.js <<'EOF'
           const fs = require('fs');
 
           const APPROVAL_LABEL = 'Showcase Approved';
+          const raw = JSON.parse(fs.readFileSync('raw_issues.json', 'utf8'));
 
-          const raw = JSON.parse(fs.readFileSync('raw_issues.json','utf8'));
           if (!Array.isArray(raw)) {
             console.log('WARN: raw_issues.json is not an array. Content:', raw);
-            fs.writeFileSync('docs/builds.json', '[]');
+            fs.writeFileSync('docs/builds.json', '[]\n');
             process.exit(0);
           }
 
-          const clean = s => (s || '').trim().replace(/^no response$/i, '');
+          const clean = (s) => (s || '').trim().replace(/^no response$/i, '');
 
           function hasApprovalLabel(labels = []) {
-            return labels.some(l => (l.name || '').trim().toLowerCase() === APPROVAL_LABEL.toLowerCase());
+            return labels.some(
+              (l) => (l.name || '').trim().toLowerCase() === APPROVAL_LABEL.toLowerCase()
+            );
           }
 
-          function extract(section, body, fallback = "") {
+          function extract(section, body, fallback = '') {
             if (!body) return fallback;
             const re = new RegExp(`###\\s*${section}\\s*\\n+([\\s\\S]*?)(?=\\n###|$)`, 'i');
             const m = body.match(re);
             return m ? clean(m[1]) : fallback;
           }
 
-          // Grab image URLs from Markdown, HTML, and plain links (including GitHub user-attachments)
           function extractImageLinks(text) {
             const t = clean(text);
             if (!t) return [];
 
             const urls = new Set();
 
-            // Markdown images: ![alt](url "title")
             for (const m of t.matchAll(/!\[[^\]]*\]\((?<url>[^)\s]+)(?:\s+"[^"]*")?\)/g)) {
               if (m.groups?.url) urls.add(m.groups.url);
             }
 
-            // HTML <img src="...">
             for (const m of t.matchAll(/<img[^>]+src=["']([^"']+)["']/gi)) {
               urls.add(m[1]);
             }
 
-            // Any plain http(s) link
             for (const m of t.matchAll(/https?:\/\/\S+/gi)) {
-              urls.add(m[0].replace(/[),.]+$/, '')); // trim trailing punctuation
+              urls.add(m[0].replace(/[),.]+$/, ''));
             }
 
-            // Filter to "likely image" URLs:
-            const likely = Array.from(urls).filter(u =>
-              /\.(png|jpg|jpeg|gif|webp)(\?|#|$)/i.test(u) ||
-              u.includes('/user-attachments/assets/') ||
-              u.includes('githubusercontent.com')
+            const likely = Array.from(urls).filter(
+              (u) =>
+                /\.(png|jpg|jpeg|gif|webp)(\?|#|$)/i.test(u) ||
+                u.includes('/user-attachments/assets/') ||
+                u.includes('githubusercontent.com')
             );
 
-            return Array.from(new Set(likely)); // dedupe
+            return Array.from(new Set(likely));
           }
 
-          const approved = raw.filter(it => !it.pull_request && hasApprovalLabel(it.labels || []));
+          const approved = raw.filter((it) => !it.pull_request && hasApprovalLabel(it.labels || []));
           console.log(`Approved issues found: ${approved.length}`);
 
-          const builds = approved.map(issue => {
-            const body = issue.body || "";
-
-            const projectName  = extract('Project Name', body, issue.title);
-            const author       = extract('Your Name or Team', body, issue.user?.login || '');
-            const repoLink     = clean(extract('Repository/Code Link', body)) || undefined;
-            const liveDemo     = clean(extract('Live Demo', body)) || undefined;
-            const description  = extract('Description', body);
-            const instructions = extract('How to Run/Use It', body);
-            const screenshots  = extractImageLinks(extract('Screenshots or GIFs', body));
+          const builds = approved.map((issue) => {
+            const body = issue.body || '';
 
             return {
-              // Basic
               title: issue.title,
               url: issue.html_url,
               created_at: issue.created_at,
+              updated_at: issue.updated_at,
+              issue_number: issue.number,
 
-              // Submitter metadata
               submitter: issue.user?.login || '',
               avatarUrl: issue.user?.avatar_url || null,
               authorProfile: issue.user?.html_url || null,
 
-              // Parsed fields
-              projectName, author, repoLink, liveDemo, description, instructions, screenshots
+              projectName: extract('Project Name', body, issue.title),
+              author: extract('Your Name or Team', body, issue.user?.login || ''),
+              repoLink: clean(extract('Repository/Code Link', body)) || undefined,
+              liveDemo: clean(extract('Live Demo', body)) || undefined,
+              description: extract('Description', body),
+              instructions: extract('How to Run/Use It', body),
+              screenshots: extractImageLinks(extract('Screenshots or GIFs', body))
             };
           });
 
-          fs.writeFileSync('docs/builds.json', JSON.stringify(builds, null, 2));
+          builds.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+
+          fs.writeFileSync('docs/builds.json', JSON.stringify(builds, null, 2) + '\n');
           EOF
 
           node parse-builds.js
 
-      - name: Create Pull Request with updated builds.json (draft)
-        uses: peter-evans/create-pull-request@v6
+      - name: Create or update draft pull request
+        id: cpr
+        uses: peter-evans/create-pull-request@v8
         with:
-          token: ${{ secrets.PR_CREATION_TOKEN }}   # PAT
-          commit-message: "Update enriched community builds JSON"
-          branch: "auto/builds-update-${{ github.run_id }}"
-          title: "chore: Update community builds JSON"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch-token: ${{ secrets.GITHUB_TOKEN }}
+          branch: auto/builds-update
+          delete-branch: true
+          commit-message: "chore: update community builds JSON"
+          title: "chore: update community builds JSON"
           body: |
-            This PR updates `docs/builds.json` with the latest *approved* community build issues.
-            Trigger: ${{ github.event_name }}
+            This PR updates `docs/builds.json` with the latest approved community build issues.
 
-            See logs above for fetched/approved counts.
+            Trigger: `${{ github.event_name }}`
+            Workflow run: `${{ github.run_id }}`
           labels: |
             automated-pr
             community-builds
-          draft: true
+          draft: always-true
           add-paths: |
             docs/builds.json
-          committer: "Investec Bot <bot@investec.com>"
-          author: "Investec Bot <bot@investec.com>"
+          committer: "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+          author: "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+
+      - name: Report result
+        if: always()
+        run: |
+          echo "PR operation: ${{ steps.cpr.outputs.pull-request-operation }}"
+          echo "PR number:    ${{ steps.cpr.outputs.pull-request-number }}"
+          echo "PR url:       ${{ steps.cpr.outputs.pull-request-url }}"
