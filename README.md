@@ -6,8 +6,9 @@ A **community-curated directory** of open-source tools, demos, and apps built wi
 
 **Heads-up:** projects listed here are created by the community and are **not official Investec products**. Always review code before running it and prefer **Sandbox** when testing.
 
-[![GitHub License](https://img.shields.io/github/license/investec-developer-community/community-projects)](./LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=round-square)](../../pulls)
+[![Built with Investec APIs](https://img.shields.io/badge/built%20with-Investec%20APIs-0033A0.svg)](https://developer.investec.com/za/api-products)
 
 ---
 
