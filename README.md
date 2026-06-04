@@ -23,7 +23,7 @@ A **community-curated directory** of open-source tools, demos, and apps built wi
 **No build is too small.** The community learns fastest when people share their “rough diamonds” — not just polished gems.
 
 ### 🧪 I want to build something — where do I begin?
-- [Official API products & docs](https://developer.investec.com/za/api-products)
+- [Official API products & docs](https://developer.investec.com/api-reference)
 - [Community wiki](https://investec.gitbook.io/programmable-banking-community-wiki) (tutorials, templates, events)
 - [Build events & challenges](https://investec.gitbook.io/programmable-banking-community-wiki/get-building/build-events)
 
