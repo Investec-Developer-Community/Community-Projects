@@ -205,6 +205,7 @@ Tip: use **Cmd/Ctrl+F** to jump to `Python`, `React`, `Telegram`, etc.
 
 | Project | Language | What it gives you | Maintainer |
 |---|---|---|---|
+| [investec-kotlin](https://github.com/nicholasc69/investec-kotlin.git) | Kotlin | Kotlin client/SDK for the Investec Open Banking API for Individual Private Banking. Uses the Kotlin Toolchain for a simpler build setup. | [@nicholasc69](https://github.com/nicholasc69) |
 | [Zebra.NET](https://github.com/rudepiece/Zebra.NET) | C# / .NET | .NET client library for the Investec OpenAPI. | [@rudepiece](https://github.com/rudepiece) |
 | [investec-api (npm)](https://www.npmjs.com/package/investec-api) | JavaScript | NPM package for interacting with Investec's Open API. | [@FrikkieSnyman](https://github.com/FrikkieSnyman) |
 | 🏆 [Investec-AI-SDK](https://github.com/HappyDevs1/investec-ai) | JavaScript / TypeScript | SDK that adds AI banking features such as chat, spending analysis, fraud detection, receipt scanning, and voice banking. | [@HappyDevs1](https://github.com/HappyDevs1) ([npm](https://www.npmjs.com/package/investec-ai)) |
