@@ -1,9 +1,25 @@
 [
   {
+    "title": "[Build Submission] Investec MCP Server",
+    "url": "https://github.com/Investec-Developer-Community/Community-Projects/issues/24",
+    "created_at": "2026-06-25T20:37:07Z",
+    "updated_at": "2026-06-29T05:22:40Z",
+    "issue_number": 24,
+    "submitter": "jonelgithub",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/116099167?v=4",
+    "authorProfile": "https://github.com/jonelgithub",
+    "projectName": "Zebra",
+    "author": "Jonel Albuquerque",
+    "repoLink": "https://github.com/jonelgithub/investec_mcp",
+    "description": "A production-ready Model Context Protocol (MCP) server that bridges AI coding assistants and automation agents directly to the Investec OpenAPI. Built in TypeScript, it enables tools like Claude Desktop and Cursor to securely interact with Investec personal, business, corporate, and programmable card accounts through natural language.\nWhat it does: The server exposes over 25 MCP tools covering Private Banking (account listings, balances, transactions, beneficiary payments, batch transfers, and document retrieval), Programmable Cards (create virtual cards, deploy and simulate card authorization scripts, manage environment variables), and Corporate & Institutional Banking (corporate accounts, transactions, and company/shipment data).\nKey technical highlights:\n\nSecure in-memory OAuth2 token management with automatic refresh — no secrets are written to disk or logged\nZero-config sandbox mode using official Investec public credentials for instant testing without registration\nJSON-RPC 2.0 over stdio, fully compliant with the MCP specification\nStrict TypeScript typings across all API models, including complex payloads like batch payments and programmable card compilation\nUsable as a standalone SDK independent of the MCP protocol\n\nBuilt for: Developers who want to bring conversational AI or agentic workflows to their Investec banking data — from querying balances and generating payment runs to writing and deploying programmable card logic, all through an AI assistant.\nStack: TypeScript · Node.js · MCP (Model Context Protocol) · Investec OpenAPI · OAuth2",
+    "instructions": "Provided in ReadME",
+    "screenshots": []
+  },
+  {
     "title": "Investec Kotlin SDK",
     "url": "https://github.com/Investec-Developer-Community/Community-Projects/issues/22",
     "created_at": "2026-06-13T10:51:25Z",
-    "updated_at": "2026-06-15T07:19:14Z",
+    "updated_at": "2026-06-15T07:49:16Z",
     "issue_number": 22,
     "submitter": "nicholasc69",
     "avatarUrl": "https://avatars.githubusercontent.com/u/13216195?v=4",
