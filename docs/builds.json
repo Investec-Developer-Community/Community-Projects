@@ -1,9 +1,32 @@
 [
   {
+    "title": "Zebra Alex - Investec Private Banking AI Assistant App & Balance/Transactions Widget",
+    "url": "https://github.com/Investec-Developer-Community/Community-Projects/issues/25",
+    "created_at": "2026-06-28T09:56:52Z",
+    "updated_at": "2026-06-30T07:56:03Z",
+    "issue_number": 25,
+    "submitter": "nicholasc69",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/13216195?v=4",
+    "authorProfile": "https://github.com/nicholasc69",
+    "projectName": "Zebra Alex",
+    "author": "Nick Cadenhead",
+    "repoLink": "https://github.com/nicholasc69/InvestecBankingWidget",
+    "description": "An offline-first Android application and Home Screen Widget for Investec Private Banking. It integrates secure local database caching, biometric security, a Jetpack Glance home screen widget, and an on-device AI assistant (\"Alex\") powered by Google LiteRT (formerly TensorFlow Lite) using Gemma.",
+    "instructions": "## ⚙️ Getting Started",
+    "screenshots": [
+      "https://github.com/user-attachments/assets/44a547b9-f574-44a3-97c5-0554518fc550",
+      "https://github.com/user-attachments/assets/362d30ec-98cc-4e11-b0b4-3f9e152ec275",
+      "https://github.com/user-attachments/assets/464e8626-0c0b-4151-9614-21d3a295d1da",
+      "https://github.com/user-attachments/assets/44a547b9-f574-44a3-97c5-0554518fc550\"",
+      "https://github.com/user-attachments/assets/362d30ec-98cc-4e11-b0b4-3f9e152ec275\"",
+      "https://github.com/user-attachments/assets/464e8626-0c0b-4151-9614-21d3a295d1da\""
+    ]
+  },
+  {
     "title": "[Build Submission] Investec MCP Server",
     "url": "https://github.com/Investec-Developer-Community/Community-Projects/issues/24",
     "created_at": "2026-06-25T20:37:07Z",
-    "updated_at": "2026-06-29T05:22:40Z",
+    "updated_at": "2026-06-29T05:52:42Z",
     "issue_number": 24,
     "submitter": "jonelgithub",
     "avatarUrl": "https://avatars.githubusercontent.com/u/116099167?v=4",
