@@ -1,9 +1,36 @@
 [
   {
+    "title": "[Build Submission] investec-card-spend-tracker",
+    "url": "https://github.com/Investec-Developer-Community/Community-Projects/issues/30",
+    "created_at": "2026-10-21T15:01:57Z",
+    "updated_at": "2026-10-22T08:55:16Z",
+    "issue_number": 30,
+    "submitter": "hardussa",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/286344567?v=4",
+    "authorProfile": "https://github.com/hardussa",
+    "projectName": "investec-card-spend-tracker",
+    "author": "Hardus",
+    "repoLink": "https://github.com/hardussa/investec-spending-tracker/tree/main/investec-card-spend-tracker",
+    "description": "This is a private spending tracker for the Investec Programmable Card. After each approved purchase, the card code sends the merchant, amount and currency to a small Cloudflare Worker that you own. The Worker files the purchase under eating out, holiday or clothing and shows where you stand on a phone-friendly web page.\n\n**The problem.** Most budget apps reset every month. Real spending doesn’t work that way: a holiday or a new winter wardrobe is paid for from money saved over many months, and the lumpy purchases need to be measured against what you’ve built up.\n\n**The solution.** Budgets run over longer periods than a month.\n\n**Eating out:** unspent money rolls into the next month.\n**Holiday and clothing pots:** these build up by a monthly amount that never resets at year end, so a R4,000 purchase is judged against everything saved so far.\n**Changing a monthly amount:** this never rewrites what earlier months earned.\n\n**Standout features**\n\n**Tracking only.** The card code never declines a transaction.\n**Foreign spend.** A hotel in euros is held at R0 until you confirm the rand amount, so it isn’t silently counted as R840.\n**Fixing mistakes.** Merchant rules and a one-tap Move fix purchases filed in the wrong category.\n**Sign-in.** You sign in with a Google account, and an allow-list decides who gets in.\n**Security.** The Worker verifies the sign-in token itself. The card endpoint needs both a Cloudflare service token and a shared secret. The page loads nothing from third parties.\n**Privacy.** Only the merchant code, name, amount and currency leave Investec, and the data stays in your own Cloudflare account.\n\n**Benefit.** You get a clear view of long-term, lumpy spending, with no third party holding your transaction data and no risk to your card.",
+    "instructions": "_No response_",
+    "screenshots": [
+      "https://github.com/user-attachments/assets/40601880-9dd7-44cf-a7bb-464afc721aba",
+      "https://github.com/user-attachments/assets/5b1fd319-a529-4268-87ae-8a7a1501e8ca",
+      "https://github.com/user-attachments/assets/aa8ff78e-1939-4238-8d42-6e1edbcad006",
+      "https://github.com/user-attachments/assets/202845ae-33c0-48e6-93d3-a9bb1a0124b6",
+      "https://github.com/user-attachments/assets/c6cdd847-5076-49e6-b842-76574a54f309",
+      "https://github.com/user-attachments/assets/40601880-9dd7-44cf-a7bb-464afc721aba\"",
+      "https://github.com/user-attachments/assets/5b1fd319-a529-4268-87ae-8a7a1501e8ca\"",
+      "https://github.com/user-attachments/assets/aa8ff78e-1939-4238-8d42-6e1edbcad006\"",
+      "https://github.com/user-attachments/assets/202845ae-33c0-48e6-93d3-a9bb1a0124b6\"",
+      "https://github.com/user-attachments/assets/c6cdd847-5076-49e6-b842-76574a54f309\""
+    ]
+  },
+  {
     "title": "Zebra Alex - Investec Private Banking AI Assistant App & Balance/Transactions Widget",
     "url": "https://github.com/Investec-Developer-Community/Community-Projects/issues/25",
     "created_at": "2026-06-28T09:56:52Z",
-    "updated_at": "2026-06-30T07:56:03Z",
+    "updated_at": "2026-06-30T08:26:04Z",
     "issue_number": 25,
     "submitter": "nicholasc69",
     "avatarUrl": "https://avatars.githubusercontent.com/u/13216195?v=4",
