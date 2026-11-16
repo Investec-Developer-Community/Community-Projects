@@ -203,7 +203,7 @@ Tip: use **Cmd/Ctrl+F** to jump to `Python`, `React`, `Telegram`, etc.
 |---|---|---|---|
 | [Mock API Simulator](https://github.com/devinpearson/programmable-banking-sim) | Local simulator of the Programmable Banking APIs for development and demos. | JavaScript / Node.js | [@devinpearson](https://github.com/devinpearson) |
 | [CLI for Card Code](https://github.com/devinpearson/ipb) | CLI to deploy Programmable Card code, plus an emulator for local testing. | JavaScript / Node.js | [@devinpearson](https://github.com/devinpearson) |
-| [Investec Sandbox Mac and Win app](https://github.com/devinpearson/investec-sandbox-app/releases/tag/v0.1.3) | A local copy of Investec's programmable banking APIs that you can run on your Mac or Windows PC. | TypeScript / JavaScript | [@devinpearson](https://github.com/devinpearson) |
+| [Investec Sandbox Mac and Win app](https://github.com/devinpearson/investec-sandbox-app#investec-sandbox) | A local copy of the APIs that runs on Mac or Windows PC. | TypeScript / JavaScript | [@devinpearson](https://github.com/devinpearson) |
 
 #### 📦 SDKs & wrappers
 
